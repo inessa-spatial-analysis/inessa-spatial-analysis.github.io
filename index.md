@@ -1,9 +1,16 @@
-# Hello, I'm Inessa
-## Spatial Data Analyst | GIS Specialist
+# Inessa Tregubova
+## GeoData scientist| PhD Candidate at Hebrew University| Author of course Spatial analysis and modelling in Python
 
-I help businesses make decisions based on location intelligence. Below are selected examples of my work.
+[LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) | [Email](tregub95@gmail.com) |[Telegram](t.me/intra23)
 
-[https://www.linkedin.com/in/inessa-tregubova/] | [tregub95@gmail.com] | [t.me/intra23]
+### About
+I’m a Spatial Data Scientist working with geospatial modeling, mobility data, and urban analytics. 
+
+Since 2019, I’ve been helping businesses and cities make better location-based decisions — from FTTH design and retail expansion to improving urban planning and understanding residents’ behaviour.
+
+I teach spatial analysis and modeling in Python in Russian
+
+I’m also a PhD researcher studying remote work and its impact on the urban economy.
 
 ---
 
