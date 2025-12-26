@@ -1,6 +1,8 @@
 [**About me**](index.md) | [**Portfolio**](projects.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](cv.pdf)
 
 ***
+# Inessa Tregubova
+### Spatial Data Scientist | PhD Candidate | Author of GeoPython course
 
 [LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) | [Email](tregub95@gmail.com) |[Telegram](t.me/intra23)
 
