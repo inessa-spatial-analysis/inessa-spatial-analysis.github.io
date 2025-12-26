@@ -1,44 +1,41 @@
+[**About me**](index.md) | [**Portfolio**](projects.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](cv.pdf)
+***
 # Inessa Tregubova
-## GeoData scientist| PhD Candidate at Hebrew University| Author of course Spatial analysis and modelling in Python
+## GeoData scientist
 
 [LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) | [Email](tregub95@gmail.com) |[Telegram](t.me/intra23)
 
-### About
-I’m a Spatial Data Scientist working with geospatial modeling, mobility data, and urban analytics. 
+> [cite_start]I build end-to-end geo-ML solutions—from data pipelines and spatial modeling to decision-support tools for site selection and network optimization. My portfolio spans projects for diverse businesses and municipalities worldwide.
+> Passionate about applied research, I am currently a PhD candidate at The Hebrew University of Jerusalem, studying the impact of remote work on urban economies. Use links in page head to chechout details.
+> Please use the navigation links above to explore my projects, teaching experience, and blog.
 
-Since 2019, I’ve been helping businesses and cities make better location-based decisions — from FTTH design and retail expansion to improving urban planning and understanding residents’ behaviour.
+## 🚀 Key Topics & Expertise
 
-I teach spatial analysis and modeling in Python in Russian
+**🏙️ Urban Analytics & Smart Cities**
+* [cite_start]**Mobile Data Analysis:** Estimating "foaminess" (usage intensity) of public spaces and analyzing tourist flows[cite: 18, 35, 36].
+* [cite_start]**Digital Planning:** Validating and cleaning government open data for urban infrastructure[cite: 8, 10, 11].
+* [cite_start]**Economic Impact:** Researching the effects of remote work on city economics[cite: 4].
 
-I’m also a PhD researcher studying remote work and its impact on the urban economy.
+**📍 Location Intelligence & Site Selection**
+* [cite_start]**Retail Strategy:** Algorithmic site selection for gas stations, darkstores, and gelato shops[cite: 16, 21, 34].
+* [cite_start]**Predictive Modeling:** Forecasting economic potential at the building level using morphometrics[cite: 19].
+* [cite_start]**Real Estate:** Predicting the success of property development planning applications[cite: 37].
 
----
+**🚚 Mobility & Network Optimization**
+* [cite_start]**Logistics:** Simulation models for darkstore delivery networks and supply chain optimization[cite: 23, 24].
+* [cite_start]**Infrastructure:** Planning and optimization of Fiber-to-the-Home (FTTH) networks[cite: 20].
+* [cite_start]**Traffic Analysis:** Estimating car traffic characteristics from signaling data[cite: 18].
 
-## 🗺️ Project 1: Retail Catchment Analysis
-**The Challenge:** A retail client needed to identify the optimal location for a new store in Berlin to maximize foot traffic.
+**🛠️ Technical Methods**
+* [cite_start]**Geo-ML Pipelines:** End-to-end spatial machine learning (sklearn, PySAL)[cite: 5].
+* [cite_start]**Data Engineering:** Web scraping, API integration, and automated data cleaning[cite: 10, 17].
+* [cite_start]**Visualization:** Interactive dashboards (Tableau) and spatial simulations[cite: 26].
 
-**The Solution:**
-* Processed 500k+ rows of movement data using Python (Pandas).
-* Created isochrones (drive-time zones) using QGIS.
-* Scored locations based on demographic density.
+## 🌍 Global Project Footprint
 
-**The Result:** The selected location outperformed revenue projections by 12%.
 
-![Alt text describing image](https://link-to-your-screenshot-1.png)
-*Note: Data anonymized for confidentiality.*
 
----
 
-## 🚛 Project 2: Supply Chain Route Optimization
-**The Challenge:** Reduce delivery delays for a logistics fleet.
-
-**The Solution:**
-* Network analysis using ArcGIS Network Analyst.
-* Visualized bottlenecks in a dashboard.
-
-![Alt text describing image](https://link-to-your-screenshot-2.png)
-
----
 
 ## 📅 Let's Work Together
 I am currently open for freelance projects and consultation.
