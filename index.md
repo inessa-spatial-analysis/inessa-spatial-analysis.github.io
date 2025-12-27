@@ -8,16 +8,16 @@
 
 ### 🚀 Key Topics & Expertise
 
-**📍 Location Intelligence & Site Selection**
+**📍 Location Intelligence & Site Selection**   
 Identify optimal locations for retail expansion and automate telecom network design using building-level predictive modeling.
 
-**🏙️ Urban Analytics & Smart Cities**
+**🏙️ Urban Analytics & Smart Cities**   
 Leverage mobile data to quantify public space usage ("foaminess"), analyze tourist flows, and predict real estate development success.
 
-**🚚 Mobility & Logistics**
+**🚚 Mobility & Logistics**   
 Optimize supply chain delivery networks and infrastructure planning through traffic simulation and flow analysis.
 
-**🛠️ Technical Methods**
+**🛠️ Technical Methods**   
 Transform complex raw data into actionable strategic insights using custom Geo-AI pipelines and advanced spatial statistics.
 
 
