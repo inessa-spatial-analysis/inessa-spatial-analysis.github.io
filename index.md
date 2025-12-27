@@ -1,11 +1,9 @@
 [**About me**](index.md) | [**Portfolio**](projects.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](cv.pdf)
 
 
-> [cite_start] I build end-to-end geo-ML solutions—from data pipelines and spatial modeling to decision-support tools for site selection and network optimization. My portfolio spans projects for diverse businesses and municipalities worldwide.
+> I build end-to-end geo-ML solutions—from data pipelines and spatial modeling to decision-support tools for site selection and network optimization. My portfolio spans projects for diverse businesses and municipalities worldwide.
 > Passionate about applied research, I am currently a PhD candidate at The Hebrew University of Jerusalem, studying the impact of remote work on urban economies. Use links in page head to chechout details.
 > Please use the navigation links above to explore my projects, teaching experience, and blog.
-
->[LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) | [Email](tregub95@gmail.com) |[Telegram](t.me/intra23)
 
 ### 🚀 Key Topics & Expertise
 
@@ -35,7 +33,7 @@
 
 ## 🌍 Global Project Footprint
 
-
+<iframe src="project_map.html" width="100%" height="400px" frameborder="0"></iframe>
 
 ## [📂 View Detailed Case Studies →](projects.md)
 *Click above to see methodologies, tools, and specific results.*
