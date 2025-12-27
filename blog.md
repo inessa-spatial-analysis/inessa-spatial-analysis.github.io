@@ -34,7 +34,7 @@ I publish in-depth tutorials and case studies on Medium (English) and Boosty (Ru
 
 ### 🧡 Boosty- deep dive into geoanalytics in Russian
 For those who want to dive deeper, I share advanced tutorials, downloadable source code, and project files on my Boosty.
-[![Follow on Boosty](https://boosty.to/geoanalytics)]
+[![Follow on Boosty](https://img.shields.io/badge/Support_on_Boosty-F15F2C?style=for-the-badge&logo=boosty&logoColor=white)](https://boosty.to/geoanalytics)
 
 
 ---
