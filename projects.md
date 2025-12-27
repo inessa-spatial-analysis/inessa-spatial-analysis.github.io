@@ -27,7 +27,6 @@ I developed a predictive framework to forecast demand in new territories:
 [Multi-Source Data]  ──>  [Feature Engineering] ──>  [ML Prediction Model] ──> [Strategic Output]
 (Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
 ```
-**Examples of results**
 
 <img src="images/yango_israel.png" alt="Yango Israel Map" width="600">
 ---
