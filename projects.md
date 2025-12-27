@@ -46,11 +46,7 @@ I designed a multi-stage spatial modeling framework:
 (POIs, Demographics, Streets) (Gravity Models & OD Matrix) (Service Penetration)   (Optimal Locations)
 ```
 
-**Examples of results**
-<img src="images/ev_locations.png" alt="ev Map" width="600">
-
-
----
+<img src="images/ev_locations.png" alt="ev Map" width="900">
 
 ## ⛽ FTTH potential at building level (Locatium)
 **Industry:** Telecom
@@ -66,10 +62,9 @@ I developed a proxy-based economic modeling engine:
 [Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Revenue Modeling]
 (NDVI, Building Shapes)    (Density, Greenery)          (K-Means Context)       (Predicted ARPU)
 ```
-**Examples of results**
 
-<img src="images/lagos.png" alt="Lagos Map" width="600">
----
+<img src="images/lagos.png" alt="Lagos Map" width="900">
+
 
 ### 🍦 Data-Driven Site Selection (Rivareno Gelato)
 **Role:** Spatial Analyst | **Location:** Tel Aviv (2025)
