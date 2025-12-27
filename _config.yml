@@ -1,3 +1,5 @@
 title: Inessa Tregubova
-description: Spatial Data Scientist | Geo Python Teacher | PhD Candidate <br><br> <a href='https://www.linkedin.com/in/inessa-tregubova/' style='color: white; text-decoration: underline;'>LinkedIn</a> &nbsp;•&nbsp; <a href='https://github.com/YOUR_USERNAME' style='color: white; text-decoration: underline;'>GitHub</a> &nbsp;•&nbsp; <a href='mailto:tregub95@gmail.com' style='color: white; text-decoration: underline;'>Email</a>"
+description: "Spatial Data Scientist | Geo Python Teacher | PhD Candidate <br><br> <a href='https://www.linkedin.com/in/inessa-tregubova/' style='color: white; text-decoration: underline;'>LinkedIn</a> &nbsp;•&nbsp; <a href='https://github.com/inessa-tregubova' style='color: white; text-decoration: underline;'>GitHub</a> &nbsp;•&nbsp; <a href='mailto:tregub95@gmail.com' style='color: white; text-decoration: underline;'>Email</a>"
 theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics:
