@@ -5,7 +5,7 @@
 ## REAL ESTATE
 
 ### 🏙️ UK Digital Planning & Open Data (collaboration with Novaya Labs)
-**Client:** Greater London Authority
+**Client:** Greater London Authority   
 **The Challenge:** How can a Local Authority ensure that a development project will proceed when planning for new infrastructure? What type of data can one use for that? What does data quality mean when building Machine Learning models in this context?
 
 
