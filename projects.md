@@ -32,7 +32,7 @@ I developed a predictive framework to forecast demand in new territories:
 ```
 ---
 
-### ⛽ Global Retail Site Selection (Locatium)
+## ⛽ Global Retail Site Selection (Locatium)
 **Industry:** Retail & Energy
 **Location:** UAE, USA, Global
 
@@ -51,31 +51,39 @@ I designed a multi-stage spatial modeling framework:
 
 ---
 
-### ⛽ FTTH potential at building level (Locatium)
+## ⛽ FTTH potential at building level (Locatium)
 **Industry:** Telecom
 **Location:** Nigeria, Brasil, Indonesia
 
 **The Challenge**
-Global clients needed to select the most profitable locations for new gas stations and retail chains across vast regions in the UAE and USA. 
+Major telecom operators needed to prioritize Fiber-to-the-Home (FTTH) rollouts in dense cities like Lagos, Jakarta, and São Paulo. **The main problem** was identifying profitable neighborhoods to target first, as these regions lacked high-resolution socio-economic data.
 
-**The Solution**
-* **Predictive Modeling:** Developed Geo-ML models using **Scikit-Learn and PySAL** to score every potential site based on its surrounding features.
-* **Innovation:** Created a custom Python library to predict economic potential at the **building level** using "morphometrics" (analyzing building shapes to guess their value), successfully applied in data-scarce regions like Nigeria, Indonesia, and Brazil.
+**The Methodology (Pipeline)**
+I developed a proxy-based economic modeling engine:
 
-
-### 🍦 Site Selection for new Gelato store (Rivareno Gelato)
-**Industry:** Food & Beverage
-**Location:** Tel Aviv Metropolitan Area
-
-**The Challenge**
-A premium Gelato brand needed to find the perfect location for their new branch. They needed to avoid cannibalizing their existing store while capturing high foot traffic of their specific target demographic.
-
-**The Solution**
-* Conducted a spatial analysis of competitor locations and complementary businesses.
-* Mapped "human movement" patterns to identify streets with the highest volume of potential customers during evening hours.
-* Delivered a ranked list of top candidate sites with estimated catchment areas.
+```text
+[Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Revenue Modeling]
+(NDVI, Building Shapes)    (Density, Greenery)          (K-Means Context)       (Predicted ARPU)
+```
 
 ---
+
+### 🍦 Data-Driven Site Selection (Rivareno Gelato)
+**Role:** Spatial Analyst | **Location:** Tel Aviv (2025)
+![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
+
+**The Challenge**
+A premium Gelato brand needed to open a new branch without cannibalizing their existing store. They required a location with high evening foot traffic and specific demographic alignment.
+
+**The Methodology (Pipeline)**
+I utilized spatial embeddings and interaction modeling to score locations:
+
+```text
+[Competitor Analysis] ──> [Traffic Simulation] ──> [Site Scoring] ──> [Interactive Dashboard]
+(Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
+```
+---
+
 
 ## 🛠️ Technical Stack
 
@@ -89,14 +97,14 @@ A premium Gelato brand needed to find the perfect location for their new branch.
 ![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Kepler.gl](https://img.shields.io/badge/Kepler.gl-3B3B3B?style=for-the-badge&logo=uber&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-* **Libraries:** `PySAL`, `Folium`, `Shapely`, `Rasterio`
+* **Libraries:** `PySAL`, `Folium`, `Shapely`, `Rasterio`, `GeoPandas`
 
 ### **Machine Learning & Cloud**
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
-* **Models:** XGBoost, Random Forest, LGBM, DBSCAN, Kriging, Regression
-* **Tools:** Jupyter, Docker, Git
+* **Models:** XGBoost, Random Forest, DBSCAN, LogisticRegression, Kmeans
+* **Tools:** Python, Docker, Git, BigQuery, PostGIS
 
 ---
 
