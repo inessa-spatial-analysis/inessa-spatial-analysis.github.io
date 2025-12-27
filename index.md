@@ -29,5 +29,5 @@ Transform complex raw data into actionable strategic insights using custom Geo-A
 
 
 ## 📅 Let's Work Together
-I am always open to new interesting problems. If you have questions or ideas for potential collaboration, you can reach me on **[LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) or write me on [Telegram](https://t.me/intra23)
+I am always open to new interesting problems. If you have questions or ideas for potential collaboration, you can reach me on[LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) or write me on [Telegram](https://t.me/intra23)
 
