@@ -6,7 +6,7 @@
 **Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
-### The Challenge I: Develop Chain expantion strategy  
+### The Challenge I: Develop Chain expansion strategy  
 The company needed to optimize its existing delivery network and plan expansion into new markets. The goal was to balance **fast delivery times** (customer satisfaction) with **operational costs** (minimizing the number of darkstores).
 
 **The Methodology (Pipeline)**  
@@ -17,7 +17,7 @@ I built an end-to-end simulation engine to solve this:
 (Socio-demographics)      (DBSCAN)              (Linear Programming)           (Strategic Locations)
 ```
 
-### The Challenge II: Site Selection in  (Israel & Russia) based on historic data
+### The Challenge II: Site Selection in Israel & Russia based on historic data
 The company wanted to expand into new cities but didn't know where exactly to open new warhouses to maximise potential demand.
 
 **The Methodology (Pipeline)**
@@ -66,7 +66,7 @@ I developed a proxy-based economic modeling engine:
 <img src="images/lagos.png" alt="Lagos Map" width="900">
 
 
-### 🍦 Data-Driven Site Selection (Rivareno Gelato)
+### 🍦 Data-Driven Site Selection
 **Role:** Spatial Analyst | **Location:** Tel Aviv (2025)
 ![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
 
