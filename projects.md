@@ -2,42 +2,34 @@
 
 # 📂 Detailed Case Studies
 
-## 🛒 Darkstore Expansion Strategy (Yango Deli/ Yandex Lavka)
+## 🛒 Darkstores Location Strategy (Yango Deli/ Yandex Lavka)
 **Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
-**The Challenge**   
+### The Challenge I: Develop Chain expantion strategy**   
 The company needed to optimize its existing delivery network and plan expansion into new markets. The goal was to balance **fast delivery times** (customer satisfaction) with **operational costs** (minimizing the number of darkstores).
 
 **The Methodology (Pipeline)**  
 I built an end-to-end simulation engine to solve this:
 
 ```text
-[Raw Demand Data] ──> [Spatial Clustering] ──> [Optimization Algo] ──> [Final Site Coordinates]
-(Socio-demographics)      (DBSCAN)              (Gurobi / LP)           (Strategic Locations)
+[Raw Demand Data] ──> [Spatial Clustering] ──> [Network Optimization] ──> [Final Site Coordinates and Service area]
+(Socio-demographics)      (DBSCAN)              (Linear Programming)           (Strategic Locations)
 ```
+**Results**
+- Interactive maps with recommended locations and coverage
+- Economic model
 
-**The Solution:**
-* Built an automated **Economic Growth Simulation** in Python.
-* The tool allowed managers to run "What-If" scenarios (e.g., *"What happens to profit if we move Store A 500m north?"*) and instantly see the financial impact.
+### 🛒 The Challenge II: Site Selection in  (Israel & Russia) based on historic data*
+The company wanted to expand into new cities but didn't know where exactly to open new warhouses to maximise potential demand.
 
-**The Challenge II: Strategic Expansion (Israel & Russia)**
-The company wanted to expand into new cities but didn't know which specific neighborhoods offered the highest return on investment.
+**The Methodology (Pipeline)**
+I developed a predictive framework to forecast demand in new territories:
 
-**The Solution:**
-* Developed a Machine Learning model that predicted potential daily order volume at a **200m x 200m resolution**.
-* This granular map allowed the real estate team to target only the highest-potential city blocks.
-
-**The Challenge III: Market Entry Strategy (UK & South Africa)**
-Before entering these new markets, the company needed to determine the optimal number of stores to open to balance high coverage with low CAPEX.
-
-**The Solution:**
-* **Demand Modeling:** Estimated potential demand for every major city based on socio-economic profiles.
-* **Granular Projection:** Downscaled city-level demand to the individual building level.
-* **Network Optimization:** Used **Integer Linear Programming** algorithms to mathematically calculate the "perfect" number of stores needed to maximize coverage while minimizing setup costs.
-
-![Yango Project Map](https://via.placeholder.com/800x400.png?text=Map+of+Delivery+Zones+and+Demand+Heatmap)
-
+```text
+[Multi-Source Data]  ──>  [Feature Engineering] ──>  [ML Prediction Model] ──> [Strategic Output]
+(Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
+```
 ---
 
 ### ⛽ Global Retail Site Selection (Locatium)
@@ -45,20 +37,35 @@ Before entering these new markets, the company needed to determine the optimal n
 **Location:** UAE, USA, Global
 
 **The Challenge**
-A global client needed to select the most profitable locations for new gas stations and retail chains across vast regions in the UAE and USA. Manual scouting was too slow and data-poor.
+Global clients needed to select the most profitable locations for new gas stations, retail and restaurants chains across vast regions in the UAE and USA. 
 
-**The Solution**
-* **Automated Data Pipeline:** Built a system to automatically harvest and clean open data on urban infrastructure, demographics, and Points of Interest (POIs) using APIs and web scraping.
-* **Predictive Modeling:** Developed Geo-ML models using **Scikit-Learn and PySAL** to score every potential site based on its surrounding features.
-* **Innovation:** Created a custom Python library to predict economic potential at the **building level** using "morphometrics" (analyzing building shapes to guess their value), successfully applied in data-scarce regions like Nigeria, Indonesia, and Brazil.
+**The Methodology (Pipeline)**
+I designed a multi-stage spatial modeling framework:
+
+```text
+[Spatial Data Ingestion] ──> [Traffic Simulation] ──> [Predictive Modeling] ──> [Site Scoring Map]
+(POIs, Demographics, Streets) (Gravity Models & OD Matrix) (Service Penetration)   (Optimal Locations)
+```
 
 ![Locatium Project Map](https://via.placeholder.com/800x400.png?text=Site+Selection+Heatmap+Example)
 
 ---
 
-### 🍦 Data-Driven Site Selection (Rivareno Gelato)
+### ⛽ FTTH potential at building level (Locatium)
+**Industry:** Telecom
+**Location:** Nigeria, Brasil, Indonesia
+
+**The Challenge**
+Global clients needed to select the most profitable locations for new gas stations and retail chains across vast regions in the UAE and USA. 
+
+**The Solution**
+* **Predictive Modeling:** Developed Geo-ML models using **Scikit-Learn and PySAL** to score every potential site based on its surrounding features.
+* **Innovation:** Created a custom Python library to predict economic potential at the **building level** using "morphometrics" (analyzing building shapes to guess their value), successfully applied in data-scarce regions like Nigeria, Indonesia, and Brazil.
+
+
+### 🍦 Site Selection for new Gelato store (Rivareno Gelato)
 **Industry:** Food & Beverage
-**Location:** Tel Aviv Metropolitan Area (2025)
+**Location:** Tel Aviv Metropolitan Area
 
 **The Challenge**
 A premium Gelato brand needed to find the perfect location for their new branch. They needed to avoid cannibalizing their existing store while capturing high foot traffic of their specific target demographic.
