@@ -5,29 +5,21 @@
 > Passionate about applied research, I am currently a PhD candidate at The Hebrew University of Jerusalem, studying the impact of remote work on urban economies. Use links in page head to chechout details.
 > Please use the navigation links above to explore my projects, teaching experience, and blog.
 
+
 ### 🚀 Key Topics & Expertise
 
 **📍 Location Intelligence & Site Selection**
-* **Retail Expansion:** Automated site selection for retail, fuel, and quick-commerce sectors.
-* **Granular Modeling:** Forecasting economic potential at the individual building level using morphometrics.
-* **Network Optimization:** Reconfiguring darkstore locations to optimize delivery efficiency.
-* **Telecom Design:** Automating the planning of FTTH (Fiber-to-the-Home) networks.
+Identify optimal locations for retail expansion and automate telecom network design using building-level predictive modeling.
 
 **🏙️ Urban Analytics & Smart Cities**
-* **Human Mobility Analysis:** Quantifying public space usage ("foaminess") and analyzing tourist flows using mobile data.
-* **Real Estate Intelligence:** Analyzing the impact of planning regulations on property development success rates.
-* **Transit Utilization:** Assessing Light Rail station usage and ridership patterns in Tel Aviv.
+Leverage mobile data to quantify public space usage ("foaminess"), analyze tourist flows, and predict real estate development success.
 
 **🚚 Mobility & Logistics**
-* **Supply Chain Simulation:** Modeling darkstore delivery networks to optimize service coverage.
-* **Infrastructure Planning:** Strategic planning and optimization of Fiber-to-the-Home (FTTH) rollouts.
-* **Traffic Analytics:** Estimating vehicle flow and characteristics from mobile signaling data.
+Optimize supply chain delivery networks and infrastructure planning through traffic simulation and flow analysis.
 
 **🛠️ Technical Methods**
-* **Geo-AI Pipelines:** End-to-end ML workflows using **Scikit-Learn, PyTorch, Gurobi, and Gensim**.
-* **Spatial Statistics:** Advanced modeling including Gravity models, Kriging, and spatial interpolation.
-* **Data Engineering:** Web scraping, API integration, and Cloud Database management.
-* **Visualization:** Building interactive map-based dashboards for decision support.
+Transform complex raw data into actionable strategic insights using custom Geo-AI pipelines and advanced spatial statistics.
+
 
 ---
 
@@ -35,11 +27,9 @@
 
 <iframe src="project_map.html" width="100%" height="400px" frameborder="0"></iframe>
 
-## [📂 View Detailed Case Studies →](projects.md)
-*Click above to see methodologies, tools, and specific results.*
 
 ## 📅 Let's Work Together
-I am currently open for freelance projects and consultation.
+I am always open for new interesting projects and ready to help.
 
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
