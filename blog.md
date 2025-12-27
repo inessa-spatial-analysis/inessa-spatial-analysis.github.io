@@ -4,7 +4,7 @@
 
 I write about the intersection of  **Spatial Data Science**, **Smart Cities** and **Open Data**.
 
-## 🚀 Weekly(almost) Updates (Telegram)
+## 🚀 Regular Updates (Telegram)
 My Telegram channel is my "digital garden"—a place for quick thoughts, resource sharing, and industry news.
 
 > **What you'll find:**
