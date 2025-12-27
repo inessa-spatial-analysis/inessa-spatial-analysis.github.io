@@ -16,9 +16,6 @@ I built an end-to-end simulation engine to solve this:
 [Raw Demand Data] ──> [Spatial Clustering] ──> [Network Optimization] ──> [Final Site Coordinates and Service area]
 (Socio-demographics)      (DBSCAN)              (Linear Programming)           (Strategic Locations)
 ```
-**Results**
-- Interactive maps with recommended locations and coverage
-- Economic model
 
 ### The Challenge II: Site Selection in  (Israel & Russia) based on historic data
 The company wanted to expand into new cities but didn't know where exactly to open new warhouses to maximise potential demand.
@@ -30,6 +27,7 @@ I developed a predictive framework to forecast demand in new territories:
 [Multi-Source Data]  ──>  [Feature Engineering] ──>  [ML Prediction Model] ──> [Strategic Output]
 (Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
 ```
+**Examples of results**
 ---
 
 ## ⛽ Global Retail Site Selection (Locatium)
@@ -47,7 +45,7 @@ I designed a multi-stage spatial modeling framework:
 (POIs, Demographics, Streets) (Gravity Models & OD Matrix) (Service Penetration)   (Optimal Locations)
 ```
 
-![Locatium Project Map](https://via.placeholder.com/800x400.png?text=Site+Selection+Heatmap+Example)
+![Locatium Project Map]
 
 ---
 
