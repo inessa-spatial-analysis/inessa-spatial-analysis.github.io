@@ -6,7 +6,7 @@
 **Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
-### The Challenge I: Develop Chain expantion strategy**   
+### The Challenge I: Develop Chain expantion strategy  
 The company needed to optimize its existing delivery network and plan expansion into new markets. The goal was to balance **fast delivery times** (customer satisfaction) with **operational costs** (minimizing the number of darkstores).
 
 **The Methodology (Pipeline)**  
