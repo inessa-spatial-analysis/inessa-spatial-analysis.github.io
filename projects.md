@@ -2,7 +2,7 @@
 
 # 📂 Detailed Case Studies
 
-
+## 🛒 Darkstore Expansion Strategy (Yango Deli/ Yandex Lavka)
 **Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
