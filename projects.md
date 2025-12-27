@@ -28,7 +28,7 @@ I developed a predictive framework to forecast demand in new territories:
 (Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
 ```
 
-<img src="images/yango_israel.png" alt="Yango Israel Map" width="600">
+<img src="images/yango_israel.png" alt="Yango Israel Map" width="900">
 ---
 
 ## ⛽ Global Retail Site Selection (Locatium)
