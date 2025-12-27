@@ -36,10 +36,10 @@ I developed a predictive framework to forecast demand in new territories:
 **Industry:** Retail & Energy
 **Location:** UAE, USA, Global
 
-**The Challenge**
+**The Challenge**   
 Global clients needed to select the most profitable locations for new gas stations, retail and restaurants chains across vast regions in the UAE and USA. 
 
-**The Methodology (Pipeline)**
+**The Methodology (Pipeline)**   
 I designed a multi-stage spatial modeling framework:
 
 ```text
@@ -55,10 +55,10 @@ I designed a multi-stage spatial modeling framework:
 **Industry:** Telecom
 **Location:** Nigeria, Brasil, Indonesia
 
-**The Challenge**
+**The Challenge**   
 Major telecom operators needed to prioritize Fiber-to-the-Home (FTTH) rollouts in dense cities like Lagos, Jakarta, and São Paulo. **The main problem** was identifying profitable neighborhoods to target first, as these regions lacked high-resolution socio-economic data.
 
-**The Methodology (Pipeline)**
+**The Methodology (Pipeline)**   
 I developed a proxy-based economic modeling engine:
 
 ```text
@@ -72,10 +72,10 @@ I developed a proxy-based economic modeling engine:
 **Role:** Spatial Analyst | **Location:** Tel Aviv (2025)
 ![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
 
-**The Challenge**
+**The Challenge**   
 A premium Gelato brand needed to open a new branch without cannibalizing their existing store. They required a location with high evening foot traffic and specific demographic alignment.
 
-**The Methodology (Pipeline)**
+**The Methodology (Pipeline)**   
 I utilized spatial embeddings and interaction modeling to score locations:
 
 ```text
