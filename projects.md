@@ -82,8 +82,12 @@ I utilized spatial embeddings and interaction modeling to score locations:
 ```
 **Examples of results**
 
-<img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="300">
-<img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="300">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="32%">
+  <img src="images/soc_dem_example.png" alt="TA_socdem" width="65%">
+</div>
+
+<img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="900">
 ---
 
 
