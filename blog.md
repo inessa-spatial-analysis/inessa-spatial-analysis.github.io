@@ -22,10 +22,10 @@ I publish in-depth tutorials and case studies on Medium (English) and Boosty (Ru
 ### **Featured Posts on Medium**
 
 **1. Testing a New Global 3-D Building Footprint Dataset in São Paulo**
-[Read Article ↗]((https://medium.com/@tregub95/testing-a-new-global-3-d-building-footprint-dataset-in-s%C3%A3o-paulo-3b15f3b90ece))
+[Read Article ↗](https://medium.com/@tregub95/testing-a-new-global-3-d-building-footprint-dataset-in-s%C3%A3o-paulo-3b15f3b90ece)
 
 **2. How to build Public Transport Accessibility map from scratch with Python**
-[Read Article ↗]([YOUR_ARTICLE_LINK](https://medium.com/@tregub95/how-to-build-public-transport-accessibility-map-from-scratch-with-python-6df9d7755804))
+[Read Article ↗](https://medium.com/@tregub95/how-to-build-public-transport-accessibility-map-from-scratch-with-python-6df9d7755804)
 
 **3. Exploring an OSM Alternative: A Step-by-Step Guide to Foursquare Places Data Access and Preparation (Part I)**
 [Read Article ↗](https://medium.com/@tregub95/how-start-working-with-foursquare-open-source-places-c7d93ce003ce)
