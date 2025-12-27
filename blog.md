@@ -30,7 +30,7 @@ I publish in-depth tutorials and case studies on Medium (English) and Boosty (Ru
 **3. Exploring an OSM Alternative: A Step-by-Step Guide to Foursquare Places Data Access and Preparation (Part I)**
 [Read Article ↗](https://medium.com/@tregub95/how-start-working-with-foursquare-open-source-places-c7d93ce003ce)
 
-[![Follow on Medium](https://medium.com/@tregub95)]
+[![Follow on Medium](https://img.shields.io/badge/Follow_Me_on_Medium-black?style=for-the-badge&logo=medium)](https://medium.com/@tregub95)
 
 ### 🧡 Boosty- deep dive into geoanalytics in Russian
 For those who want to dive deeper, I share advanced tutorials, downloadable source code, and project files on my Boosty.
