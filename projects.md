@@ -20,7 +20,7 @@ I built an end-to-end simulation engine to solve this:
 - Interactive maps with recommended locations and coverage
 - Economic model
 
-### 🛒 The Challenge II: Site Selection in  (Israel & Russia) based on historic data*
+### The Challenge II: Site Selection in  (Israel & Russia) based on historic data
 The company wanted to expand into new cities but didn't know where exactly to open new warhouses to maximise potential demand.
 
 **The Methodology (Pipeline)**
