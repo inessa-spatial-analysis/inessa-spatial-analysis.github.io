@@ -1,87 +1,96 @@
-# 💼 Geo Analytics Projects
+[← Back to Home](index.md)
 
-### 🛒 Darkstore Expansion Strategy (Yango Deli)
-**Type of business: fast delivery services**
+# 📂 Detailed Case Studies
 
-**The Challenge I:** Optimize the current chain of darkstores.
+
+**Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
+![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
+
+**The Challenge**
+The company needed to optimize its existing delivery network and plan expansion into new markets. The goal was to balance **fast delivery times** (customer satisfaction) with **operational costs** (minimizing the number of darkstores).
+
+**The Methodology (Pipeline)**
+I built an end-to-end simulation engine to solve this:
+
+```text
+[Raw Demand Data] ──> [Spatial Clustering] ──> [Optimization Algo] ──> [Final Site Coordinates]
+(Socio-demographics)      (DBSCAN)              (Gurobi / LP)           (Strategic Locations)
+```
 
 **The Solution:**
-* Built an automatically updated **economic growth simulation** model using **Python** that estimate economic effect of one of new scenarios: 1. relocation of current darkstore 2. closing existing darkstore, 3.redraw service zone
+* Built an automated **Economic Growth Simulation** in Python.
+* The tool allowed managers to run "What-If" scenarios (e.g., *"What happens to profit if we move Store A 500m north?"*) and instantly see the financial impact.
 
-![Screenshot Placeholder: Map of Yango Delivery Zones](INSERT-IMAGE-LINK-HERE)
-  
-**The Challenge II:** suggest new darkstore location for chain expantion in Israel, Russia
+**The Challenge II: Strategic Expansion (Israel & Russia)**
+The company wanted to expand into new cities but didn't know which specific neighborhoods offered the highest return on investment.
 
 **The Solution:**
-* Build ML-model that predict potential performance at 200 m resolution over selected cities in Israel and Russia.
+* Developed a Machine Learning model that predicted potential daily order volume at a **200m x 200m resolution**.
+* This granular map allowed the real estate team to target only the highest-potential city blocks.
 
-![Screenshot Placeholder: Map of Yango Delivery Zones](INSERT-IMAGE-LINK-HERE)
+**The Challenge III: Market Entry Strategy (UK & South Africa)**
+Before entering these new markets, the company needed to determine the optimal number of stores to open to balance high coverage with low CAPEX.
 
-**The Challenge III:** assess the potential demand, target geography and chain capacity in UK and South Africa
+**The Solution:**
+* **Demand Modeling:** Estimated potential demand for every major city based on socio-economic profiles.
+* **Granular Projection:** Downscaled city-level demand to the individual building level.
+* **Network Optimization:** Used **Integer Linear Programming** algorithms to mathematically calculate the "perfect" number of stores needed to maximize coverage while minimizing setup costs.
 
-**The Solution:** 
- - Estimate potential demand in every major city based on their socio-economic profile
- - Project city demand on building level
- - Use Integer Linear Programming Algorithms to find optimal number of darkstores in each city that is trade-off between CAPEX and potential audience coverage
-
-
-![Screenshot Placeholder: Map of Yango Delivery Zones](INSERT-IMAGE-LINK-HERE)
+![Yango Project Map](https://via.placeholder.com/800x400.png?text=Map+of+Delivery+Zones+and+Demand+Heatmap)
 
 ---
 
 ### ⛽ Global Retail Site Selection (Locatium)
-**The Challenge:** Select optimal sites for gas stations and retail chains across the UAE and US[cite: 16].
+**Industry:** Retail & Energy
+**Location:** UAE, USA, Global
 
-**The Solution:**
-* **Modeling:** Developed Geo ML models using **sklearn, PySAL, and GeoPandas**.
-* **Data Pipeline:** Created pipelines to clean open data on urban infrastructure, demographics, and POIs using APIs, web-scraping, and **Big Query**.
-* **Innovation:** Developed a Python library to predict economic potential at the building level using morphometrics (applied in Nigeria, Indonesia, Brazil).
+**The Challenge**
+A global client needed to select the most profitable locations for new gas stations and retail chains across vast regions in the UAE and USA. Manual scouting was too slow and data-poor.
 
-![Screenshot Placeholder: Site Selection Heatmap](INSERT-IMAGE-LINK-HERE)
+**The Solution**
+* **Automated Data Pipeline:** Built a system to automatically harvest and clean open data on urban infrastructure, demographics, and Points of Interest (POIs) using APIs and web scraping.
+* **Predictive Modeling:** Developed Geo-ML models using **Scikit-Learn and PySAL** to score every potential site based on its surrounding features.
+* **Innovation:** Created a custom Python library to predict economic potential at the **building level** using "morphometrics" (analyzing building shapes to guess their value), successfully applied in data-scarce regions like Nigeria, Indonesia, and Brazil.
 
+![Locatium Project Map](https://via.placeholder.com/800x400.png?text=Site+Selection+Heatmap+Example)
 
+---
 
-## 🌍 Independent Geoanalytics Projects
+### 🍦 Data-Driven Site Selection (Rivareno Gelato)
+**Industry:** Food & Beverage
+**Location:** Tel Aviv Metropolitan Area (2025)
 
-### 🍦 Site Selection for Rivareno Gelato (2025)
-* [cite_start]**Scope:** Tel Aviv Metropolitan Area[cite: 34].
-* **Goal:** Location intelligence for a new retail opening.
+**The Challenge**
+A premium Gelato brand needed to find the perfect location for their new branch. They needed to avoid cannibalizing their existing store while capturing high foot traffic of their specific target demographic.
 
-  ---
-
-
+**The Solution**
+* Conducted a spatial analysis of competitor locations and complementary businesses.
+* Mapped "human movement" patterns to identify streets with the highest volume of potential customers during evening hours.
+* Delivered a ranked list of top candidate sites with estimated catchment areas.
 
 ---
 
 ## 🛠️ Technical Stack
-* [cite_start]**Languages:** Python (Pandas, GeoPandas, PySAL, sklearn)[cite: 5, 16].
-* [cite_start]**Machine Learning:** XGBoost, Random Forest, Logistic Regression, LGBM, Kriging, DBSCAN[cite: 24, 30, 32].
-* [cite_start]**Tools:** Tableau, Big Query, Google Earth, APIs[cite: 17, 26].
+
+### **languages & Core Libraries**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
+### **Spatial Analytics & Visualization**
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=python&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kepler.gl](https://img.shields.io/badge/Kepler.gl-3B3B3B?style=for-the-badge&logo=uber&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+* **Libraries:** `PySAL`, `Folium`, `Shapely`, `Rasterio`
+
+### **Machine Learning & Cloud**
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+* **Models:** XGBoost, Random Forest, LGBM, DBSCAN, Kriging, Regression
+* **Tools:** Jupyter, Docker, Git
 
 ---
 
-## 🗺️ Project 1: Retail Catchment Analysis
-**The Challenge:** A retail client needed to identify the optimal location for a new store in Berlin to maximize foot traffic.
-
-**The Solution:**
-* Processed 500k+ rows of movement data using Python (Pandas).
-* Created isochrones (drive-time zones) using QGIS.
-* Scored locations based on demographic density.
-
-**The Result:** The selected location outperformed revenue projections by 12%.
-
-![Alt text describing image](https://link-to-your-screenshot-1.png)
-*Note: Data anonymized for confidentiality.*
-
----
-
-## 🚛 Project 2: Supply Chain Route Optimization
-**The Challenge:** Reduce delivery delays for a logistics fleet.
-
-**The Solution:**
-* Network analysis using ArcGIS Network Analyst.
-* Visualized bottlenecks in a dashboard.
-
-![Alt text describing image](https://link-to-your-screenshot-2.png)
-
----
+[← Back to Home](index.md)
