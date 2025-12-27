@@ -1,6 +1,6 @@
 [← Back to Home](index.md)
 
-# 📂 Detailed Case Studies
+# 📂 Case Studies Examples
 
 ## 🛒 Darkstores Location Strategy (Yango Deli/ Yandex Lavka)
 **Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
