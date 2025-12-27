@@ -14,7 +14,7 @@ My Telegram channel is my "digital garden"—a place for quick thoughts, resourc
 > * Links to fresh papers on Urban AI.
 > * Direct downloads to hard-to-find open datasets.
 
-[![Join Channel](https://img.shields.io/badge/Join_My_Telegram_Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)(https://t.me/datainthecity)]
+[Join Channel](https://img.shields.io/badge/Join_My_Telegram_Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)(https://t.me/datainthecity)
 
 ---
 
