@@ -28,6 +28,8 @@ I developed a predictive framework to forecast demand in new territories:
 (Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
 ```
 **Examples of results**
+
+<img src="images/yango_israel.png" alt="Yango Israel Map" width="600">
 ---
 
 ## ⛽ Global Retail Site Selection (Locatium)
@@ -45,7 +47,9 @@ I designed a multi-stage spatial modeling framework:
 (POIs, Demographics, Streets) (Gravity Models & OD Matrix) (Service Penetration)   (Optimal Locations)
 ```
 
-![Locatium Project Map]
+**Examples of results**
+<img src="images/ev_site_selection.png" alt="Yango Israel Map" width="600">
+
 
 ---
 
@@ -63,7 +67,9 @@ I developed a proxy-based economic modeling engine:
 [Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Revenue Modeling]
 (NDVI, Building Shapes)    (Density, Greenery)          (K-Means Context)       (Predicted ARPU)
 ```
+**Examples of results**
 
+<img src="images/lagos.png" alt="Lagos Map" width="600">
 ---
 
 ### 🍦 Data-Driven Site Selection (Rivareno Gelato)
@@ -80,6 +86,10 @@ I utilized spatial embeddings and interaction modeling to score locations:
 [Competitor Analysis] ──> [Traffic Simulation] ──> [Site Scoring] ──> [Interactive Dashboard]
 (Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
 ```
+**Examples of results**
+
+<img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="300">
+<img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="300">
 ---
 
 
