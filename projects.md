@@ -88,7 +88,6 @@ I utilized spatial embeddings and interaction modeling to score locations:
 </div>
 
 <img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="900">
----
 
 
 ## 🛠️ Technical Stack
