@@ -47,7 +47,7 @@ I designed a multi-stage spatial modeling framework:
 ```
 
 **Examples of results**
-<img src="images/ev_site_selection.png" alt="Yango Israel Map" width="600">
+<img src="images/ev_locations.png" alt="ev Map" width="600">
 
 
 ---
