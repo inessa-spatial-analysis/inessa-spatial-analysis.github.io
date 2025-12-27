@@ -1,4 +1,4 @@
-[**About me**](index.md) | [**Projects**](projects.md) |[**Researches**](projects.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](cv.pdf)
+[**About me**](index.md) | [**Projects**](projects.md) |[**Researches**](researches.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](cv.pdf)
 
 
 > I build end-to-end geo-ML solutions—from data pipelines and spatial modeling to decision-support tools for site selection and network optimization. My portfolio spans projects for diverse businesses and municipalities worldwide.
