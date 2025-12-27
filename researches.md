@@ -6,10 +6,14 @@
 
 ### 🏙️ UK Digital Planning & Open Data (collaboration with Novaya Labs)
 **Client:** Greater London Authority
-**The Challenge:** Unders
+**The Challenge:** How can a Local Authority ensure that a development project will proceed when planning for new infrastructure? What type of data can one use for that? What does data quality mean when building Machine Learning models in this context?
+
+
 **The Solution:**
-* Collected and cleaned UK government open data via APIs and scraping.
-* Performed single and multiple factor analysis using ML models for descriptive spatial analysis.
+* Investigated 30+ Datasets for 5 London Boroughs to identify which factors and related datasets can be robust indicators for development going ahead. 
+* Agregated many datasource into one dashboard and performed descriptive analysis
+* Run Weighted Regression to evaulate impact of CIL on planning success development
+
 * **[Link](https://novaya.co.uk/cilpublic)**
   
 ### 🇬🇧 Property Development Success (Research project at University of Glasgow)
