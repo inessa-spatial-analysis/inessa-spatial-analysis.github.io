@@ -57,10 +57,10 @@ To evaluate the efficiency of the new Light Rail Transit (LRT) Red Line. The goa
 
 ## URBAN ECONOMY 
 
-### (PhD Research)
+### PhD Research
 **Topic: The impact of Remote Work on urban equilibrium**
 
-My doctoral research focuses on measuring WFH level at neighborhood level in TelAviv Metropolitan area and estimate its impact on rental prices and consumtion of urban amenities.
+My doctoral research focuses on measuring WFH at neighborhood level in TelAviv Metropolitan area and estimate its impact on rental prices and consumtion of urban amenities.
 
 * **Focus Area:** Analyzing how hybrid work patterns reshape urban economics and infrastructure needs.
 * **Methodology:** Utilizing GPS-singnals data together with Bayesean and spatial econometrics models to understand shifts in city dynamics.
