@@ -3,7 +3,8 @@
 # 📂 Case Studies Examples
 
 ## 🛒 Darkstores Location Strategy (Yango Deli/ Yandex Lavka)
-**Role:** GeoData Scientist | **Location:** Global (Israel, Russia, UK, SA)
+**Industry:** Food Delivery   
+**Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
 ### The Challenge I: Develop Chain expansion strategy  
@@ -62,7 +63,7 @@ I developed a proxy-based economic modeling engine:
 [Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Revenue Modeling]
 (NDVI, Building Shapes)    (Density, Greenery)          (K-Means Context)       (Predicted ARPU)
 ```
-
+**Estimated Buildings Economic score in Lagos**
 <img src="images/lagos.png" alt="Lagos Map" width="900">
 
 
@@ -80,6 +81,7 @@ I utilized spatial embeddings and interaction modeling to score locations:
 [Competitor Analysis] ──> [Traffic Simulation] ──> [Site Scoring] ──> [Interactive Dashboard]
 (Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
 ```
+
 **Examples of results**
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
