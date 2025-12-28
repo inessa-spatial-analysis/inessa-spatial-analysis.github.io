@@ -30,7 +30,7 @@ I developed a predictive framework to forecast demand in new territories:
 ```
 
 <img src="images/yango_israel.png" alt="Yango Israel Map" width="900">
----
+
 
 ## ⛽ Global Retail Site Selection (Locatium)
 **Industry:** Retail & Energy
@@ -86,7 +86,7 @@ I utilized spatial embeddings and interaction modeling to score locations:
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="32%">
-  <img src="images/soc_dem_example.png" alt="TA_socdem" width="65%">
+  <img src="images/socdem_example.png" alt="TA_socdem" width="65%">
 </div>
 
 <img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="900">
