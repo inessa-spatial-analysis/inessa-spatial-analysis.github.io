@@ -68,7 +68,8 @@ I developed a proxy-based economic modeling engine:
 
 
 ### 🍦 Data-Driven Site Selection
-**Role:** Spatial Analyst | **Location:** Tel Aviv (2025)
+**Industry:** Cafe&Restaurants
+**Location:** Tel Aviv
 ![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
 
 **The Challenge**   
@@ -82,7 +83,7 @@ I utilized spatial embeddings and interaction modeling to score locations:
 (Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
 ```
 
-**Examples of results**
+**Dashboard with results**
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="32%">
