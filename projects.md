@@ -3,7 +3,7 @@
 # 📂 Case Studies Examples
 
 ## 🛒 Darkstores Location Strategy (Yango Deli/ Yandex Lavka)
-**Industry:** Food Delivery   
+**Industry:** Food Delivery    
 **Location:** Global (Israel, Russia, UK, SA)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
 
@@ -33,8 +33,8 @@ I developed a predictive framework to forecast demand in new territories:
 
 
 ## ⛽ Global Retail Site Selection (Locatium)
-**Industry:** Retail & Energy
-**Location:** UAE, USA, Global
+**Industry:** Retail & Energy    
+**Location:** UAE, USA, Global   
 
 **The Challenge**   
 Global clients needed to select the most profitable locations for new gas stations, retail and restaurants chains across vast regions in the UAE and USA. 
@@ -68,7 +68,7 @@ I developed a proxy-based economic modeling engine:
 
 
 ### 🍦 Data-Driven Site Selection
-**Industry:** Cafe&Restaurants
+**Industry:** Cafe&Restaurants    
 **Location:** Tel Aviv
 ![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
 
