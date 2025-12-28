@@ -83,7 +83,7 @@ I utilized spatial embeddings and interaction modeling to score locations:
 (Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
 ```
 
-**Dashboard with results**
+### Dashboard ###
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="32%">
