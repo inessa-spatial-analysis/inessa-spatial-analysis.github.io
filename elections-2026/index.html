@@ -397,16 +397,38 @@ function partyOptions(select, preferModeled) {
   ).join('');
 }
 
+const BAR_PARTY = {
+  "Likud": ["Likud", "#4E79A7"],
+  "Shas": ["Shas", "#F28E2B"],
+  "United Torah Judaism": ["UTJ", "#B07AA1"],
+  "Otzma Yehudit": ["Otzma", "#E15759"],
+  "Religious Zionist Party / Zehut": ["Religious Zionism", "#76B7B2"],
+  "The Democrats": ["Democrats", "#59A14F"],
+  "Yisrael Beiteinu": ["Beiteinu", "#9467BD"],
+  "Yashar": ["Yashar", "#D4A017"],
+  "B’Yachad / Together": ["B’Yachad", "#FF9DA7"],
+  "B'Yachad / Together": ["B’Yachad", "#FF9DA7"],
+  "Ra’am / United Arab List": ["Ra’am", "#17BECF"],
+  "Ra'am / United Arab List": ["Ra’am", "#17BECF"],
+  "Hadash–Ta’al / Joint List": ["Hadash–Ta’al", "#8C564B"],
+  "Hadash-Ta'al / Joint List": ["Hadash–Ta’al", "#8C564B"],
+  "Blue and White": ["Blue & White", "#BAB0AC"]
+};
+function barParty(name) {
+  const key = String(name || "").split(" (")[0];
+  return BAR_PARTY[key] || [key, "#7F7F7F"];
+}
 function turnoutChart() {
   const rows = (DATA.turnout_by_winner || []).slice().sort((a, b) => b.avg_turnout - a.avg_turnout);
   if (!rows.length) return;
+  const styled = rows.map(r => ({ ...r, ...{ short: barParty(r.party)[0], color: barParty(r.party)[1] } }));
   Plotly.newPlot('turnoutChart', [{
     type: 'bar',
-    x: rows.map(r => r.party),
-    y: rows.map(r => r.avg_turnout),
-    marker: { color: rows.map(r => r.color || '#1f4e79') },
-    customdata: rows.map(r => r.hexes),
-    hovertemplate: '%{x}<br>turnout %{y:.1f}%<br>%{customdata:,} hexagons won<extra></extra>'
+    x: styled.map(r => r.short),
+    y: styled.map(r => r.avg_turnout),
+    marker: { color: styled.map(r => r.color) },
+    customdata: styled.map(r => [r.party, r.hexes]),
+    hovertemplate: '%{customdata[0]}<br>turnout %{y:.1f}%<br>%{customdata[1]:,} hexagons won<extra></extra>'
   }], {
     margin: {t: 20, r: 10, b: 120, l: 50},
     yaxis: { title: 'Average turnout (%)' },
@@ -416,12 +438,14 @@ function turnoutChart() {
 
 function meanShareChart() {
   const rows = (DATA.mean_shares || []).slice().sort((a,b) => b.mean_share - a.mean_share);
+  const styled = rows.map(r => ({ ...r, short: barParty(r.party)[0], barColor: barParty(r.party)[1] }));
   Plotly.newPlot('meanShareChart', [{
     type: 'bar',
-    x: rows.map(r => r.party),
-    y: rows.map(r => r.mean_share),
-    marker: { color: rows.map(r => r.color || '#1f4e79') },
-    hovertemplate: '%{x}<br>%{y:.1f}%<extra></extra>'
+    x: styled.map(r => r.short),
+    y: styled.map(r => r.mean_share),
+    marker: { color: styled.map(r => r.barColor) },
+    customdata: styled.map(r => r.party),
+    hovertemplate: '%{customdata}<br>%{y:.1f}%<extra></extra>'
   }], {
     margin: {t: 20, r: 10, b: 120, l: 50},
     yaxis: { title: 'Average share of the vote across places (%)' },
