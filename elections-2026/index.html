@@ -147,11 +147,11 @@
   <p class="pill">Knesset 26 · Israel · 2026</p>
   <h1>Where each party’s voters live</h1>
   <p>
-    The charts and the winner map use small hexagons, about a city block or two. Each one takes the result of the nearest polling station.
+    The charts and the winner map use small areas, about a city block or two. Each one takes the result of the nearest polling station.
   </p>
   <p class="muted">
     These are places, not individual voters. “Where Likud is strong, the place has more people born in Africa”
-    means those hexagons have more residents born in Africa than the country as a whole.
+    means those places have more residents born in Africa than the country as a whole.
   </p>
 </header>
 <nav>
@@ -170,8 +170,8 @@
   <section id="results">
     <h2>The map of winners</h2>
     <p>
-      The bars are the average share across hexagons, not the official national result.
-      A quiet hexagon counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
+      The bars are the average share across places, not the official national result.
+      A quiet place counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
     </p>
     <div id="meanShareChart" style="height:380px"></div>
     <h3>Turnout percentage by winning party</h3>
@@ -180,9 +180,9 @@
       Turnout is ballots cast divided by people eligible to vote.
     </p>
     <div id="turnoutChart" style="height:380px"></div>
-    <h3>Who won each hexagon</h3>
-    <p>Each hexagon is colored by the party that came first there.</p>
-    <iframe class="map" src="https://clausa.app.carto.com/map/678b9d03-3d03-4602-b0fe-0d5b624b2b06" title="Winning party by hexagon" allow="clipboard-write"></iframe>
+    <h3>Who won</h3>
+    <p>The map has several layers. Open the layer list on the map and switch between them.</p>
+    <iframe class="map" src="https://clausa.app.carto.com/map/678b9d03-3d03-4602-b0fe-0d5b624b2b06" title="Winning party map" allow="clipboard-write"></iframe>
   </section>
 
   <section id="voters">
@@ -214,9 +214,9 @@
       Blue means when one is strong, the other is weak.
       The number runs from −1 (always opposite) to +1 (always together). Zero means no link.
     </p>
-    <p class="muted">This is a rank correlation: it asks whether the hexagons line up in the same order for both parties, so one huge party cannot dominate the picture.</p>
+    <p class="muted">This is a rank correlation: it asks whether the places line up in the same order for both parties, so one huge party cannot dominate the picture.</p>
     <div class="note">
-      Shares on one hexagon add up to 100%. A gain for one party is a loss for the others,
+      Shares in one place add up to 100%. A gain for one party is a loss for the others,
       so the links look weaker than they would if each party were counted on its own.
       The useful question is whether parties inside a bloc stick together more than parties across the aisle.
     </div>
@@ -260,14 +260,14 @@
     <h2>What the census uses</h2>
     <p>
       The bars above already say whether a trait is higher or lower where the party is strong.
-      The dot plot is the same comparison, one hexagon at a time, for readers who want the detail.
+      The dot plot is the same comparison, one place at a time, for readers who want the detail.
     </p>
     <div class="howto">
       <strong>How to read the dot plot</strong>
       <ol>
-        <li>Each dot is one hexagon.</li>
+        <li>Each dot is one place.</li>
         <li>Left means that trait pulled the party’s share down. Right means it pulled the share up.</li>
-        <li>Red dots are hexagons where the trait itself is high. Blue dots are where it is low.</li>
+        <li>Red dots are places where the trait itself is high. Blue dots are where it is low.</li>
         <li>The traits at the top moved the result the most.</li>
         <li>A low percent under the title means this portrait is weak. Treat it as a hint, not a rule.</li>
       </ol>
@@ -324,7 +324,7 @@
   <section id="extras">
     <h2>How much place explains</h2>
     <p>
-      Each bar is how much of the difference between hexagons that description can explain.
+      Each bar is how much of the difference between places that description can explain.
       100% would be a perfect explanation. 0% would mean it learns nothing.
       Who lives there explains more than the shops, schools, and streets within a seven-minute walk.
     </p>
@@ -346,25 +346,25 @@
     <h2>How this was built</h2>
     <p>
       Ballot boxes at the same address are added into one polling place.
-      Each hexagon takes the nearest polling place within 1 km. Hexagons with no station that close are left out.
+      Each place takes the nearest polling station within 1 km. Places with no station that close are left out.
       Polling places with fewer than 150 voters are dropped.
       A party’s share is its votes divided by valid ballots there.
     </p>
     <p>
-      Neighboring hexagons often share one polling station, so they carry the same result.
+      Neighboring places often share one polling station, so they carry the same result.
       Clustering looks stronger here than it would on a map of separate polling stations.
     </p>
     <p>
-      The census, and what is within a seven-minute walk, are attached to the same hexagon.
-      The portraits use the hexagons where that party’s share is in its own top 10%.
-      For the neighborhood gaps, those hexagons are gathered into a neighborhood and the guess is compared with the real neighborhood vote.
+      The census, and what is within a seven-minute walk, are attached to the same place.
+      The portraits use the places where that party’s share is in its own top 10%.
+      For the gaps, those places are gathered into a neighborhood and the guess is compared with the real neighborhood vote.
     </p>
     <div id="validationBox"></div>
     <h3>What this cannot say</h3>
     <ul>
       <li>These are places, not people. A trait of a neighborhood is not a trait of every voter who lives there.</li>
       <li>Because shares add up to 100%, parties look less linked than they would on their own.</li>
-      <li>Shared polling stations make neighboring hexagons look more alike than separate stations would.</li>
+      <li>Shared polling stations make neighboring places look more alike than separate stations would.</li>
       <li>The census is from 2022. The vote is from 2026.</li>
     </ul>
   </section>
@@ -589,7 +589,7 @@ function renderShap() {
   const slug = document.getElementById('shapParty').value;
   const c = (DATA.portraits_census || []).find(x => x.slug === slug);
   document.getElementById('shapCensusR2').textContent = c
-    ? `The census explains about ${Math.round(c.held_out_r2 * 100)}% of the differences between hexagons.`
+    ? `The census explains about ${Math.round(c.held_out_r2 * 100)}% of the differences between places.`
     : 'No census portrait for this party.';
   document.getElementById('shapCensusImg').src = `img/shap_census_${slug}.png`;
 }
@@ -644,8 +644,8 @@ function r2Chart() {
 function showValidation() {
   const v = DATA.validation || {};
   document.getElementById('validationBox').innerHTML =
-    `<p>Where a town has one published winning party, giving each hexagon the nearest station names the same winner in
-     <strong>${esc(v.winner_match_pct)}%</strong> of hexagons
+    `<p>Where a town has one published winning party, giving each place the nearest station names the same winner in
+     <strong>${esc(v.winner_match_pct)}%</strong> of places
      (${esc(v.winner_matched)} of ${esc(v.winner_compared)}).</p>`;
 }
 
