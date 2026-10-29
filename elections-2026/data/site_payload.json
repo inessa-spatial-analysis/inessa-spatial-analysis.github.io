@@ -22545,79 +22545,92 @@
   "winner_counts": [
     {
       "winner_name": "Likud (הליכוד)",
-      "winner_party": "מחל",
+      "winner_letter": "מחל",
+      "bloc": "Coalition",
       "neighborhoods": 824,
       "color": "#1f4e79"
     },
     {
       "winner_name": "Yashar (ישר)",
-      "winner_party": "דרך",
+      "winner_letter": "דרך",
+      "bloc": "Opposition",
       "neighborhoods": 789,
       "color": "#27ae60"
     },
     {
       "winner_name": "Hadash–Ta’al / Joint List (חד״ש-תע״ל)",
-      "winner_party": "ודם",
+      "winner_letter": "ודם",
+      "bloc": "Arab Parties",
       "neighborhoods": 242,
       "color": "#0e6655"
     },
     {
       "winner_name": "Religious Zionist Party / Zehut (הציונות הדתית - זהות)",
-      "winner_party": "ט",
+      "winner_letter": "ט",
+      "bloc": "Coalition",
       "neighborhoods": 159,
       "color": "#1a5276"
     },
     {
       "winner_name": "Ra’am / United Arab List (רע״ם)",
-      "winner_party": "עם",
+      "winner_letter": "עם",
+      "bloc": "Arab Parties",
       "neighborhoods": 112,
       "color": "#117a65"
     },
     {
       "winner_name": "United Torah Judaism (יהדות התורה)",
-      "winner_party": "ג",
+      "winner_letter": "ג",
+      "bloc": "Coalition",
       "neighborhoods": 98,
       "color": "#5b2c6f"
     },
     {
       "winner_name": "The Democrats (הדמוקרטים)",
-      "winner_party": "אמת",
+      "winner_letter": "אמת",
+      "bloc": "Opposition",
       "neighborhoods": 83,
       "color": "#1abc9c"
     },
     {
       "winner_name": "Shas (ש״ס)",
-      "winner_party": "שס",
+      "winner_letter": "שס",
+      "bloc": "Coalition",
       "neighborhoods": 22,
       "color": "#c45c26"
     },
     {
       "winner_name": "Yisrael Beiteinu (ישראל ביתנו)",
-      "winner_party": "ל",
+      "winner_letter": "ל",
+      "bloc": "Opposition",
       "neighborhoods": 20,
       "color": "#2980b9"
     },
     {
       "winner_name": "Otzma Yehudit (עוצמה יהודית)",
-      "winner_party": "ב",
+      "winner_letter": "ב",
+      "bloc": "Coalition",
       "neighborhoods": 9,
       "color": "#922b21"
     },
     {
       "winner_name": "B’Yachad / Together (ביחד)",
-      "winner_party": "רק",
+      "winner_letter": "רק",
+      "bloc": "Opposition",
       "neighborhoods": 3,
       "color": "#16a085"
     },
     {
       "winner_name": "ך",
-      "winner_party": "ך",
+      "winner_letter": "ך",
+      "bloc": "Other",
       "neighborhoods": 2,
       "color": "#95a5a6"
     },
     {
       "winner_name": "ני",
-      "winner_party": "ני",
+      "winner_letter": "ני",
+      "bloc": "Other",
       "neighborhoods": 1,
       "color": "#95a5a6"
     }
