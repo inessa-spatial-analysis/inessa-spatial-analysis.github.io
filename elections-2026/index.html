@@ -593,11 +593,11 @@ function neighborHeatmap() {
     x: mat.labels.map(shortName),
     y: mat.labels.map(shortName),
     colorscale: [
-      [0, '#e5f5e0'],
-      [0.25, '#a1d99b'],
-      [0.5, '#41ab5d'],
-      [0.75, '#238b45'],
-      [1, '#005a32']
+      [0, '#EADBED'],
+      [0.25, '#CAB1DB'],
+      [0.5, '#B072BF'],
+      [0.75, '#9442A4'],
+      [1, '#3F105F']
     ],
     zmin: 0,
     zmax: Math.max(...mat.z.flat().filter(v => Number.isFinite(v))),
