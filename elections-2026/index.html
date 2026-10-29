@@ -393,7 +393,7 @@ function tableHTML(headers, rows) {
 function partyOptions(select, preferModeled) {
   const list = DATA.parties.filter(p => p.letter !== 'כן');
   select.innerHTML = list.map(p =>
-    `<option value="${esc(p.slug)}" data-letter="${esc(p.letter)}">${esc(p.name)}</option>`
+    `<option value="${esc(p.slug)}" data-letter="${esc(p.letter)}">${esc(shortName(p.name))}</option>`
   ).join('');
 }
 
@@ -418,6 +418,15 @@ function barParty(name) {
   const key = String(name || "").split(" (")[0];
   return BAR_PARTY[key] || [key, "#7F7F7F"];
 }
+function shortName(name) {
+  return barParty(name)[0];
+}
+function shortenText(text) {
+  let out = String(text || "");
+  const keys = Object.keys(BAR_PARTY).sort((a, b) => b.length - a.length);
+  for (const key of keys) out = out.split(key).join(BAR_PARTY[key][0]);
+  return out.replace(/\s*\([^)]*[\u0590-\u05FF][^)]*\)/g, "");
+}
 function turnoutChart() {
   const rows = (DATA.turnout_by_winner || []).slice().sort((a, b) => b.avg_turnout - a.avg_turnout);
   if (!rows.length) return;
@@ -427,8 +436,7 @@ function turnoutChart() {
     x: styled.map(r => r.short),
     y: styled.map(r => r.avg_turnout),
     marker: { color: styled.map(r => r.color) },
-    customdata: styled.map(r => [r.party, r.hexes]),
-    hovertemplate: '%{customdata[0]}<br>turnout %{y:.1f}%<extra></extra>'
+    hovertemplate: '%{x}<br>turnout %{y:.1f}%<extra></extra>'
   }], {
     margin: {t: 20, r: 10, b: 120, l: 50},
     yaxis: { title: 'Average turnout (%)' },
@@ -444,8 +452,7 @@ function meanShareChart() {
     x: styled.map(r => r.short),
     y: styled.map(r => r.mean_share),
     marker: { color: styled.map(r => r.barColor) },
-    customdata: styled.map(r => r.party),
-    hovertemplate: '%{customdata}<br>%{y:.1f}%<extra></extra>'
+    hovertemplate: '%{x}<br>%{y:.1f}%<extra></extra>'
   }], {
     margin: {t: 20, r: 10, b: 120, l: 50},
     yaxis: { title: 'Average share of the vote across places (%)' },
@@ -482,8 +489,9 @@ function renderVoter() {
       .replace(/\s*Held-out R² [^.]+\./g, '')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
       .trim();
+    const shownSentence = shortenText(sentence);
     const explained = Math.round(Number(p.held_out_r2) * 100);
-    box.innerHTML = `<p>${esc(sentence)}</p>
+    box.innerHTML = `<p>${esc(shownSentence)}</p>
       <p class="muted">${esc(p.status)}. Average share across places: ${esc(p.mean_share)}%.
       The census accounts for about ${esc(explained)}% of the place-to-place differences in this share.</p>`;
   }
@@ -527,8 +535,8 @@ function corrHeatmap() {
   Plotly.newPlot('corrHeatmap', [{
     type: 'heatmap',
     z: mat.z,
-    x: mat.labels,
-    y: mat.labels,
+    x: mat.labels.map(shortName),
+    y: mat.labels.map(shortName),
     zmin: -1, zmax: 1,
     colorscale: 'RdBu',
     reversescale: true,
@@ -557,11 +565,11 @@ function renderCorrTables() {
   );
   document.getElementById('clusterFitTable').innerHTML = tableHTML(
     ['Party', 'Bloc', 'Same places as the rest of the bloc'],
-    (DATA.cluster_fit || []).map(r => [r.party, r.status, r.r_with_zscored_cluster])
+    (DATA.cluster_fit || []).map(r => [shortName(r.party), r.status, r.r_with_zscored_cluster])
   );
   document.getElementById('arabCorrTable').innerHTML = tableHTML(
     ['Party', 'Link with the Arab lists (−1 to +1)', 'Average share of the vote (%)'],
-    (DATA.arab_corr || []).slice(0, 12).map(r => [r.party, Number(r.r_with_arab_share).toFixed(2), Number(r.mean_share).toFixed(1)])
+    (DATA.arab_corr || []).slice(0, 12).map(r => [shortName(r.party), Number(r.r_with_arab_share).toFixed(2), Number(r.mean_share).toFixed(1)])
   );
 }
 
@@ -571,8 +579,8 @@ function neighborHeatmap() {
   Plotly.newPlot('neighborHeatmap', [{
     type: 'heatmap',
     z: mat.z,
-    x: mat.labels,
-    y: mat.labels,
+    x: mat.labels.map(shortName),
+    y: mat.labels.map(shortName),
     colorscale: 'YlOrRd',
     hovertemplate: 'Where %{y} got votes, %{x} finished next to it in %{z:.0f}% of places<extra></extra>'
   }], {
@@ -582,7 +590,7 @@ function neighborHeatmap() {
   }, {responsive: true, displayModeBar: false});
   document.getElementById('neighborTable').innerHTML = tableHTML(
     ['Party', 'Bloc', 'Most often finishes next to', 'Share of its places', 'Second most often', 'Share of its places'],
-    (DATA.neighbors || []).map(r => [r.party, r.status, r.neighbor, r.pct_of_hexes + '%', r.second, r.second_pct + '%'])
+    (DATA.neighbors || []).map(r => [shortName(r.party), r.status, shortName(r.neighbor), r.pct_of_hexes + '%', shortName(r.second), r.second_pct + '%'])
   );
 }
 
@@ -610,7 +618,7 @@ function moranChart() {
   const rows = (DATA.moran_summary || []).slice().sort((a,b) => (b.moran_I||0) - (a.moran_I||0));
   Plotly.newPlot('moranChart', [{
     type: 'bar',
-    x: rows.map(r => r.party),
+    x: rows.map(r => shortName(r.party)),
     y: rows.map(r => r.moran_I),
     marker: { color: '#1f4e79' },
     hovertemplate: '%{x}<br>clustering score %{y:.2f}<br>%{customdata} surprise places<extra></extra>',
@@ -630,7 +638,7 @@ function r2Chart() {
   const census = Object.fromEntries((DATA.portraits_census||[]).map(r => [r.slug, r]));
   const env = Object.fromEntries((DATA.portraits_environment||[]).map(r => [r.slug, r]));
   const slugs = [...new Set([...Object.keys(census), ...Object.keys(env)])];
-  const labels = slugs.map(s => (census[s]||env[s]).party);
+  const labels = slugs.map(s => shortName((census[s]||env[s]).party));
   Plotly.newPlot('r2Chart', [
     { type:'bar', name:'Census', x: labels, y: slugs.map(s => census[s]?.held_out_r2 ?? null), marker:{color:'#1f4e79'} },
     { type:'bar', name:'Surroundings', x: labels, y: slugs.map(s => env[s]?.held_out_r2 ?? null), marker:{color:'#c45c26'} }
