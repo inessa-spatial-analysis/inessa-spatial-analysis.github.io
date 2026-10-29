@@ -147,15 +147,12 @@
   <p class="pill">Knesset 26 · Israel · 2026</p>
   <h1>Where each party’s voters live</h1>
   <p>
-    This page follows the 2026 Knesset vote down to small places.
-    A “place” here is a hexagon about the size of a city block or two.
-    Each hexagon takes the result of the nearest polling station, within 1 km.
-    The question throughout is the same: what kind of place votes for each party,
-    and where does the real result refuse to match that picture?
+    The charts use small hexagons, about a city block or two. Each one takes the result of the nearest polling station.
+    The map under the bars is the exception: it shows neighborhoods, and who won each one.
   </p>
   <p class="muted">
-    Nothing here is about an individual voter. A sentence such as “a typical Likud voter lives among more people born in Africa”
-    means the places where Likud is strong have more residents born in Africa than the country as a whole.
+    These are places, not individual voters. “Where Likud is strong, the place has more people born in Africa”
+    means those hexagons have more residents born in Africa than the country as a whole.
   </p>
 </header>
 <nav>
@@ -163,10 +160,10 @@
   <a href="#voters">Who lives there</a>
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
-  <a href="#shap">What the models use</a>
+  <a href="#shap">What the census uses</a>
   <a href="#gaps">Places that don’t fit</a>
   <a href="#moran">Where support clusters</a>
-  <a href="#extras">Sirens and checks</a>
+  <a href="#extras">How much place explains</a>
   <a href="#sources">Sources</a>
   <a href="#method">How this was built</a>
 </nav>
@@ -174,7 +171,7 @@
   <section id="results">
     <h2>The map of winners</h2>
     <p>
-      The bars are the average share of the vote across places, not the official national result.
+      The bars are the average share across hexagons, not the official national result.
       A quiet hexagon counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
     </p>
     <div id="meanShareChart" style="height:380px"></div>
@@ -216,19 +213,12 @@
       Blue means when one is strong, the other is weak.
       The number runs from −1 (always opposite) to +1 (always together). Zero means no link.
     </p>
+    <p class="muted">This is a rank correlation: it asks whether the hexagons line up in the same order for both parties, so one huge party cannot dominate the picture.</p>
     <div class="note">
-      Shares on one place add up to 100%. A gain for one party is a loss for the others,
+      Shares on one hexagon add up to 100%. A gain for one party is a loss for the others,
       so the links look weaker than they would if each party were counted on its own.
       The useful question is whether parties inside a bloc stick together more than parties across the aisle.
     </div>
-    <div class="row">
-      <label><input type="radio" name="corrMethod" value="pearson" checked> Use the vote percentages</label>
-      <label><input type="radio" name="corrMethod" value="spearman"> Use the ranking of places</label>
-    </div>
-    <p class="muted">
-      “Vote percentages” lets a large swing move the result.
-      “Ranking of places” only asks whether the places line up in the same order, so one huge party cannot dominate.
-    </p>
     <div id="corrHeatmap" style="height:520px"></div>
     <h3>Do the blocs stick together?</h3>
     <p>
@@ -238,11 +228,8 @@
     <div id="blocTable"></div>
     <h3>Who does not fit their own bloc?</h3>
     <p>
-      Take one party out. Compare it with the rest of its bloc.
-      A number near 1 means it wins where its partners win.
-      A low number means it has its own map.
-      The first number gives every partner the same weight, so Likud cannot define the coalition just by being large.
-      The second number lets a large partner dominate.
+      Take one party out and compare it with the rest of its bloc. Each partner counts the same, so Likud cannot define the coalition just by being large.
+      A number near 1 means it wins where its partners win. A low number means it has its own map.
     </p>
     <div id="clusterFitTable"></div>
     <h3>Who moves with the Arab lists?</h3>
@@ -261,47 +248,35 @@
       Two parties are “next to each other” when one sits immediately above or below the other in that line.
     </p>
     <p>
-      That is not the same as rising and falling together.
+      Sitting next to each other is not the same as rising and falling together.
       The two biggest lists are often first and second, so they sit next to each other even when their shares move in opposite directions.
-      Read the cell as: of the places where the row party got votes, in what share was the column party right beside it?
     </p>
     <div id="neighborHeatmap" style="height:520px"></div>
     <div id="neighborTable"></div>
   </section>
 
   <section id="shap">
-    <h2>What actually moves the prediction</h2>
+    <h2>What the census uses</h2>
     <p>
-      Two separate models guess each party’s share of the vote.
-      The left model uses the 2022 census: age, income, education, religion, household size.
-      The right model uses what is within a seven-minute walk: shops, schools, transit, crime, sirens, shelters.
+      The bars above already say whether a trait is higher or lower where the party is strong.
+      The dot plot is the same comparison, one hexagon at a time, for readers who want the detail.
     </p>
     <div class="howto">
       <strong>How to read the dot plot</strong>
       <ol>
-        <li>Each dot is one place.</li>
-        <li>Left means that trait pulled the predicted share down. Right means it pulled the share up.</li>
-        <li>Red dots are places where the trait itself is high. Blue dots are places where it is low.</li>
-        <li>The traits at the top moved the prediction the most.</li>
-        <li>A low “share of differences explained” under the title means this portrait is weak. Treat it as a hint, not a rule.</li>
+        <li>Each dot is one hexagon.</li>
+        <li>Left means that trait pulled the party’s share down. Right means it pulled the share up.</li>
+        <li>Red dots are hexagons where the trait itself is high. Blue dots are where it is low.</li>
+        <li>The traits at the top moved the result the most.</li>
+        <li>A low percent under the title means this portrait is weak. Treat it as a hint, not a rule.</li>
       </ol>
     </div>
     <div class="row">
       <label for="shapParty">Party</label>
       <select id="shapParty"></select>
     </div>
-    <div class="grid2">
-      <div>
-        <h3>Who lives there (census)</h3>
-        <p class="muted" id="shapCensusR2"></p>
-        <img class="shap" id="shapCensusImg" alt="Census portrait of what moves the prediction"/>
-      </div>
-      <div>
-        <h3>What is within a 7-minute walk</h3>
-        <p class="muted" id="shapEnvR2"></p>
-        <img class="shap" id="shapEnvImg" alt="Surroundings portrait of what moves the prediction"/>
-      </div>
-    </div>
+    <p class="muted" id="shapCensusR2"></p>
+    <img class="shap" id="shapCensusImg" alt="Census portrait of what moves the prediction"/>
   </section>
 
   <section id="gaps">
@@ -331,17 +306,12 @@
       Support is geographic. A short bar would mean the map looks scattered.
       Every party in this election clusters. The differences are in how tight the clusters are.
     </p>
-    <div class="note">
-      Neighboring hexagons often share one polling station, so they carry the same result.
-      Clustering looks stronger here than it would on a map of separate polling stations.
-    </div>
     <div id="moranChart" style="height:380px"></div>
     <p>
       The map shows the exceptions first.
       <strong>Orange</strong> is a strong pocket surrounded by weaker support.
       <strong>Purple</strong> is a weak pocket surrounded by stronger support.
-      The solid red and blue clusters are switched off until you turn them on in the layer control.
-      Those two layers are a sample, so the map stays readable.
+      Strong-next-to-strong and weak-next-to-weak are switched off until you turn them on in the layer control.
     </p>
     <div class="row">
       <label for="moranParty">Party</label>
@@ -351,74 +321,44 @@
   </section>
 
   <section id="extras">
-    <h2>Sirens, and how much place explains</h2>
-    <h3>Census versus the street outside</h3>
+    <h2>How much place explains</h2>
     <p>
-      Each bar is how much of the place-to-place difference in a party’s share that model can explain.
-      100% would be a perfect explanation. 0% would mean the model learns nothing.
-      In almost every case, who lives there explains more than the shops, schools, and streets within a seven-minute walk.
+      Each bar is how much of the difference between hexagons that description can explain.
+      100% would be a perfect explanation. 0% would mean it learns nothing.
+      Who lives there explains more than the shops, schools, and streets within a seven-minute walk.
     </p>
     <div id="r2Chart" style="height:380px"></div>
-    <h3>Missile sirens</h3>
-    <p>
-      A siren here is a red-alert event inside the hexagon, from the Tzeva Adom archive (May 2021 to October 2026).
-      Almost every voter in this study lives in a place that recorded no siren.
-      The line chart therefore looks only at the thin slice of places that had at least one,
-      split into ten bands from fewer sirens to more.
-    </p>
-    <div id="alertsLeaders"></div>
-    <div id="alertsExposureTable"></div>
-    <div id="alertsTenthsChart" style="height:420px"></div>
-    <h3>Does the method match the published results?</h3>
-    <div id="validationBox"></div>
   </section>
 
   <section id="sources">
     <h2>Where the numbers come from</h2>
     <ul class="sources">
       <li><strong>Votes.</strong> Central Elections Committee, Knesset 26 (2026), by ballot box and by locality.</li>
-      <li><strong>Polling stations.</strong> GovMap, layer “קלפיות כנסת 26”, so each station has a point on the map.</li>
-      <li><strong>Neighborhoods.</strong> Neighborhood boundaries and the neighborhood vote file used for the winner map and the gap table.</li>
-      <li><strong>Who lives there.</strong> Central Bureau of Statistics, Census 2022, by statistical area.</li>
-      <li><strong>The grid.</strong> A mesh of small hexagons covering Israel, plus the area reachable on foot in seven minutes from each one.</li>
-      <li><strong>Sirens.</strong> Tzeva Adom archive, May 2021–October 2026.</li>
-      <li><strong>Shelters.</strong> A 2023 compilation of public shelters.</li>
-      <li><strong>Crime.</strong> Israel Police records published on data.gov.il, counted inside the seven-minute walk.</li>
-      <li><strong>Places and streets.</strong> OpenStreetMap (schools, parks, hospitals) and Overture Maps (shops and businesses).</li>
-      <li><strong>Transit.</strong> Ministry of Transport GTFS: bus routes, rail, and light rail inside the seven-minute walk.</li>
+      <li><strong>Polling stations.</strong> GovMap points for Knesset 26, so each station has a location.</li>
+      <li><strong>Neighborhoods.</strong> Neighborhood boundaries and neighborhood vote counts, used for the winner map and the places that do not fit.</li>
+      <li><strong>Who lives there.</strong> Central Bureau of Statistics, Census 2022.</li>
+      <li><strong>The street outside.</strong> Shops, schools, parks, crime, shelters, and transit within a seven-minute walk.</li>
     </ul>
   </section>
 
   <section id="method">
     <h2>How this was built</h2>
     <p>
-      Ballot boxes that share one address are added together into one polling place.
-      Each hexagon is given the nearest polling place within 1 km.
-      Hexagons with no station that close are left out.
-      A party’s share is its votes divided by valid ballots on that place, so the shares add up to 100%.
+      Ballot boxes at the same address are added into one polling place.
+      Each hexagon takes the nearest polling place within 1 km. Hexagons with no station that close are left out.
+      Polling places with fewer than 150 voters are dropped.
+      A party’s share is its votes divided by valid ballots there.
     </p>
     <p>
-      Polling places with fewer than 150 voters are dropped, and the hexagons assigned to them go too.
-      A place with many hexagons would otherwise be counted many times,
-      so each hexagon is weighted by the place’s voters divided by the number of hexagons on that place.
-      One polling place then counts once, in proportion to how many people voted there.
+      Neighboring hexagons often share one polling station, so they carry the same result.
+      Clustering looks stronger here than it would on a map of separate polling stations.
     </p>
     <p>
-      The census and the seven-minute surroundings are joined onto the same hexagon.
-      Correlations, the “who finishes next” ranking, and the bloc test all use those shares.
-      A separate model is fit for each party: it tries to predict the share from either the census or the surroundings.
-      One fifth of places is held back only to measure how much of the difference the model can explain.
-      The portraits use the places where the party’s share is in its own top 10%.
+      The census, and what is within a seven-minute walk, are attached to the same hexagon.
+      The portraits use the hexagons where that party’s share is in its own top 10%.
+      For the neighborhood gaps, those hexagons are gathered into a neighborhood and the guess is compared with the real neighborhood vote.
     </p>
-    <p>
-      For the neighborhood gaps, the census model is applied to every hexagon, the hexagons are placed in a neighborhood by their center,
-      and the guesses are averaged with the voter weights.
-      The gap is the real share minus that guess.
-    </p>
-    <p>
-      The cluster score compares each place with the places that touch it.
-      A place is marked only when that local pattern is stronger than 95% of random reshuffles of the same map.
-    </p>
+    <div id="validationBox"></div>
     <h3>What this cannot say</h3>
     <ul>
       <li>These are places, not people. A trait of a neighborhood is not a trait of every voter who lives there.</li>
@@ -539,8 +479,7 @@ function renderVoter() {
 }
 
 function corrHeatmap() {
-  const method = document.querySelector('input[name=corrMethod]:checked').value;
-  const mat = method === 'pearson' ? DATA.corr_pearson : DATA.corr_spearman;
+  const mat = DATA.corr_spearman;
   if (!mat) return;
   Plotly.newPlot('corrHeatmap', [{
     type: 'heatmap',
@@ -568,14 +507,14 @@ function plainPair(name) {
   return labels[name] || name;
 }
 function renderCorrTables() {
-  const bloc = (DATA.bloc_summary || []).filter(r => r.method === 'pearson');
+  const bloc = (DATA.bloc_summary || []).filter(r => r.method === 'spearman');
   document.getElementById('blocTable').innerHTML = tableHTML(
     ['Comparison', 'Average link (−1 to +1)', 'Party pairs'],
     bloc.map(r => [plainPair(r.pair), r.mean_r, r.pairs])
   );
   document.getElementById('clusterFitTable').innerHTML = tableHTML(
-    ['Party', 'Bloc', 'With partners weighted equally', 'When a large partner can dominate'],
-    (DATA.cluster_fit || []).map(r => [r.party, r.status, r.r_with_zscored_cluster, r.r_with_mean_share])
+    ['Party', 'Bloc', 'Same places as the rest of the bloc'],
+    (DATA.cluster_fit || []).map(r => [r.party, r.status, r.r_with_zscored_cluster])
   );
   document.getElementById('arabCorrTable').innerHTML = tableHTML(
     ['Party', 'Link with the Arab lists (−1 to +1)', 'Average share of the vote (%)'],
@@ -607,15 +546,10 @@ function neighborHeatmap() {
 function renderShap() {
   const slug = document.getElementById('shapParty').value;
   const c = (DATA.portraits_census || []).find(x => x.slug === slug);
-  const e = (DATA.portraits_environment || []).find(x => x.slug === slug);
   document.getElementById('shapCensusR2').textContent = c
-    ? `Explains about ${Math.round(c.held_out_r2 * 100)}% of place-to-place differences. Average share ${c.mean_share}%.`
-    : 'No census model for this party.';
-  document.getElementById('shapEnvR2').textContent = e
-    ? `Explains about ${Math.round(e.held_out_r2 * 100)}% of place-to-place differences. Average share ${e.mean_share}%.`
-    : 'No surroundings model for this party.';
+    ? `The census explains about ${Math.round(c.held_out_r2 * 100)}% of the differences between hexagons.`
+    : 'No census portrait for this party.';
   document.getElementById('shapCensusImg').src = `img/shap_census_${slug}.png`;
-  document.getElementById('shapEnvImg').src = `img/shap_env_${slug}.png`;
 }
 
 function renderGap() {
@@ -665,43 +599,12 @@ function r2Chart() {
   }, {responsive: true, displayModeBar: false});
 }
 
-function alertsSection() {
-  const groupLabel = {
-    no_siren: 'Places with no siren',
-    at_least_one_siren: 'Places with at least one siren',
-  };
-  const leaders = DATA.alerts_leaders || [];
-  document.getElementById('alertsLeaders').innerHTML = leaders.map(r =>
-    `<p><strong>${esc(groupLabel[r.group] || r.group)}</strong> — ${esc(r.weight_pct)}% of voters.
-     Leading party: ${esc(r.top_party)} at ${esc(r.top_share)}%, then ${esc(r.second_party)} at ${esc(r.second_share)}%.</p>`
-  ).join('');
-  document.getElementById('alertsExposureTable').innerHTML = tableHTML(
-    ['Party', 'Bloc', 'Voters in a place with no siren', 'Voters in a place with a siren', 'Average sirens per voter', 'Average sirens where there was at least one'],
-    (DATA.alerts_exposure||[]).map(r => [r.party, r.status, r.pct_no_siren + '%', r.pct_with_siren + '%', r.mean_alerts, r.mean_alerts_where_hit])
-  );
-  const summary = DATA.alerts_tenths_summary || [];
-  const shares = DATA.alerts_tenths_shares || [];
-  if (shares.length) {
-    const keys = Object.keys(shares[0]);
-    const traces = keys.map(k => ({
-      type: 'scatter', mode: 'lines+markers', name: k,
-      x: summary.map(s => s.tenth + '\\n' + s.alerts),
-      y: shares.map(row => row[k])
-    }));
-    Plotly.newPlot('alertsTenthsChart', traces, {
-      margin: {t: 30, r: 10, b: 80, l: 50},
-      yaxis: { title: 'Average share of the vote (%)' },
-      title: 'Among places that had a siren, from fewer sirens to more'
-    }, {responsive: true, displayModeBar: false});
-  }
+function showValidation() {
   const v = DATA.validation || {};
   document.getElementById('validationBox').innerHTML =
-    `<p>Where a town has one published winning party, the nearest-station method names the same winner in
-     <strong>${esc(v.winner_match_pct)}%</strong> of places
-     (${esc(v.winner_matched)} of ${esc(v.winner_compared)}).</p>
-     <p>A second check compares the census count of adults with the station’s list of eligible voters,
-     for stations within 500 metres. Across ${esc(v.eligible_stations)} stations the typical miss is
-     ${esc(v.eligible_median_error)} people. Taking the size of every miss into account, the figure is ${esc(v.eligible_rmse)} people.</p>`;
+    `<p>Where a town has one published winning party, giving each hexagon the nearest station names the same winner in
+     <strong>${esc(v.winner_match_pct)}%</strong> of hexagons
+     (${esc(v.winner_matched)} of ${esc(v.winner_compared)}).</p>`;
 }
 
 function init() {
@@ -719,14 +622,11 @@ function init() {
   moranChart();
   renderMoranMap();
   r2Chart();
-  alertsSection();
+  showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
   document.getElementById('shapParty').addEventListener('change', renderShap);
   document.getElementById('gapParty').addEventListener('change', renderGap);
   document.getElementById('moranParty').addEventListener('change', renderMoranMap);
-  document.querySelectorAll('input[name=corrMethod]').forEach(el =>
-    el.addEventListener('change', corrHeatmap)
-  );
 }
 init();
 </script>
