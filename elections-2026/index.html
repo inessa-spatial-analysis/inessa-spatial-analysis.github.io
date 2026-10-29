@@ -147,8 +147,7 @@
   <p class="pill">Knesset 26 · Israel · 2026</p>
   <h1>Where each party’s voters live</h1>
   <p>
-    The charts use small hexagons, about a city block or two. Each one takes the result of the nearest polling station.
-    The map under the bars is the exception: it shows neighborhoods, and who won each one.
+    The charts and the winner map use small hexagons, about a city block or two. Each one takes the result of the nearest polling station.
   </p>
   <p class="muted">
     These are places, not individual voters. “Where Likud is strong, the place has more people born in Africa”
@@ -182,13 +181,9 @@
       A quiet hexagon counts the same as a crowded one.
     </p>
     <div id="turnoutChart" style="height:380px"></div>
-    <h3>Who won each neighborhood</h3>
-    <p>
-      Each polygon is a neighborhood, colored by the party that came first there.
-      Open the layer control on the map and switch to <strong>Coalition / Opposition / Arab</strong>
-      if you want the same map in three colors instead of one color per party.
-    </p>
-    <iframe class="map" src="maps/winners.html" title="Neighborhood winners"></iframe>
+    <h3>Who won each hexagon</h3>
+    <p>Each hexagon is colored by the party that came first there.</p>
+    <iframe class="map" src="https://clausa.app.carto.com/map/678b9d03-3d03-4602-b0fe-0d5b624b2b06" title="Winning party by hexagon" allow="clipboard-write"></iframe>
   </section>
 
   <section id="voters">
