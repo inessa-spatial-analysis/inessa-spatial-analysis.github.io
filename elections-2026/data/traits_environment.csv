@@ -1,0 +1,243 @@
+party,column,feature,mean_abs_shap,shap_direction,strong,overall,in_sentence,letter,slug,status
+Likud (הליכוד),crime_7min,Crime within 7 minutes,5.388,higher share,3.56,2.64,True,מחל,Likud,Coalition
+Likud (הליכוד),n_shelters_7min,Bomb shelters within 7 minutes,1.9,higher share,4.0,1.0,True,מחל,Likud,Coalition
+Likud (הליכוד),n_bus_routes_7min,Bus routes within 7 minutes,1.835,lower share,14.0,18.0,True,מחל,Likud,Coalition
+Likud (הליכוד),park,Parks within 7 minutes,1.61,higher share,1.7,2.2,False,מחל,Likud,Coalition
+Likud (הליכוד),beauty_7min,Beauty places within 7 minutes,1.025,higher share,0.3,0.4,False,מחל,Likud,Coalition
+Likud (הליכוד),parking,Parking within 7 minutes,0.851,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),school,Schools within 7 minutes,0.806,lower share,0.0,0.6,True,מחל,Likud,Coalition
+Likud (הליכוד),fashion_7min,Fashion shops within 7 minutes,0.762,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),culture_7min,Culture within 7 minutes,0.511,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),food_7min,Food places within 7 minutes,0.496,lower share,0.2,0.4,True,מחל,Likud,Coalition
+Likud (הליכוד),offices_7min,Offices within 7 minutes,0.34,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),poi_diversity_7min,POI diversity within 7 minutes,0.266,lower share,0.94,0.94,False,מחל,Likud,Coalition
+Likud (הליכוד),daily_shopping_7min,Daily shops within 7 minutes,0.156,lower share,0.0,0.1,True,מחל,Likud,Coalition
+Likud (הליכוד),synagogues_7min,Synagogues within 7 minutes,0.141,higher share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),nightlife_7min,Nightlife within 7 minutes,0.127,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),health_7min,Clinics and hospitals within 7 minutes,0.112,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),mall,Malls within 7 minutes,0.106,higher share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),kindergarten,Kindergartens within 7 minutes,0.087,higher share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),higher_education_7min,Colleges and universities within 7 minutes,0.065,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),n_train_stations_7min,Train stations within 7 minutes,0.019,higher share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),n_lrt_stations_7min,Light rail stations within 7 minutes,0.002,lower share,0.0,0.0,False,מחל,Likud,Coalition
+Likud (הליכוד),n_alerts,Missile alerts in the cell,0.0,,,,False,מחל,Likud,Coalition
+Yashar (ישר),crime_7min,Crime within 7 minutes,2.724,lower share,0.03,2.64,True,דרך,Yashar,Opposition
+Yashar (ישר),park,Parks within 7 minutes,2.215,higher share,1.7,2.2,False,דרך,Yashar,Opposition
+Yashar (ישר),beauty_7min,Beauty places within 7 minutes,1.487,higher share,0.0,0.4,False,דרך,Yashar,Opposition
+Yashar (ישר),n_shelters_7min,Bomb shelters within 7 minutes,1.257,higher share,2.0,1.0,True,דרך,Yashar,Opposition
+Yashar (ישר),school,Schools within 7 minutes,0.958,lower share,0.0,0.6,True,דרך,Yashar,Opposition
+Yashar (ישר),poi_diversity_7min,POI diversity within 7 minutes,0.93,higher share,0.96,0.94,False,דרך,Yashar,Opposition
+Yashar (ישר),n_bus_routes_7min,Bus routes within 7 minutes,0.866,lower share,6.0,18.0,True,דרך,Yashar,Opposition
+Yashar (ישר),parking,Parking within 7 minutes,0.812,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),kindergarten,Kindergartens within 7 minutes,0.621,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),culture_7min,Culture within 7 minutes,0.433,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),fashion_7min,Fashion shops within 7 minutes,0.348,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),offices_7min,Offices within 7 minutes,0.298,lower share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),nightlife_7min,Nightlife within 7 minutes,0.17,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),food_7min,Food places within 7 minutes,0.13,higher share,0.1,0.4,False,דרך,Yashar,Opposition
+Yashar (ישר),daily_shopping_7min,Daily shops within 7 minutes,0.116,higher share,0.0,0.1,False,דרך,Yashar,Opposition
+Yashar (ישר),mall,Malls within 7 minutes,0.088,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),synagogues_7min,Synagogues within 7 minutes,0.057,lower share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),health_7min,Clinics and hospitals within 7 minutes,0.043,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),higher_education_7min,Colleges and universities within 7 minutes,0.023,lower share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),n_train_stations_7min,Train stations within 7 minutes,0.001,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),n_lrt_stations_7min,Light rail stations within 7 minutes,0.001,higher share,0.0,0.0,False,דרך,Yashar,Opposition
+Yashar (ישר),n_alerts,Missile alerts in the cell,0.0,,,,False,דרך,Yashar,Opposition
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),park,Parks within 7 minutes,6.513,lower share,0.0,2.2,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),crime_7min,Crime within 7 minutes,5.893,lower share,0.01,2.64,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),n_shelters_7min,Bomb shelters within 7 minutes,3.152,lower share,0.0,1.0,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),food_7min,Food places within 7 minutes,1.196,higher share,0.2,0.4,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),poi_diversity_7min,POI diversity within 7 minutes,0.704,higher share,0.92,0.94,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),fashion_7min,Fashion shops within 7 minutes,0.67,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),offices_7min,Offices within 7 minutes,0.657,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),beauty_7min,Beauty places within 7 minutes,0.591,lower share,0.0,0.4,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),school,Schools within 7 minutes,0.581,higher share,0.0,0.6,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),n_bus_routes_7min,Bus routes within 7 minutes,0.421,lower share,4.0,18.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),kindergarten,Kindergartens within 7 minutes,0.364,lower share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),synagogues_7min,Synagogues within 7 minutes,0.302,lower share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),daily_shopping_7min,Daily shops within 7 minutes,0.151,higher share,0.0,0.1,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),health_7min,Clinics and hospitals within 7 minutes,0.135,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),higher_education_7min,Colleges and universities within 7 minutes,0.071,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),parking,Parking within 7 minutes,0.065,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),mall,Malls within 7 minutes,0.054,lower share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),culture_7min,Culture within 7 minutes,0.053,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),nightlife_7min,Nightlife within 7 minutes,0.032,lower share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),n_lrt_stations_7min,Light rail stations within 7 minutes,0.02,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),n_alerts,Missile alerts in the cell,0.001,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),n_train_stations_7min,Train stations within 7 minutes,0.001,higher share,0.0,0.0,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+B’Yachad / Together (ביחד),crime_7min,Crime within 7 minutes,1.684,lower share,2.21,2.64,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),park,Parks within 7 minutes,1.598,higher share,3.2,2.2,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),beauty_7min,Beauty places within 7 minutes,0.945,higher share,1.0,0.4,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),kindergarten,Kindergartens within 7 minutes,0.703,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),parking,Parking within 7 minutes,0.565,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),n_bus_routes_7min,Bus routes within 7 minutes,0.426,lower share,23.0,18.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),school,Schools within 7 minutes,0.418,lower share,0.6,0.6,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),n_shelters_7min,Bomb shelters within 7 minutes,0.413,higher share,1.0,1.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),poi_diversity_7min,POI diversity within 7 minutes,0.366,higher share,0.93,0.94,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),culture_7min,Culture within 7 minutes,0.243,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),fashion_7min,Fashion shops within 7 minutes,0.204,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),nightlife_7min,Nightlife within 7 minutes,0.159,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),food_7min,Food places within 7 minutes,0.095,higher share,0.8,0.4,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),offices_7min,Offices within 7 minutes,0.092,lower share,0.5,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),mall,Malls within 7 minutes,0.086,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),daily_shopping_7min,Daily shops within 7 minutes,0.069,higher share,0.3,0.1,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),health_7min,Clinics and hospitals within 7 minutes,0.027,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),synagogues_7min,Synagogues within 7 minutes,0.017,lower share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),higher_education_7min,Colleges and universities within 7 minutes,0.012,lower share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),n_train_stations_7min,Train stations within 7 minutes,0.001,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),n_lrt_stations_7min,Light rail stations within 7 minutes,0.0,higher share,0.0,0.0,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),n_alerts,Missile alerts in the cell,0.0,,,,False,רק,BYachad_-_Together,Opposition
+Ra’am / United Arab List (רע״ם),crime_7min,Crime within 7 minutes,5.218,lower share,0.0,2.64,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),park,Parks within 7 minutes,2.87,lower share,0.0,2.2,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),n_shelters_7min,Bomb shelters within 7 minutes,2.317,lower share,0.0,1.0,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),school,Schools within 7 minutes,1.089,higher share,0.0,0.6,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),poi_diversity_7min,POI diversity within 7 minutes,0.664,lower share,0.0,0.94,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),beauty_7min,Beauty places within 7 minutes,0.648,lower share,0.0,0.4,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),n_bus_routes_7min,Bus routes within 7 minutes,0.516,lower share,3.0,18.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),food_7min,Food places within 7 minutes,0.295,higher share,0.0,0.4,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),offices_7min,Offices within 7 minutes,0.098,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),fashion_7min,Fashion shops within 7 minutes,0.09,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),daily_shopping_7min,Daily shops within 7 minutes,0.061,higher share,0.0,0.1,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),culture_7min,Culture within 7 minutes,0.057,lower share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),kindergarten,Kindergartens within 7 minutes,0.054,lower share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),synagogues_7min,Synagogues within 7 minutes,0.043,lower share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),parking,Parking within 7 minutes,0.03,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),higher_education_7min,Colleges and universities within 7 minutes,0.021,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),nightlife_7min,Nightlife within 7 minutes,0.02,lower share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),health_7min,Clinics and hospitals within 7 minutes,0.019,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),mall,Malls within 7 minutes,0.008,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),n_lrt_stations_7min,Light rail stations within 7 minutes,0.004,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),n_train_stations_7min,Train stations within 7 minutes,0.003,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),n_alerts,Missile alerts in the cell,0.001,higher share,0.0,0.0,False,עם,Raam_-_United_Arab_List,Arab Parties
+The Democrats (הדמוקרטים),crime_7min,Crime within 7 minutes,1.668,lower share,2.98,2.64,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),n_shelters_7min,Bomb shelters within 7 minutes,1.394,higher share,5.0,1.0,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),culture_7min,Culture within 7 minutes,1.068,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),parking,Parking within 7 minutes,0.611,higher share,0.4,0.0,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),school,Schools within 7 minutes,0.554,lower share,0.0,0.6,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),nightlife_7min,Nightlife within 7 minutes,0.549,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),park,Parks within 7 minutes,0.47,higher share,3.1,2.2,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),poi_diversity_7min,POI diversity within 7 minutes,0.416,higher share,0.92,0.94,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),n_bus_routes_7min,Bus routes within 7 minutes,0.393,lower share,26.0,18.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),food_7min,Food places within 7 minutes,0.254,higher share,1.3,0.4,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),fashion_7min,Fashion shops within 7 minutes,0.148,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),beauty_7min,Beauty places within 7 minutes,0.147,higher share,0.8,0.4,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),offices_7min,Offices within 7 minutes,0.124,lower share,0.5,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),higher_education_7min,Colleges and universities within 7 minutes,0.092,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),daily_shopping_7min,Daily shops within 7 minutes,0.085,higher share,0.4,0.1,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),kindergarten,Kindergartens within 7 minutes,0.065,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),health_7min,Clinics and hospitals within 7 minutes,0.061,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),synagogues_7min,Synagogues within 7 minutes,0.04,lower share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),mall,Malls within 7 minutes,0.03,lower share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),n_lrt_stations_7min,Light rail stations within 7 minutes,0.003,higher share,0.0,0.0,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),n_train_stations_7min,Train stations within 7 minutes,0.0,,,,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),n_alerts,Missile alerts in the cell,0.0,,,,False,אמת,The_Democrats,Opposition
+Yisrael Beiteinu (ישראל ביתנו),crime_7min,Crime within 7 minutes,1.302,higher share,6.48,2.64,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),beauty_7min,Beauty places within 7 minutes,0.642,higher share,1.0,0.4,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),school,Schools within 7 minutes,0.339,lower share,0.9,0.6,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),kindergarten,Kindergartens within 7 minutes,0.289,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),n_shelters_7min,Bomb shelters within 7 minutes,0.246,lower share,1.0,1.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),fashion_7min,Fashion shops within 7 minutes,0.211,lower share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),n_bus_routes_7min,Bus routes within 7 minutes,0.193,lower share,26.0,18.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),culture_7min,Culture within 7 minutes,0.127,lower share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),park,Parks within 7 minutes,0.122,higher share,2.5,2.2,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),mall,Malls within 7 minutes,0.104,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),offices_7min,Offices within 7 minutes,0.101,lower share,0.5,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),food_7min,Food places within 7 minutes,0.074,lower share,0.8,0.4,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),poi_diversity_7min,POI diversity within 7 minutes,0.057,higher share,0.93,0.94,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),daily_shopping_7min,Daily shops within 7 minutes,0.057,higher share,0.3,0.1,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),nightlife_7min,Nightlife within 7 minutes,0.032,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),synagogues_7min,Synagogues within 7 minutes,0.029,lower share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),parking,Parking within 7 minutes,0.023,lower share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),health_7min,Clinics and hospitals within 7 minutes,0.02,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),higher_education_7min,Colleges and universities within 7 minutes,0.016,lower share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),n_lrt_stations_7min,Light rail stations within 7 minutes,0.007,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),n_train_stations_7min,Train stations within 7 minutes,0.002,higher share,0.0,0.0,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),n_alerts,Missile alerts in the cell,0.0,,,,False,ל,Yisrael_Beiteinu,Opposition
+Otzma Yehudit (עוצמה יהודית),crime_7min,Crime within 7 minutes,1.152,higher share,2.04,2.64,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),park,Parks within 7 minutes,0.552,higher share,1.9,2.2,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),n_shelters_7min,Bomb shelters within 7 minutes,0.526,higher share,2.0,1.0,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),fashion_7min,Fashion shops within 7 minutes,0.464,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),parking,Parking within 7 minutes,0.461,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),food_7min,Food places within 7 minutes,0.257,lower share,0.0,0.4,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),n_bus_routes_7min,Bus routes within 7 minutes,0.201,lower share,11.0,18.0,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),poi_diversity_7min,POI diversity within 7 minutes,0.196,lower share,0.94,0.94,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),culture_7min,Culture within 7 minutes,0.156,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),school,Schools within 7 minutes,0.13,higher share,0.4,0.6,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),daily_shopping_7min,Daily shops within 7 minutes,0.103,lower share,0.0,0.1,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),beauty_7min,Beauty places within 7 minutes,0.072,lower share,0.0,0.4,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),health_7min,Clinics and hospitals within 7 minutes,0.055,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),kindergarten,Kindergartens within 7 minutes,0.051,higher share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),offices_7min,Offices within 7 minutes,0.046,higher share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),synagogues_7min,Synagogues within 7 minutes,0.035,higher share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),nightlife_7min,Nightlife within 7 minutes,0.032,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),mall,Malls within 7 minutes,0.021,higher share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),higher_education_7min,Colleges and universities within 7 minutes,0.006,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),n_train_stations_7min,Train stations within 7 minutes,0.001,higher share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),n_lrt_stations_7min,Light rail stations within 7 minutes,0.0,lower share,0.0,0.0,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),n_alerts,Missile alerts in the cell,0.0,,,,False,ב,Otzma_Yehudit,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),park,Parks within 7 minutes,0.708,higher share,3.8,2.2,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),crime_7min,Crime within 7 minutes,0.544,lower share,2.74,2.64,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),poi_diversity_7min,POI diversity within 7 minutes,0.377,lower share,0.94,0.94,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),n_shelters_7min,Bomb shelters within 7 minutes,0.311,higher share,1.0,1.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),school,Schools within 7 minutes,0.239,higher share,1.0,0.6,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),food_7min,Food places within 7 minutes,0.226,lower share,0.2,0.4,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),synagogues_7min,Synagogues within 7 minutes,0.165,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),n_bus_routes_7min,Bus routes within 7 minutes,0.106,lower share,20.0,18.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),beauty_7min,Beauty places within 7 minutes,0.098,lower share,0.3,0.4,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),kindergarten,Kindergartens within 7 minutes,0.092,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),higher_education_7min,Colleges and universities within 7 minutes,0.088,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),offices_7min,Offices within 7 minutes,0.074,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),parking,Parking within 7 minutes,0.072,lower share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),fashion_7min,Fashion shops within 7 minutes,0.049,lower share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),mall,Malls within 7 minutes,0.032,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),daily_shopping_7min,Daily shops within 7 minutes,0.027,lower share,0.0,0.1,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),nightlife_7min,Nightlife within 7 minutes,0.013,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),culture_7min,Culture within 7 minutes,0.012,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),health_7min,Clinics and hospitals within 7 minutes,0.011,lower share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),n_train_stations_7min,Train stations within 7 minutes,0.001,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),n_lrt_stations_7min,Light rail stations within 7 minutes,0.0,lower share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),n_alerts,Missile alerts in the cell,0.0,higher share,0.0,0.0,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Shas (ש״ס),crime_7min,Crime within 7 minutes,1.923,higher share,4.62,2.64,True,שס,Shas,Coalition
+Shas (ש״ס),n_bus_routes_7min,Bus routes within 7 minutes,1.116,higher share,35.0,18.0,True,שס,Shas,Coalition
+Shas (ש״ס),beauty_7min,Beauty places within 7 minutes,0.947,lower share,0.2,0.4,True,שס,Shas,Coalition
+Shas (ש״ס),school,Schools within 7 minutes,0.592,higher share,1.0,0.6,True,שס,Shas,Coalition
+Shas (ש״ס),poi_diversity_7min,POI diversity within 7 minutes,0.487,lower share,0.94,0.94,False,שס,Shas,Coalition
+Shas (ש״ס),food_7min,Food places within 7 minutes,0.37,lower share,0.2,0.4,True,שס,Shas,Coalition
+Shas (ש״ס),fashion_7min,Fashion shops within 7 minutes,0.339,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),park,Parks within 7 minutes,0.29,higher share,2.6,2.2,False,שס,Shas,Coalition
+Shas (ש״ס),kindergarten,Kindergartens within 7 minutes,0.215,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),n_shelters_7min,Bomb shelters within 7 minutes,0.21,higher share,2.0,1.0,True,שס,Shas,Coalition
+Shas (ש״ס),nightlife_7min,Nightlife within 7 minutes,0.198,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),parking,Parking within 7 minutes,0.127,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),synagogues_7min,Synagogues within 7 minutes,0.125,higher share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),offices_7min,Offices within 7 minutes,0.112,higher share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),daily_shopping_7min,Daily shops within 7 minutes,0.057,lower share,0.0,0.1,True,שס,Shas,Coalition
+Shas (ש״ס),culture_7min,Culture within 7 minutes,0.057,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),health_7min,Clinics and hospitals within 7 minutes,0.019,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),mall,Malls within 7 minutes,0.016,higher share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),higher_education_7min,Colleges and universities within 7 minutes,0.009,higher share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),n_train_stations_7min,Train stations within 7 minutes,0.004,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),n_lrt_stations_7min,Light rail stations within 7 minutes,0.001,lower share,0.0,0.0,False,שס,Shas,Coalition
+Shas (ש״ס),n_alerts,Missile alerts in the cell,0.0,higher share,0.0,0.0,False,שס,Shas,Coalition
+United Torah Judaism (יהדות התורה),n_bus_routes_7min,Bus routes within 7 minutes,3.089,higher share,39.0,18.0,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),school,Schools within 7 minutes,1.675,higher share,1.2,0.6,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),beauty_7min,Beauty places within 7 minutes,1.606,lower share,0.3,0.4,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),crime_7min,Crime within 7 minutes,1.311,higher share,4.42,2.64,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),poi_diversity_7min,POI diversity within 7 minutes,1.032,lower share,0.94,0.94,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),food_7min,Food places within 7 minutes,0.883,lower share,0.3,0.4,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),kindergarten,Kindergartens within 7 minutes,0.353,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),offices_7min,Offices within 7 minutes,0.326,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),park,Parks within 7 minutes,0.195,higher share,2.7,2.2,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),parking,Parking within 7 minutes,0.169,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),n_shelters_7min,Bomb shelters within 7 minutes,0.159,lower share,1.0,1.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),synagogues_7min,Synagogues within 7 minutes,0.13,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),daily_shopping_7min,Daily shops within 7 minutes,0.112,lower share,0.1,0.1,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),fashion_7min,Fashion shops within 7 minutes,0.069,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),n_train_stations_7min,Train stations within 7 minutes,0.057,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),higher_education_7min,Colleges and universities within 7 minutes,0.047,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),nightlife_7min,Nightlife within 7 minutes,0.04,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),health_7min,Clinics and hospitals within 7 minutes,0.027,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),culture_7min,Culture within 7 minutes,0.021,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),mall,Malls within 7 minutes,0.014,lower share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),n_lrt_stations_7min,Light rail stations within 7 minutes,0.0,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),n_alerts,Missile alerts in the cell,0.0,higher share,0.0,0.0,False,ג,United_Torah_Judaism,Coalition

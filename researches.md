@@ -28,6 +28,18 @@ Understanding the specific factors that drive planning approval decisions in the
 * **[Github](https://github.com/Ines2607/Group-Project)**
 
 
+## ELECTIONS
+
+### Israel 2026 Knesset election — who votes where
+**Challenge:** Turn ballot-box results into an interactive, place-based story: who lives where each party is strong, which parties move together, which neighborhoods break the demographic pattern, and how support clusters in space.
+
+**Solution**
+* Linked every H3 hex to its nearest polling place and joined Census 2022 demographics plus 7-minute surroundings (POIs, crime, transit, alerts, shelters).
+* Built random-forest + SHAP portraits for each major party (census model and surroundings model), party-share correlations, rank-neighbor pairs, Moran’s I maps, and neighborhood outlier maps (real share vs predicted).
+* Published a static interactive page (Plotly + Folium) anyone can open without credentials.
+
+**[Interactive page](elections-2026/)**
+
 ## PUBLIC PLACES
 
 ### Public Space "Foaminess" Analysis (collaboration with Habidatum)

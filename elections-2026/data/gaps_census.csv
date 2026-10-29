@@ -1,0 +1,363 @@
+neighborhood_id,locality,neighborhood,party,actual_pct,predicted_pct,error,valid_ballots,selected_votes,direction,letter,slug
+4526,א-דחי,א-דחי,Hadash–Ta’al / Joint List (חד״ש-תע״ל),79.3,56.1,23.2,434,430,higher,ודם,Hadash-Taal_-_Joint_List
+3573,אבן יהודה,אבן יהודה,Likud (הליכוד),10.3,20.8,-10.5,1839,1772,lower,מחל,Likud
+3573,אבן יהודה,אבן יהודה,Yashar (ישר),39.2,27.2,12.0,1839,1772,higher,דרך,Yashar
+3517,אודים,אודים,Yashar (ישר),49.1,38.7,10.4,666,637,higher,דרך,Yashar
+2449,אום אל-פחם,עין אלד'רוה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),92.7,81.1,11.6,1119,1110,higher,ודם,Hadash-Taal_-_Joint_List
+4202,אום אל-קוטוף,אום אל-קוטוף,Hadash–Ta’al / Joint List (חד״ש-תע״ל),74.5,45.1,29.5,761,758,higher,ודם,Hadash-Taal_-_Joint_List
+246,אופקים,מישור הגפן,Yisrael Beiteinu (ישראל ביתנו),23.3,10.0,13.3,363,343,higher,ל,Yisrael_Beiteinu
+2122,אור עקיבא,אורות,Likud (הליכוד),52.2,37.1,15.1,677,627,higher,מחל,Likud
+4678,אורנית,אורנית,Yashar (ישר),27.3,11.4,15.8,4712,4209,higher,דרך,Yashar
+4678,אורנית,אורנית,B’Yachad / Together (ביחד),19.9,7.7,12.1,4712,4209,higher,רק,BYachad_-_Together
+3600,אחיסמך,אחיסמך,United Torah Judaism (יהדות התורה),0.1,32.1,-31.9,776,759,lower,ג,United_Torah_Judaism
+3600,אחיסמך,אחיסמך,Likud (הליכוד),61.0,27.8,33.2,776,759,higher,מחל,Likud
+1322,איכסאל,אזור בתי הספר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),88.2,76.7,11.5,7740,7707,higher,ודם,Hadash-Taal_-_Joint_List
+2071,אילת,תיירות חוף צפוני,Likud (הליכוד),41.6,27.8,13.8,1450,1362,higher,מחל,Likud
+1502,איעבלין,אל-ח'לה,Ra’am / United Arab List (רע״ם),14.2,26.4,-12.2,1138,1130,lower,עם,Raam_-_United_Arab_List
+3655,אל-בוקיעה (פקיעין),אל-בוקיעה (פקיעין),Hadash–Ta’al / Joint List (חד״ש-תע״ל),50.0,25.3,24.7,527,522,higher,ודם,Hadash-Taal_-_Joint_List
+1353,אל-ביענה,אל-קלעה,Ra’am / United Arab List (רע״ם),52.3,35.3,17.0,1858,1853,higher,עם,Raam_-_United_Arab_List
+1353,אל-ביענה,אל-קלעה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),46.8,60.1,-13.3,1858,1853,lower,ודם,Hadash-Taal_-_Joint_List
+1355,אל-ביענה,ר'דארה,Ra’am / United Arab List (רע״ם),19.8,35.3,-15.6,585,582,lower,עם,Raam_-_United_Arab_List
+1355,אל-ביענה,ר'דארה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),76.5,60.1,16.3,585,582,higher,ודם,Hadash-Taal_-_Joint_List
+4737,אל-הוזייל (שבט),אל-הוזייל (שבט),Ra’am / United Arab List (רע״ם),90.7,4.5,86.2,316,312,higher,עם,Raam_-_United_Arab_List
+4737,אל-הוזייל (שבט),אל-הוזייל (שבט),Likud (הליכוד),0.0,26.2,-26.2,316,312,lower,מחל,Likud
+4737,אל-הוזייל (שבט),אל-הוזייל (שבט),B’Yachad / Together (ביחד),0.0,10.4,-10.4,316,312,lower,רק,BYachad_-_Together
+4737,אל-הוזייל (שבט),אל-הוזייל (שבט),Yashar (ישר),0.6,17.5,-16.9,316,312,lower,דרך,Yashar
+4169,אל-משהד,אל-משהד,Ra’am / United Arab List (רע״ם),52.5,41.6,10.9,3484,3467,higher,עם,Raam_-_United_Arab_List
+4085,אלומה,אלומה,Likud (הליכוד),7.6,22.5,-14.9,633,605,lower,מחל,Likud
+4085,אלומה,אלומה,United Torah Judaism (יהדות התורה),15.0,4.5,10.5,633,605,higher,ג,United_Torah_Judaism
+4085,אלומה,אלומה,Shas (ש״ס),29.4,15.4,14.1,633,605,higher,שס,Shas
+2358,אשקלון,אגמים מזרח,Yisrael Beiteinu (ישראל ביתנו),50.2,9.3,40.9,527,496,higher,ל,Yisrael_Beiteinu
+2369,אשקלון,רצועת חוף דרומית,Yisrael Beiteinu (ישראל ביתנו),31.8,11.9,19.9,458,431,higher,ל,Yisrael_Beiteinu
+2375,אשקלון,עיר היין,Likud (הליכוד),39.4,28.2,11.1,8463,7712,higher,מחל,Likud
+2376,אשקלון,עיר ימים,Likud (הליכוד),40.1,28.1,12.0,501,456,higher,מחל,Likud
+3384,אשרת,אשרת,Likud (הליכוד),46.9,32.9,13.9,386,367,higher,מחל,Likud
+3645,באר טובייה,באר טובייה,Yashar (ישר),47.7,30.4,17.3,719,675,higher,דרך,Yashar
+3645,באר טובייה,באר טובייה,Otzma Yehudit (עוצמה יהודית),3.9,16.4,-12.5,719,675,lower,ב,Otzma_Yehudit
+2912,באר שבע,נחל בקע,Likud (הליכוד),43.1,31.9,11.3,1137,1071,higher,מחל,Likud
+2912,באר שבע,נחל בקע,Yisrael Beiteinu (ישראל ביתנו),22.3,10.8,11.6,1137,1071,higher,ל,Yisrael_Beiteinu
+3866,ביצרון,ביצרון,Yashar (ישר),48.5,36.1,12.5,721,688,higher,דרך,Yashar
+3866,ביצרון,ביצרון,Likud (הליכוד),8.4,20.6,-12.1,721,688,lower,מחל,Likud
+3090,בית אלפא,בית אלפא,Likud (הליכוד),10.0,22.3,-12.3,535,509,lower,מחל,Likud
+3090,בית אלפא,בית אלפא,Yashar (ישר),40.1,27.5,12.5,535,509,higher,דרך,Yashar
+3659,בית גמליאל,בית גמליאל,Religious Zionist Party / Zehut (הציונות הדתית - זהות),31.4,13.6,17.9,624,522,higher,ט,Religious_Zionist_Party_-_Zehut
+3085,בית חלקייה,בית חלקייה,United Torah Judaism (יהדות התורה),86.2,74.7,11.6,474,458,higher,ג,United_Torah_Judaism
+2987,בית יצחק-שער חפר,בית יצחק-שער חפר,Likud (הליכוד),6.9,18.7,-11.9,1409,1370,lower,מחל,Likud
+4572,בית לחם הגלילית,בית לחם הגלילית,Ra’am / United Arab List (רע״ם),0.2,12.9,-12.7,524,504,lower,עם,Raam_-_United_Arab_List
+4713,בית קשת,בית קשת,The Democrats (הדמוקרטים),43.0,32.5,10.6,411,388,higher,אמת,The_Democrats
+1815,בית שמש,הקריה החרדית,United Torah Judaism (יהדות התורה),85.9,74.7,11.2,2601,2530,higher,ג,United_Torah_Judaism
+1820,בית שמש,חזון עובדיה,United Torah Judaism (יהדות התורה),73.1,61.4,11.6,2550,2402,higher,ג,United_Torah_Judaism
+1822,בית שמש,רמת אברהם,United Torah Judaism (יהדות התורה),83.9,45.7,38.3,2182,2127,higher,ג,United_Torah_Judaism
+1822,בית שמש,רמת אברהם,Likud (הליכוד),1.6,13.1,-11.5,2182,2127,lower,מחל,Likud
+1829,בית שמש,נווה שמיר,Yashar (ישר),2.3,16.3,-14.0,2602,2321,lower,דרך,Yashar
+1829,בית שמש,נווה שמיר,Religious Zionist Party / Zehut (הציונות הדתית - זהות),18.1,5.4,12.7,2602,2321,higher,ט,Religious_Zionist_Party_-_Zehut
+1829,בית שמש,נווה שמיר,Shas (ש״ס),23.0,7.4,15.5,2602,2321,higher,שס,Shas
+1829,בית שמש,נווה שמיר,United Torah Judaism (יהדות התורה),21.2,8.3,13.0,2602,2321,higher,ג,United_Torah_Judaism
+1833,בית שמש,נתיבות ישראל,Shas (ש״ס),28.9,17.5,11.4,1040,968,higher,שס,Shas
+1833,בית שמש,נתיבות ישראל,United Torah Judaism (יהדות התורה),53.2,39.3,13.9,1040,968,higher,ג,United_Torah_Judaism
+1998,בית שמש,דובב מישרים,United Torah Judaism (יהדות התורה),60.4,40.5,20.0,5332,5043,higher,ג,United_Torah_Judaism
+4824,בן זכאי,בן זכאי,Likud (הליכוד),66.1,47.4,18.6,529,516,higher,מחל,Likud
+4824,בן זכאי,בן זכאי,Yashar (ישר),2.3,13.4,-11.0,529,516,lower,דרך,Yashar
+4367,בן עמי,בן עמי,Yashar (ישר),37.0,25.4,11.6,436,408,higher,דרך,Yashar
+81,בני ברק,רמת אלחנן,United Torah Judaism (יהדות התורה),76.0,60.3,15.7,1130,1086,higher,ג,United_Torah_Judaism
+120,בני ברק,'שיכון ג,United Torah Judaism (יהדות התורה),71.8,60.1,11.8,8193,7857,higher,ג,United_Torah_Judaism
+458,בני ברק,אזור תעשייה צפון,United Torah Judaism (יהדות התורה),40.7,12.8,27.9,1749,1685,higher,ג,United_Torah_Judaism
+458,בני ברק,אזור תעשייה צפון,Likud (הליכוד),3.7,20.7,-17.1,1749,1685,lower,מחל,Likud
+458,בני ברק,אזור תעשייה צפון,Yashar (ישר),0.5,15.4,-14.9,1749,1685,lower,דרך,Yashar
+458,בני ברק,אזור תעשייה צפון,Shas (ש״ס),45.0,12.9,32.1,1749,1685,higher,שס,Shas
+612,בני ברק,קריית איילת השחר,Yashar (ישר),2.1,16.3,-14.1,987,948,lower,דרך,Yashar
+612,בני ברק,קריית איילת השחר,Shas (ש״ס),46.5,9.5,37.0,987,948,higher,שס,Shas
+612,בני ברק,קריית איילת השחר,United Torah Judaism (יהדות התורה),22.3,9.0,13.3,987,948,higher,ג,United_Torah_Judaism
+612,בני ברק,קריית איילת השחר,Likud (הליכוד),10.2,24.6,-14.4,987,948,lower,מחל,Likud
+4384,בני נצרים,בני נצרים,Religious Zionist Party / Zehut (הציונות הדתית - זהות),88.8,77.8,11.1,373,260,higher,ט,Religious_Zionist_Party_-_Zehut
+3259,בצת,בצת,Yashar (ישר),44.0,33.4,10.6,384,361,higher,דרך,Yashar
+3575,ברקאי,ברקאי,The Democrats (הדמוקרטים),44.5,33.0,11.5,381,373,higher,אמת,The_Democrats
+3868,ברקת,ברקת,Otzma Yehudit (עוצמה יהודית),42.8,31.7,11.1,1082,1047,higher,ב,Otzma_Yehudit
+4313,בת חן,בת חן,Yashar (ישר),49.7,39.3,10.4,357,340,higher,דרך,Yashar
+1857,בת ים,שכונה דרום חדש,Likud (הליכוד),47.6,35.4,12.3,1088,1012,higher,מחל,Likud
+1870,בת ים,באבוב,Religious Zionist Party / Zehut (הציונות הדתית - זהות),19.1,6.8,12.3,533,518,higher,ט,Religious_Zionist_Party_-_Zehut
+1870,בת ים,באבוב,Shas (ש״ס),29.7,19.0,10.7,533,518,higher,שס,Shas
+979,ג'לג'וליה,אבו אלעון,Ra’am / United Arab List (רע״ם),63.3,50.6,12.8,570,570,higher,עם,Raam_-_United_Arab_List
+984,ג'לג'וליה,א-ראזי,Hadash–Ta’al / Joint List (חד״ש-תע״ל),38.3,48.6,-10.3,511,507,lower,ודם,Hadash-Taal_-_Joint_List
+984,ג'לג'וליה,א-ראזי,Ra’am / United Arab List (רע״ם),58.8,45.3,13.4,511,507,higher,עם,Raam_-_United_Arab_List
+593,גדרה,המושבה,Likud (הליכוד),50.8,38.3,12.5,806,714,higher,מחל,Likud
+4258,גן חיים,גן חיים,Yashar (ישר),52.0,35.8,16.3,433,415,higher,דרך,Yashar
+4258,גן חיים,גן חיים,Likud (הליכוד),3.4,15.2,-11.8,433,415,lower,מחל,Likud
+929,גן יבנה,שיכון עובדים,Yashar (ישר),12.0,23.7,-11.7,874,825,lower,דרך,Yashar
+929,גן יבנה,שיכון עובדים,Likud (הליכוד),50.8,34.7,16.1,874,825,higher,מחל,Likud
+4043,גן שלמה,גן שלמה,Likud (הליכוד),1.1,11.6,-10.4,366,348,lower,מחל,Likud
+3052,דיר חנא,דיר חנא,Yashar (ישר),1.1,12.0,-10.8,5338,5297,lower,דרך,Yashar
+3052,דיר חנא,דיר חנא,Hadash–Ta’al / Joint List (חד״ש-תע״ל),64.3,23.3,41.0,5338,5297,higher,ודם,Hadash-Taal_-_Joint_List
+3052,דיר חנא,דיר חנא,Likud (הליכוד),0.5,17.8,-17.4,5338,5297,lower,מחל,Likud
+3052,דיר חנא,דיר חנא,Ra’am / United Arab List (רע״ם),30.8,13.4,17.5,5338,5297,higher,עם,Raam_-_United_Arab_List
+3749,הבונים,הבונים,Yashar (ישר),48.0,37.6,10.4,317,306,higher,דרך,Yashar
+4768,הדר עם,הדר עם,B’Yachad / Together (ביחד),30.6,20.3,10.3,480,464,higher,רק,BYachad_-_Together
+4858,הרדוף,הרדוף,The Democrats (הדמוקרטים),62.4,47.0,15.3,426,417,higher,אמת,The_Democrats
+4941,הרצלייה,הרצלייה,B’Yachad / Together (ביחד),25.8,14.5,11.3,1658,1575,higher,רק,BYachad_-_Together
+4941,הרצלייה,הרצלייה,Likud (הליכוד),12.4,22.4,-10.1,1658,1575,lower,מחל,Likud
+4941,הרצלייה,הרצלייה,Yashar (ישר),41.5,23.9,17.5,1658,1575,higher,דרך,Yashar
+2249,זיכרון יעקב,חלומות זכרון יעקב,United Torah Judaism (יהדות התורה),18.4,4.4,14.0,1997,1923,higher,ג,United_Torah_Judaism
+4863,זנוח,זנוח,United Torah Judaism (יהדות התורה),2.0,37.1,-35.1,315,298,lower,ג,United_Torah_Judaism
+4863,זנוח,זנוח,Likud (הליכוד),48.7,26.3,22.4,315,298,higher,מחל,Likud
+4067,חוסנייה,חוסנייה,Ra’am / United Arab List (רע״ם),66.8,54.2,12.6,549,546,higher,עם,Raam_-_United_Arab_List
+2782,חורה,שכונה 13,Ra’am / United Arab List (רע״ם),51.5,73.0,-21.6,1494,1482,lower,עם,Raam_-_United_Arab_List
+2782,חורה,שכונה 13,Hadash–Ta’al / Joint List (חד״ש-תע״ל),46.6,23.5,23.1,1494,1482,higher,ודם,Hadash-Taal_-_Joint_List
+2785,חורה,שכונה 19,Hadash–Ta’al / Joint List (חד״ש-תע״ל),17.8,33.4,-15.6,1029,1025,lower,ודם,Hadash-Taal_-_Joint_List
+2785,חורה,שכונה 19,Ra’am / United Arab List (רע״ם),80.7,64.4,16.3,1029,1025,higher,עם,Raam_-_United_Arab_List
+2790,חורה,שכונה 3,Ra’am / United Arab List (רע״ם),91.0,73.8,17.2,2181,2151,higher,עם,Raam_-_United_Arab_List
+2790,חורה,שכונה 3,Hadash–Ta’al / Joint List (חד״ש-תע״ל),7.4,22.5,-15.0,2181,2151,lower,ודם,Hadash-Taal_-_Joint_List
+805,חיפה,המיימוני,United Torah Judaism (יהדות התורה),2.1,26.0,-23.9,699,670,lower,ג,United_Torah_Judaism
+805,חיפה,המיימוני,Yashar (ישר),27.0,14.3,12.7,699,670,higher,דרך,Yashar
+814,חיפה,"יל""ג",United Torah Judaism (יהדות התורה),27.8,42.5,-14.7,455,432,lower,ג,United_Torah_Judaism
+815,חיפה,כבאביר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),53.1,41.5,11.6,2300,2257,higher,ודם,Hadash-Taal_-_Joint_List
+835,חיפה,עבאס,Hadash–Ta’al / Joint List (חד״ש-תע״ל),73.0,45.2,27.8,1783,1764,higher,ודם,Hadash-Taal_-_Joint_List
+836,חיפה,עין הים,Hadash–Ta’al / Joint List (חד״ש-תע״ל),54.6,43.4,11.2,800,789,higher,ודם,Hadash-Taal_-_Joint_List
+837,חיפה,ואדי סאליב (עיר תחתית מזרח),Hadash–Ta’al / Joint List (חד״ש-תע״ל),43.5,29.9,13.7,1617,1573,higher,ודם,Hadash-Taal_-_Joint_List
+866,חיפה,הדר מרכז,Hadash–Ta’al / Joint List (חד״ש-תע״ל),28.2,42.0,-13.8,2842,2744,lower,ודם,Hadash-Taal_-_Joint_List
+867,חיפה,הדר מרכז,United Torah Judaism (יהדות התורה),32.2,16.1,16.0,1092,1063,higher,ג,United_Torah_Judaism
+4141,חלוץ,חלוץ,The Democrats (הדמוקרטים),40.0,29.5,10.5,351,335,higher,אמת,The_Democrats
+3672,חמאם,חמאם,Ra’am / United Arab List (רע״ם),72.1,51.0,21.1,959,954,higher,עם,Raam_-_United_Arab_List
+3672,חמאם,חמאם,Hadash–Ta’al / Joint List (חד״ש-תע״ל),24.8,35.6,-10.7,959,954,lower,ודם,Hadash-Taal_-_Joint_List
+189,טבריה,בן גוריון,Likud (הליכוד),54.7,43.0,11.7,1334,1252,higher,מחל,Likud
+191,טבריה,'שיכון ג,Likud (הליכוד),53.1,42.4,10.7,1936,1860,higher,מחל,Likud
+191,טבריה,'שיכון ג,United Torah Judaism (יהדות התורה),5.5,15.6,-10.1,1936,1860,lower,ג,United_Torah_Judaism
+1398,טורעאן,אל-מנזלה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),42.7,56.6,-13.9,2168,2162,lower,ודם,Hadash-Taal_-_Joint_List
+1398,טורעאן,אל-מנזלה,Ra’am / United Arab List (רע״ם),55.6,38.3,17.3,2168,2162,higher,עם,Raam_-_United_Arab_List
+1405,טורעאן,אל-מנאשר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),74.2,59.1,15.1,1818,1804,higher,ודם,Hadash-Taal_-_Joint_List
+1405,טורעאן,אל-מנאשר,Ra’am / United Arab List (רע״ם),24.1,36.0,-12.0,1818,1804,lower,עם,Raam_-_United_Arab_List
+523,טייבה (בשרון),אל-ח'לה א-שמאלייה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),69.8,79.9,-10.1,1179,1175,lower,ודם,Hadash-Taal_-_Joint_List
+523,טייבה (בשרון),אל-ח'לה א-שמאלייה,Ra’am / United Arab List (רע״ם),28.7,16.9,11.7,1179,1175,higher,עם,Raam_-_United_Arab_List
+154,טירת כרמל,נאות כרמל,Likud (הליכוד),52.1,39.4,12.8,913,838,higher,מחל,Likud
+4778,יוקנעם (מושבה),יוקנעם (מושבה),Likud (הליכוד),6.7,17.4,-10.7,860,830,lower,מחל,Likud
+3067,יסודות,יסודות,United Torah Judaism (יהדות התורה),90.3,70.7,19.6,399,390,higher,ג,United_Torah_Judaism
+3091,יפעת,יפעת,The Democrats (הדמוקרטים),25.0,14.9,10.1,742,712,higher,אמת,The_Democrats
+216,ירוחם,אלי כהן,Likud (הליכוד),24.3,39.5,-15.2,980,939,lower,מחל,Likud
+216,ירוחם,אלי כהן,United Torah Judaism (יהדות התורה),27.6,8.3,19.2,980,939,higher,ג,United_Torah_Judaism
+220,ירוחם,מתחם תרבות וספורט,Ra’am / United Arab List (רע״ם),12.3,2.2,10.1,505,463,higher,עם,Raam_-_United_Arab_List
+225,ירוחם,נווה עמק,Likud (הליכוד),51.1,40.2,10.8,353,323,higher,מחל,Likud
+1102,ירושלים,ארזי הבירה,Shas (ש״ס),35.8,25.3,10.6,1262,1233,higher,שס,Shas
+1109,ירושלים,בית ס'פאפא,Likud (הליכוד),0.4,14.4,-14.0,3353,3324,lower,מחל,Likud
+1109,ירושלים,בית ס'פאפא,Hadash–Ta’al / Joint List (חד״ש-תע״ל),82.3,44.9,37.4,3353,3324,higher,ודם,Hadash-Taal_-_Joint_List
+1122,ירושלים,הבוכרים,United Torah Judaism (יהדות התורה),79.0,68.1,10.9,995,964,higher,ג,United_Torah_Judaism
+1127,ירושלים,קריית בעלזא,United Torah Judaism (יהדות התורה),93.9,79.2,14.8,3757,3691,higher,ג,United_Torah_Judaism
+1136,ירושלים,הרובע היהודי,United Torah Judaism (יהדות התורה),42.1,21.9,20.2,1478,1323,higher,ג,United_Torah_Judaism
+1136,ירושלים,הרובע היהודי,Religious Zionist Party / Zehut (הציונות הדתית - זהות),26.9,14.1,12.8,1478,1323,higher,ט,Religious_Zionist_Party_-_Zehut
+1136,ירושלים,הרובע היהודי,Hadash–Ta’al / Joint List (חד״ש-תע״ל),2.9,20.2,-17.4,1478,1323,lower,ודם,Hadash-Taal_-_Joint_List
+1138,ירושלים,הרובע הנוצרי,Hadash–Ta’al / Joint List (חד״ש-תע״ל),60.6,49.2,11.4,1607,1506,higher,ודם,Hadash-Taal_-_Joint_List
+1153,ירושלים,מעלות דפנה,Shas (ש״ס),10.3,26.1,-15.9,8619,8400,lower,שס,Shas
+1153,ירושלים,מעלות דפנה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),56.0,12.0,43.9,8619,8400,higher,ודם,Hadash-Taal_-_Joint_List
+1153,ירושלים,מעלות דפנה,United Torah Judaism (יהדות התורה),17.0,45.5,-28.6,8619,8400,lower,ג,United_Torah_Judaism
+1154,ירושלים,מקור ברוך,United Torah Judaism (יהדות התורה),69.6,56.5,13.1,5621,5493,higher,ג,United_Torah_Judaism
+1156,ירושלים,מרכז העיר,United Torah Judaism (יהדות התורה),7.5,19.4,-11.9,3382,3112,lower,ג,United_Torah_Judaism
+1165,ירושלים,עין כרם,The Democrats (הדמוקרטים),33.5,15.4,18.2,999,930,higher,אמת,The_Democrats
+1172,ירושלים,ס'ור באהר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),83.8,50.7,33.0,1039,1034,higher,ודם,Hadash-Taal_-_Joint_List
+1172,ירושלים,ס'ור באהר,Likud (הליכוד),0.9,17.0,-16.1,1039,1034,lower,מחל,Likud
+1190,ירושלים,רמת מוצא,Likud (הליכוד),19.2,30.2,-11.1,491,449,lower,מחל,Likud
+1197,ירושלים,החבשים,United Torah Judaism (יהדות התורה),68.3,47.3,21.0,1331,1306,higher,ג,United_Torah_Judaism
+4421,ירחיב,ירחיב,Likud (הליכוד),45.2,32.6,12.6,650,597,higher,מחל,Likud
+1436,ירכא,ראס אל-מטל,Likud (הליכוד),28.3,44.6,-16.2,1151,1130,lower,מחל,Likud
+1436,ירכא,ראס אל-מטל,Yisrael Beiteinu (ישראל ביתנו),26.9,16.4,10.5,1151,1130,higher,ל,Yisrael_Beiteinu
+1437,ירכא,אל-כרם,Likud (הליכוד),56.4,45.8,10.6,1360,1334,higher,מחל,Likud
+3127,כאבול,כאבול,Yashar (ישר),0.3,15.4,-15.1,5660,5631,lower,דרך,Yashar
+3127,כאבול,כאבול,Hadash–Ta’al / Joint List (חד״ש-תע״ל),68.1,11.5,56.6,5660,5631,higher,ודם,Hadash-Taal_-_Joint_List
+3127,כאבול,כאבול,Likud (הליכוד),0.1,23.3,-23.3,5660,5631,lower,מחל,Likud
+3127,כאבול,כאבול,Ra’am / United Arab List (רע״ם),31.0,7.6,23.4,5660,5631,higher,עם,Raam_-_United_Arab_List
+4598,כיסרא-סמיע,כיסרא-סמיע,Yisrael Beiteinu (ישראל ביתנו),3.3,16.1,-12.8,461,461,lower,ל,Yisrael_Beiteinu
+4598,כיסרא-סמיע,כיסרא-סמיע,Likud (הליכוד),90.7,38.2,52.5,461,461,higher,מחל,Likud
+4598,כיסרא-סמיע,כיסרא-סמיע,Yashar (ישר),5.0,19.7,-14.7,461,461,lower,דרך,Yashar
+4598,כיסרא-סמיע,כיסרא-סמיע,The Democrats (הדמוקרטים),0.7,11.1,-10.4,461,461,lower,אמת,The_Democrats
+4032,כמאנה,כמאנה,Ra’am / United Arab List (רע״ם),72.8,47.7,25.1,991,986,higher,עם,Raam_-_United_Arab_List
+2861,כסיפה,שכונה 42,Ra’am / United Arab List (רע״ם),80.5,65.5,15.0,607,606,higher,עם,Raam_-_United_Arab_List
+2885,כסיפה,שכונה 32,Ra’am / United Arab List (רע״ם),83.2,60.9,22.3,4155,4118,higher,עם,Raam_-_United_Arab_List
+4293,"כפר ביל""ו","כפר ביל""ו",Likud (הליכוד),7.5,21.1,-13.7,705,670,lower,מחל,Likud
+4293,"כפר ביל""ו","כפר ביל""ו",Yashar (ישר),43.0,31.8,11.2,705,670,higher,דרך,Yashar
+3786,כפר חסידים א',כפר חסידים א',Yashar (ישר),26.5,13.9,12.6,595,540,higher,דרך,Yashar
+3786,כפר חסידים א',כפר חסידים א',United Torah Judaism (יהדות התורה),2.4,29.1,-26.7,595,540,lower,ג,United_Torah_Judaism
+3786,כפר חסידים א',כפר חסידים א',Shas (ש״ס),3.3,21.7,-18.3,595,540,lower,שס,Shas
+3786,כפר חסידים א',כפר חסידים א',Likud (הליכוד),23.5,9.7,13.8,595,540,higher,מחל,Likud
+3460,כפר יהושע,כפר יהושע,The Democrats (הדמוקרטים),29.1,18.3,10.8,774,732,higher,אמת,The_Democrats
+1464,כפר מנדא,אל-בלדה אל-קדימה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),32.4,47.9,-15.5,611,608,lower,ודם,Hadash-Taal_-_Joint_List
+1464,כפר מנדא,אל-בלדה אל-קדימה,Ra’am / United Arab List (רע״ם),66.0,48.9,17.1,611,608,higher,עם,Raam_-_United_Arab_List
+284,כפר סבא,שיכון עלייה,Likud (הליכוד),51.6,33.8,17.8,1055,1004,higher,מחל,Likud
+327,כפר סבא,הדרים,Yisrael Beiteinu (ישראל ביתנו),18.8,8.2,10.6,411,383,higher,ל,Yisrael_Beiteinu
+380,כפר סבא,כיסופים,Likud (הליכוד),42.8,22.8,20.0,368,339,higher,מחל,Likud
+380,כפר סבא,כיסופים,Yashar (ישר),12.7,26.1,-13.4,368,339,lower,דרך,Yashar
+3942,כפר פינס,כפר פינס,Religious Zionist Party / Zehut (הציונות הדתית - זהות),56.0,36.2,19.7,345,309,higher,ט,Religious_Zionist_Party_-_Zehut
+3942,כפר פינס,כפר פינס,Yashar (ישר),7.1,18.8,-11.6,345,309,lower,דרך,Yashar
+3125,כפר קאסם,כפר קאסם,Ra’am / United Arab List (רע״ם),80.5,63.5,17.0,2491,2481,higher,עם,Raam_-_United_Arab_List
+3962,לביא,לביא,Yashar (ישר),21.7,35.8,-14.1,422,327,lower,דרך,Yashar
+3962,לביא,לביא,Religious Zionist Party / Zehut (הציונות הדתית - זהות),37.3,18.6,18.7,422,327,higher,ט,Religious_Zionist_Party_-_Zehut
+3962,לביא,לביא,The Democrats (הדמוקרטים),1.2,12.5,-11.3,422,327,lower,אמת,The_Democrats
+383,לוד,מרכז העיר,Religious Zionist Party / Zehut (הציונות הדתית - זהות),19.4,7.5,11.9,2953,2678,higher,ט,Religious_Zionist_Party_-_Zehut
+428,לוד,גני איילון,United Torah Judaism (יהדות התורה),56.1,41.9,14.1,4464,4258,higher,ג,United_Torah_Judaism
+695,לוד,"חב""ד",Otzma Yehudit (עוצמה יהודית),49.7,27.8,21.9,1647,1606,higher,ב,Otzma_Yehudit
+695,לוד,"חב""ד",United Torah Judaism (יהדות התורה),3.5,14.9,-11.4,1647,1606,lower,ג,United_Torah_Judaism
+705,לוד,פרדס שניר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),58.2,24.8,33.3,377,368,higher,ודם,Hadash-Taal_-_Joint_List
+705,לוד,פרדס שניר,Likud (הליכוד),0.8,16.5,-15.7,377,368,lower,מחל,Likud
+705,לוד,פרדס שניר,Yisrael Beiteinu (ישראל ביתנו),0.0,10.1,-10.1,377,368,lower,ל,Yisrael_Beiteinu
+705,לוד,פרדס שניר,Ra’am / United Arab List (רע״ם),39.9,21.5,18.4,377,368,higher,עם,Raam_-_United_Arab_List
+726,לוד,ורדה הרכבת,Hadash–Ta’al / Joint List (חד״ש-תע״ל),50.3,27.3,23.1,1565,1546,higher,ודם,Hadash-Taal_-_Joint_List
+726,לוד,ורדה הרכבת,Ra’am / United Arab List (רע״ם),48.4,22.2,26.2,1565,1546,higher,עם,Raam_-_United_Arab_List
+726,לוד,ורדה הרכבת,Likud (הליכוד),0.3,16.8,-16.5,1565,1546,lower,מחל,Likud
+727,לוד,"מע""ר (10-8)",Hadash–Ta’al / Joint List (חד״ש-תע״ל),60.8,33.3,27.5,832,826,higher,ודם,Hadash-Taal_-_Joint_List
+727,לוד,"מע""ר (10-8)",Ra’am / United Arab List (רע״ם),36.9,22.0,14.9,832,826,higher,עם,Raam_-_United_Arab_List
+727,לוד,"מע""ר (10-8)",Likud (הליכוד),0.5,11.9,-11.4,832,826,lower,מחל,Likud
+727,לוד,"מע""ר (10-8)",Yisrael Beiteinu (ישראל ביתנו),0.0,12.3,-12.3,832,826,lower,ל,Yisrael_Beiteinu
+728,לוד,נווה ירק,Hadash–Ta’al / Joint List (חד״ש-תע״ל),76.6,54.2,22.4,939,932,higher,ודם,Hadash-Taal_-_Joint_List
+769,לוד,רסקו,Hadash–Ta’al / Joint List (חד״ש-תע״ל),18.9,7.7,11.1,462,450,higher,ודם,Hadash-Taal_-_Joint_List
+2494,לוד,נופי בן שמן,Likud (הליכוד),42.0,29.4,12.5,1466,1323,higher,מחל,Likud
+2848,לקייה,שכונה 2,Ra’am / United Arab List (רע״ם),84.0,71.2,12.8,1092,1082,higher,עם,Raam_-_United_Arab_List
+4746,לקייה,לקייה,Ra’am / United Arab List (רע״ם),95.1,76.7,18.4,351,350,higher,עם,Raam_-_United_Arab_List
+4746,לקייה,לקייה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),4.3,20.2,-15.9,351,350,lower,ודם,Hadash-Taal_-_Joint_List
+919,מבשרת ציון,"שכונת י""א",Likud (הליכוד),19.9,33.6,-13.7,1072,999,lower,מחל,Likud
+1070,מג'ד אל-כרום,א-תאנויה (בית ספר תיכון),Hadash–Ta’al / Joint List (חד״ש-תע״ל),89.5,78.5,10.9,2459,2446,higher,ודם,Hadash-Taal_-_Joint_List
+1079,מג'ד אל-כרום,אל-מרווח,Hadash–Ta’al / Joint List (חד״ש-תע״ל),89.5,77.4,12.1,3048,3024,higher,ודם,Hadash-Taal_-_Joint_List
+4692,מג'דל שמס,מג'דל שמס,Yashar (ישר),36.5,22.4,14.1,1485,1437,higher,דרך,Yashar
+4692,מג'דל שמס,מג'דל שמס,Yisrael Beiteinu (ישראל ביתנו),36.8,18.3,18.5,1485,1437,higher,ל,Yisrael_Beiteinu
+4690,מגדל,מגדל,Likud (הליכוד),46.5,33.7,12.8,1170,1112,higher,מחל,Likud
+4690,מגדל,מגדל,Ra’am / United Arab List (רע״ם),0.5,21.0,-20.5,1170,1112,lower,עם,Raam_-_United_Arab_List
+2579,מגדל העמק,מגדל אור,Shas (ש״ס),40.4,19.9,20.4,1114,1102,higher,שס,Shas
+2582,מגדל העמק,מצפה העמק ,Shas (ש״ס),10.0,21.3,-11.3,1588,1482,lower,שס,Shas
+3429,מולדת,מולדת,Yashar (ישר),50.4,40.0,10.3,712,679,higher,דרך,Yashar
+2102,מכחול,מרכז שירותים,Ra’am / United Arab List (רע״ם),87.9,77.7,10.3,702,697,higher,עם,Raam_-_United_Arab_List
+4451,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),Yashar (ישר),0.0,17.5,-17.5,1070,1052,lower,דרך,Yashar
+4451,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),Ra’am / United Arab List (רע״ם),97.6,4.5,93.1,1070,1052,higher,עם,Raam_-_United_Arab_List
+4451,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),Likud (הליכוד),0.1,26.2,-26.1,1070,1052,lower,מחל,Likud
+4451,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),B’Yachad / Together (ביחד),0.0,10.4,-10.4,1070,1052,lower,רק,BYachad_-_Together
+4322,מעגן מיכאל,מעגן מיכאל,Hadash–Ta’al / Joint List (חד״ש-תע״ל),0.4,15.6,-15.2,1279,1249,lower,ודם,Hadash-Taal_-_Joint_List
+4322,מעגן מיכאל,מעגן מיכאל,Yashar (ישר),43.3,33.0,10.3,1279,1249,higher,דרך,Yashar
+1970,מעלות-תרשיחא,הסגליות,Yisrael Beiteinu (ישראל ביתנו),24.2,12.9,11.3,306,293,higher,ל,Yisrael_Beiteinu
+1975,מעלות-תרשיחא,אורנים,Hadash–Ta’al / Joint List (חד״ש-תע״ל),12.4,29.0,-16.6,886,836,lower,ודם,Hadash-Taal_-_Joint_List
+1977,מעלות-תרשיחא,בנה ביתך צפון,Hadash–Ta’al / Joint List (חד״ש-תע״ל),75.2,55.8,19.4,1027,1013,higher,ודם,Hadash-Taal_-_Joint_List
+3819,מצפה אילן,מצפה אילן,Religious Zionist Party / Zehut (הציונות הדתית - זהות),62.2,38.1,24.1,324,267,higher,ט,Religious_Zionist_Party_-_Zehut
+3058,מצר,מצר,The Democrats (הדמוקרטים),49.1,34.9,14.2,333,320,higher,אמת,The_Democrats
+4186,מרום גולן,מרום גולן,Yashar (ישר),51.5,41.2,10.2,504,472,higher,דרך,Yashar
+3561,נהלל,נהלל,Ra’am / United Arab List (רע״ם),0.3,14.3,-14.0,730,704,lower,עם,Raam_-_United_Arab_List
+3561,נהלל,נהלל,B’Yachad / Together (ביחד),29.3,17.9,11.4,730,704,higher,רק,BYachad_-_Together
+2942,נהרייה,קרית עשור,Yisrael Beiteinu (ישראל ביתנו),28.2,14.7,13.5,390,379,higher,ל,Yisrael_Beiteinu
+4386,נווה,נווה,Religious Zionist Party / Zehut (הציונות הדתית - זהות),67.2,47.8,19.4,399,61,higher,ט,Religious_Zionist_Party_-_Zehut
+3075,נווה ימין,נווה ימין,Likud (הליכוד),47.1,32.6,14.5,749,707,higher,מחל,Likud
+4668,נווה ירק,נווה ירק,Yashar (ישר),51.0,40.1,10.9,433,416,higher,דרך,Yashar
+4405,נוף איילון,נוף איילון,Religious Zionist Party / Zehut (הציונות הדתית - זהות),67.8,55.0,12.8,1305,1176,higher,ט,Religious_Zionist_Party_-_Zehut
+91,נוף הגליל,שכונה צפונית,Hadash–Ta’al / Joint List (חד״ש-תע״ל),46.3,34.5,11.8,6696,6499,higher,ודם,Hadash-Taal_-_Joint_List
+1872,נוף הגליל,אזור תעשייה ציפורית,Likud (הליכוד),0.1,21.1,-20.9,1735,1721,lower,מחל,Likud
+1872,נוף הגליל,אזור תעשייה ציפורית,Yashar (ישר),0.1,13.8,-13.8,1735,1721,lower,דרך,Yashar
+1872,נוף הגליל,אזור תעשייה ציפורית,Hadash–Ta’al / Joint List (חד״ש-תע״ל),54.9,13.3,41.5,1735,1721,higher,ודם,Hadash-Taal_-_Joint_List
+1872,נוף הגליל,אזור תעשייה ציפורית,Ra’am / United Arab List (רע״ם),43.6,11.7,31.8,1735,1721,higher,עם,Raam_-_United_Arab_List
+1912,נוף הגליל,'הר יונה ג,Likud (הליכוד),0.1,13.4,-13.3,764,756,lower,מחל,Likud
+1912,נוף הגליל,'הר יונה ג,United Torah Judaism (יהדות התורה),80.8,21.0,59.9,764,756,higher,ג,United_Torah_Judaism
+1912,נוף הגליל,'הר יונה ג,Hadash–Ta’al / Joint List (חד״ש-תע״ל),0.0,20.9,-20.9,764,756,lower,ודם,Hadash-Taal_-_Joint_List
+3031,נחלים,נחלים,Shas (ש״ס),0.6,15.9,-15.3,777,633,lower,שס,Shas
+3031,נחלים,נחלים,United Torah Judaism (יהדות התורה),0.5,26.1,-25.6,777,633,lower,ג,United_Torah_Judaism
+3031,נחלים,נחלים,Likud (הליכוד),25.1,13.6,11.5,777,633,higher,מחל,Likud
+3031,נחלים,נחלים,Religious Zionist Party / Zehut (הציונות הדתית - זהות),43.0,22.2,20.8,777,633,higher,ט,Religious_Zionist_Party_-_Zehut
+3143,נחשון,נחשון,The Democrats (הדמוקרטים),45.9,32.9,13.1,372,357,higher,אמת,The_Democrats
+3222,נטף,נטף,Yashar (ישר),18.7,29.3,-10.6,327,315,lower,דרך,Yashar
+3222,נטף,נטף,The Democrats (הדמוקרטים),63.2,45.0,18.2,327,315,higher,אמת,The_Democrats
+3134,ניר בנים,ניר בנים,Yashar (ישר),51.1,40.2,10.9,478,458,higher,דרך,Yashar
+4556,ניר עציון,ניר עציון,Religious Zionist Party / Zehut (הציונות הדתית - זהות),42.8,28.8,14.0,311,264,higher,ט,Religious_Zionist_Party_-_Zehut
+2265,נצרת,הגליל,Likud (הליכוד),0.6,17.3,-16.7,2002,1997,lower,מחל,Likud
+2265,נצרת,הגליל,Yashar (ישר),0.8,11.6,-10.8,2002,1997,lower,דרך,Yashar
+2265,נצרת,הגליל,Hadash–Ta’al / Joint List (חד״ש-תע״ל),77.0,27.9,49.1,2002,1997,higher,ודם,Hadash-Taal_-_Joint_List
+149,נשר,גבעת עמוס,Yisrael Beiteinu (ישראל ביתנו),30.9,17.6,13.4,338,320,higher,ל,Yisrael_Beiteinu
+4262,נתיב השיירה,נתיב השיירה,Likud (הליכוד),30.9,14.9,15.9,304,285,higher,מחל,Likud
+4262,נתיב השיירה,נתיב השיירה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),0.0,23.8,-23.8,304,285,lower,ודם,Hadash-Taal_-_Joint_List
+4262,נתיב השיירה,נתיב השיירה,Yashar (ישר),32.3,15.7,16.6,304,285,higher,דרך,Yashar
+4262,נתיב השיירה,נתיב השיירה,Ra’am / United Arab List (רע״ם),0.0,19.5,-19.5,304,285,lower,עם,Raam_-_United_Arab_List
+2583,נתיבות,נטעים,Likud (הליכוד),25.2,13.9,11.4,351,341,higher,מחל,Likud
+2583,נתיבות,נטעים,Shas (ש״ס),31.1,41.7,-10.6,351,341,lower,שס,Shas
+2583,נתיבות,נטעים,United Torah Judaism (יהדות התורה),5.9,21.9,-16.0,351,341,lower,ג,United_Torah_Judaism
+2590,נתיבות,נווה נוי,Shas (ש״ס),26.1,14.6,11.5,899,858,higher,שס,Shas
+2596,נתיבות,גבעת שפרא,Likud (הליכוד),47.3,33.1,14.2,417,372,higher,מחל,Likud
+2597,נתיבות,ברית כהונה,Shas (ש״ס),38.4,25.9,12.5,1125,1103,higher,שס,Shas
+2567,נתניה,חוף הזהב,Likud (הליכוד),22.0,35.0,-13.1,515,492,lower,מחל,Likud
+2567,נתניה,חוף הזהב,Yisrael Beiteinu (ישראל ביתנו),57.9,14.0,43.9,515,492,higher,ל,Yisrael_Beiteinu
+4296,סאג'ור,סאג'ור,Hadash–Ta’al / Joint List (חד״ש-תע״ל),1.2,17.1,-15.9,1488,893,lower,ודם,Hadash-Taal_-_Joint_List
+4296,סאג'ור,סאג'ור,Ra’am / United Arab List (רע״ם),0.8,11.8,-11.0,1488,893,lower,עם,Raam_-_United_Arab_List
+1260,סח'נין,אל-בלאנה,Ra’am / United Arab List (רע״ם),40.4,29.8,10.6,1977,1969,higher,עם,Raam_-_United_Arab_List
+1268,סח'נין,אל-מסחאה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),56.5,67.0,-10.5,1179,1170,lower,ודם,Hadash-Taal_-_Joint_List
+2971,עומר,רובע ד,Ra’am / United Arab List (רע״ם),1.3,14.8,-13.6,492,473,lower,עם,Raam_-_United_Arab_List
+2972,עומר,רובע ג,Ra’am / United Arab List (רע״ם),0.9,14.8,-13.9,2030,1885,lower,עם,Raam_-_United_Arab_List
+3637,עומר,עומר,Ra’am / United Arab List (רע״ם),1.5,14.8,-13.4,2549,2370,lower,עם,Raam_-_United_Arab_List
+4722,עזריאל,עזריאל,Likud (הליכוד),57.9,46.6,11.3,536,489,higher,מחל,Likud
+3628,עזריה,עזריה,Likud (הליכוד),60.1,44.5,15.6,697,661,higher,מחל,Likud
+4494,עין אל-אסד,עין אל-אסד,Hadash–Ta’al / Joint List (חד״ש-תע״ל),3.7,17.4,-13.7,422,409,lower,ודם,Hadash-Taal_-_Joint_List
+4494,עין אל-אסד,עין אל-אסד,Yisrael Beiteinu (ישראל ביתנו),52.1,29.3,22.8,422,409,higher,ל,Yisrael_Beiteinu
+4523,עין הוד,עין הוד,The Democrats (הדמוקרטים),46.3,32.1,14.2,415,391,higher,אמת,The_Democrats
+4825,עין יהב,עין יהב,Yashar (ישר),49.9,38.3,11.6,541,507,higher,דרך,Yashar
+1534,עיספייא,שכונה מזרחית,Yashar (ישר),71.8,61.2,10.6,1283,1275,higher,דרך,Yashar
+1549,עיספייא,בתי הספר היסודיים,Yashar (ישר),71.6,59.9,11.7,1780,1754,higher,דרך,Yashar
+740,עכו,צפון הכרם,Hadash–Ta’al / Joint List (חד״ש-תע״ל),22.1,7.0,15.1,1012,972,higher,ודם,Hadash-Taal_-_Joint_List
+741,עכו,קריית וולפסון,Hadash–Ta’al / Joint List (חד״ש-תע״ל),48.9,37.6,11.2,4997,4887,higher,ודם,Hadash-Taal_-_Joint_List
+3809,ערב א-נעים,ערב א-נעים,Ra’am / United Arab List (רע״ם),79.8,61.2,18.6,457,430,higher,עם,Raam_-_United_Arab_List
+2745,ערד,גבים,United Torah Judaism (יהדות התורה),20.4,35.4,-14.9,542,494,lower,ג,United_Torah_Judaism
+2747,ערד,חלמיש,United Torah Judaism (יהדות התורה),51.2,37.3,13.9,2240,2161,higher,ג,United_Torah_Judaism
+2751,ערד,יעלים,United Torah Judaism (יהדות התורה),49.7,36.4,13.3,1502,1463,higher,ג,United_Torah_Judaism
+2766,ערד,רננים,United Torah Judaism (יהדות התורה),20.4,34.5,-14.0,962,921,lower,ג,United_Torah_Judaism
+2769,ערד,טללים,United Torah Judaism (יהדות התורה),73.4,37.5,35.9,413,399,higher,ג,United_Torah_Judaism
+2770,ערד,מעוף,United Torah Judaism (יהדות התורה),19.5,33.8,-14.3,1220,1174,lower,ג,United_Torah_Judaism
+2090,ערערה בנגב,שכונה 1,Ra’am / United Arab List (רע״ם),73.4,84.9,-11.5,2775,2753,lower,עם,Raam_-_United_Arab_List
+2090,ערערה בנגב,שכונה 1,Hadash–Ta’al / Joint List (חד״ש-תע״ל),25.2,13.4,11.8,2775,2753,higher,ודם,Hadash-Taal_-_Joint_List
+2091,ערערה בנגב,'שכונה 2ב,Ra’am / United Arab List (רע״ם),58.4,69.0,-10.6,477,476,lower,עם,Raam_-_United_Arab_List
+2091,ערערה בנגב,'שכונה 2ב,Hadash–Ta’al / Joint List (חד״ש-תע״ל),38.7,28.3,10.4,477,476,higher,ודם,Hadash-Taal_-_Joint_List
+2529,ערערה בנגב,שכונה 9,Hadash–Ta’al / Joint List (חד״ש-תע״ל),4.5,18.9,-14.5,1125,1121,lower,ודם,Hadash-Taal_-_Joint_List
+2529,ערערה בנגב,שכונה 9,Ra’am / United Arab List (רע״ם),95.0,79.0,16.0,1125,1121,higher,עם,Raam_-_United_Arab_List
+1930,פרדס חנה-כרכור,נווה אפרים,Likud (הליכוד),31.8,17.9,13.9,1604,1489,higher,מחל,Likud
+2020,פתח תקווה,בר-יהודה,Likud (הליכוד),18.4,28.9,-10.5,2353,2163,lower,מחל,Likud
+2020,פתח תקווה,בר-יהודה,United Torah Judaism (יהדות התורה),19.5,3.5,16.0,2353,2163,higher,ג,United_Torah_Judaism
+2031,פתח תקווה,קריית אלון,Likud (הליכוד),51.1,39.3,11.8,1662,1523,higher,מחל,Likud
+2669,צפת,כנען - איביקור,Otzma Yehudit (עוצמה יהודית),35.5,24.6,10.8,2470,2408,higher,ב,Otzma_Yehudit
+2670,צפת,עיר,United Torah Judaism (יהדות התורה),13.4,29.3,-15.9,650,606,lower,ג,United_Torah_Judaism
+3755,צפת,צפת,Hadash–Ta’al / Joint List (חד״ש-תע״ל),13.9,2.2,11.6,1208,1183,higher,ודם,Hadash-Taal_-_Joint_List
+266,קיסריה,שכונה 8,Yashar (ישר),35.9,23.9,12.0,1977,1880,higher,דרך,Yashar
+3760,קיסריה,קיסריה,Yashar (ישר),36.2,24.1,12.1,2193,2078,higher,דרך,Yashar
+4395,קציר,קציר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),4.1,18.6,-14.5,1433,1345,lower,ודם,Hadash-Taal_-_Joint_List
+2776,קריית אונו,אונו הצעירה,Yashar (ישר),29.0,18.6,10.5,1362,1241,higher,דרך,Yashar
+2776,קריית אונו,אונו הצעירה,B’Yachad / Together (ביחד),22.9,12.0,10.8,1362,1241,higher,רק,BYachad_-_Together
+181,קריית אתא,נווה חן,Yisrael Beiteinu (ישראל ביתנו),18.8,8.7,10.1,554,511,higher,ל,Yisrael_Beiteinu
+463,קריית גת,רמות דוד,United Torah Judaism (יהדות התורה),54.1,42.4,11.7,3172,3086,higher,ג,United_Torah_Judaism
+468,קריית גת,"צה""ל",United Torah Judaism (יהדות התורה),2.5,13.7,-11.2,3019,2865,lower,ג,United_Torah_Judaism
+1244,קריית טבעון,אלרואי,Likud (הליכוד),32.1,18.6,13.5,517,470,higher,מחל,Likud
+194,קריית מלאכי,גן שמואל,Otzma Yehudit (עוצמה יהודית),28.5,16.9,11.6,2423,2313,higher,ב,Otzma_Yehudit
+2777,קריית מלאכי,"חב""ד",Otzma Yehudit (עוצמה יהודית),38.7,22.2,16.5,3372,3237,higher,ב,Otzma_Yehudit
+4388,ראש פינה,ראש פינה,Ra’am / United Arab List (רע״ם),1.0,19.1,-18.0,1930,1826,lower,עם,Raam_-_United_Arab_List
+4388,ראש פינה,ראש פינה,Yashar (ישר),30.1,17.8,12.3,1930,1826,higher,דרך,Yashar
+911,ראשון לציון,נעורים,Yisrael Beiteinu (ישראל ביתנו),26.1,15.8,10.3,1613,1523,higher,ל,Yisrael_Beiteinu
+1787,ראשון לציון,נוריות,Likud (הליכוד),37.4,26.9,10.5,1398,1312,higher,מחל,Likud
+2740,ראשון לציון,שער הים,Likud (הליכוד),52.3,41.0,11.2,554,511,higher,מחל,Likud
+3752,רגבה,רגבה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),0.0,13.0,-13.0,677,645,lower,ודם,Hadash-Taal_-_Joint_List
+3752,רגבה,רגבה,Yashar (ישר),52.1,32.6,19.5,677,645,higher,דרך,Yashar
+4059,רווחה,רווחה,Likud (הליכוד),55.9,35.6,20.4,374,363,higher,מחל,Likud
+4142,רומאנה (רימון),רומאנה (רימון),Hadash–Ta’al / Joint List (חד״ש-תע״ל),71.4,52.6,18.8,778,768,higher,ודם,Hadash-Taal_-_Joint_List
+4142,רומאנה (רימון),רומאנה (רימון),Ra’am / United Arab List (רע״ם),27.3,40.2,-12.9,778,768,lower,עם,Raam_-_United_Arab_List
+2711,רחובות,עין גנים,Yashar (ישר),13.7,24.6,-10.9,405,372,lower,דרך,Yashar
+2711,רחובות,עין גנים,Likud (הליכוד),46.8,32.4,14.4,405,372,higher,מחל,Likud
+4968,רחובות,רחובות,B’Yachad / Together (ביחד),23.1,12.6,10.5,330,316,higher,רק,BYachad_-_Together
+3792,רכסים,רכסים,Shas (ש״ס),44.3,33.4,10.9,6825,6737,higher,שס,Shas
+124,רמלה,השופטים,Yisrael Beiteinu (ישראל ביתנו),19.9,5.8,14.1,427,408,higher,ל,Yisrael_Beiteinu
+241,רמלה,נאות יצחק רבין,Likud (הליכוד),16.6,33.9,-17.2,1487,1460,lower,מחל,Likud
+241,רמלה,נאות יצחק רבין,Ra’am / United Arab List (רע״ם),48.1,19.1,28.9,1487,1460,higher,עם,Raam_-_United_Arab_List
+675,רמלה,ג'ואריש ומיעוטים,Ra’am / United Arab List (רע״ם),17.9,29.1,-11.3,2356,2296,lower,עם,Raam_-_United_Arab_List
+694,רמלה,נווה מאיר,Likud (הליכוד),32.1,43.3,-11.2,2231,2150,lower,מחל,Likud
+694,רמלה,נווה מאיר,Hadash–Ta’al / Joint List (חד״ש-תע״ל),20.6,8.3,12.2,2231,2150,higher,ודם,Hadash-Taal_-_Joint_List
+697,רמלה,"גן חק""ל",Ra’am / United Arab List (רע״ם),60.1,46.0,14.2,1115,1104,higher,עם,Raam_-_United_Arab_List
+4942,רמלה,רמלה,Likud (הליכוד),60.4,33.3,27.1,624,593,higher,מחל,Likud
+4942,רמלה,רמלה,Hadash–Ta’al / Joint List (חד״ש-תע״ל),0.0,10.3,-10.3,624,593,lower,ודם,Hadash-Taal_-_Joint_List
+12,רמת גן,"כפר אז""ר",The Democrats (הדמוקרטים),30.5,14.3,16.1,362,348,higher,אמת,The_Democrats
+888,רמת גן,עליות,United Torah Judaism (יהדות התורה),3.0,14.2,-11.2,2808,2633,lower,ג,United_Torah_Judaism
+3956,רעננה,רעננה,Yashar (ישר),45.0,29.3,15.7,393,389,higher,דרך,Yashar
+3956,רעננה,רעננה,Likud (הליכוד),9.0,19.4,-10.4,393,389,lower,מחל,Likud
+4777,שדה אליהו,שדה אליהו,Religious Zionist Party / Zehut (הציונות הדתית - זהות),50.4,37.8,12.6,412,343,higher,ט,Religious_Zionist_Party_-_Zehut
+3382,שדי תרומות,שדי תרומות,Likud (הליכוד),68.6,57.6,11.0,347,331,higher,מחל,Likud
+4656,שואבה,שואבה,Yashar (ישר),23.2,35.6,-12.5,346,311,lower,דרך,Yashar
+3622,שילת,שילת,The Democrats (הדמוקרטים),32.3,17.8,14.5,485,467,higher,אמת,The_Democrats
+1743,שפרעם,אל-כרם,Yisrael Beiteinu (ישראל ביתנו),25.7,12.1,13.6,1090,1077,higher,ל,Yisrael_Beiteinu
+1743,שפרעם,אל-כרם,Hadash–Ta’al / Joint List (חד״ש-תע״ל),46.9,58.2,-11.3,1090,1077,lower,ודם,Hadash-Taal_-_Joint_List
+1752,שפרעם,עג'רוש,Yisrael Beiteinu (ישראל ביתנו),21.5,10.0,11.5,500,493,higher,ל,Yisrael_Beiteinu
+1752,שפרעם,עג'רוש,Ra’am / United Arab List (רע״ם),14.2,24.6,-10.4,500,493,lower,עם,Raam_-_United_Arab_List
+1759,שפרעם,ח'לאת נסים,Ra’am / United Arab List (רע״ם),12.6,24.8,-12.2,1484,1468,lower,עם,Raam_-_United_Arab_List
+477,תל אביב-יפו,פארק החורשות,The Democrats (הדמוקרטים),28.4,7.4,21.1,985,935,higher,אמת,The_Democrats
+477,תל אביב-יפו,פארק החורשות,Likud (הליכוד),11.7,26.4,-14.8,985,935,lower,מחל,Likud
+3115,תל יצחק,תל יצחק,Yashar (ישר),54.4,42.1,12.4,617,597,higher,דרך,Yashar
+3605,תקומה,תקומה,Religious Zionist Party / Zehut (הציונות הדתית - זהות),28.0,13.6,14.4,468,393,higher,ט,Religious_Zionist_Party_-_Zehut
+4861,תראבין א-ס'אנע (יישוב),תראבין א-ס'אנע (יישוב),Ra’am / United Arab List (רע״ם),94.1,77.9,16.1,580,572,higher,עם,Raam_-_United_Arab_List

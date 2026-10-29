@@ -1,0 +1,111 @@
+model,party,slug,direction,locality,neighborhood,actual_pct,predicted_pct,error,valid_ballots
+census,Likud (הליכוד),Likud,higher,כיסרא-סמיע,כיסרא-סמיע,90.7,38.2,52.5,461
+census,Likud (הליכוד),Likud,higher,אחיסמך,אחיסמך,61.0,27.8,33.2,776
+census,Likud (הליכוד),Likud,higher,רמלה,רמלה,60.4,33.3,27.1,624
+census,Likud (הליכוד),Likud,higher,זנוח,זנוח,48.7,26.3,22.4,315
+census,Likud (הליכוד),Likud,higher,רווחה,רווחה,55.9,35.6,20.4,374
+census,Likud (הליכוד),Likud,lower,אל-הוזייל (שבט),אל-הוזייל (שבט),0.0,26.2,-26.2,316
+census,Likud (הליכוד),Likud,lower,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),0.1,26.2,-26.1,1070
+census,Likud (הליכוד),Likud,lower,כאבול,כאבול,0.1,23.3,-23.3,5660
+census,Likud (הליכוד),Likud,lower,נוף הגליל,אזור תעשייה ציפורית,0.1,21.1,-20.9,1735
+census,Likud (הליכוד),Likud,lower,דיר חנא,דיר חנא,0.5,17.8,-17.4,5338
+census,Shas (ש״ס),Shas,higher,בני ברק,קריית איילת השחר,46.5,9.5,37.0,987
+census,Shas (ש״ס),Shas,higher,בני ברק,אזור תעשייה צפון,45.0,12.9,32.1,1749
+census,Shas (ש״ס),Shas,higher,מגדל העמק,מגדל אור,40.4,19.9,20.4,1114
+census,Shas (ש״ס),Shas,higher,בית שמש,נווה שמיר,23.0,7.4,15.5,2602
+census,Shas (ש״ס),Shas,higher,אלומה,אלומה,29.4,15.4,14.1,633
+census,Shas (ש״ס),Shas,lower,כפר חסידים א',כפר חסידים א',3.3,21.7,-18.3,595
+census,Shas (ש״ס),Shas,lower,ירושלים,מעלות דפנה,10.3,26.1,-15.9,8619
+census,Shas (ש״ס),Shas,lower,נחלים,נחלים,0.6,15.9,-15.3,777
+census,Shas (ש״ס),Shas,lower,מגדל העמק,מצפה העמק ,10.0,21.3,-11.3,1588
+census,Shas (ש״ס),Shas,lower,נתיבות,נטעים,31.1,41.7,-10.6,351
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,higher,נוף הגליל,'הר יונה ג,80.8,21.0,59.9,764
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,higher,בית שמש,רמת אברהם,83.9,45.7,38.3,2182
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,higher,ערד,טללים,73.4,37.5,35.9,413
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,higher,בני ברק,אזור תעשייה צפון,40.7,12.8,27.9,1749
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,higher,ירושלים,החבשים,68.3,47.3,21.0,1331
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,lower,זנוח,זנוח,2.0,37.1,-35.1,315
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,lower,אחיסמך,אחיסמך,0.1,32.1,-31.9,776
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,lower,ירושלים,מעלות דפנה,17.0,45.5,-28.6,8619
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,lower,כפר חסידים א',כפר חסידים א',2.4,29.1,-26.7,595
+census,United Torah Judaism (יהדות התורה),United_Torah_Judaism,lower,נחלים,נחלים,0.5,26.1,-25.6,777
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,higher,לוד,"חב""ד",49.7,27.8,21.9,1647
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,higher,קריית מלאכי,"חב""ד",38.7,22.2,16.5,3372
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,higher,קריית מלאכי,גן שמואל,28.5,16.9,11.6,2423
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,higher,ברקת,ברקת,42.8,31.7,11.1,1082
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,higher,צפת,כנען - איביקור,35.5,24.6,10.8,2470
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,lower,באר טובייה,באר טובייה,3.9,16.4,-12.5,719
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,lower,צפת,כנען - איביקור,35.5,24.6,10.8,2470
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,lower,ברקת,ברקת,42.8,31.7,11.1,1082
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,lower,קריית מלאכי,גן שמואל,28.5,16.9,11.6,2423
+census,Otzma Yehudit (עוצמה יהודית),Otzma_Yehudit,lower,קריית מלאכי,"חב""ד",38.7,22.2,16.5,3372
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,higher,מצפה אילן,מצפה אילן,62.2,38.1,24.1,324
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,higher,נחלים,נחלים,43.0,22.2,20.8,777
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,higher,כפר פינס,כפר פינס,56.0,36.2,19.7,345
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,higher,נווה,נווה,67.2,47.8,19.4,399
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,higher,לביא,לביא,37.3,18.6,18.7,422
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,lower,בני נצרים,בני נצרים,88.8,77.8,11.1,373
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,lower,לוד,מרכז העיר,19.4,7.5,11.9,2953
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,lower,בת ים,באבוב,19.1,6.8,12.3,533
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,lower,שדה אליהו,שדה אליהו,50.4,37.8,12.6,412
+census,Religious Zionist Party / Zehut (הציונות הדתית - זהות),Religious_Zionist_Party_-_Zehut,lower,בית שמש,נווה שמיר,18.1,5.4,12.7,2602
+census,The Democrats (הדמוקרטים),The_Democrats,higher,תל אביב-יפו,פארק החורשות,28.4,7.4,21.1,985
+census,The Democrats (הדמוקרטים),The_Democrats,higher,ירושלים,עין כרם,33.5,15.4,18.2,999
+census,The Democrats (הדמוקרטים),The_Democrats,higher,נטף,נטף,63.2,45.0,18.2,327
+census,The Democrats (הדמוקרטים),The_Democrats,higher,רמת גן,"כפר אז""ר",30.5,14.3,16.1,362
+census,The Democrats (הדמוקרטים),The_Democrats,higher,הרדוף,הרדוף,62.4,47.0,15.3,426
+census,The Democrats (הדמוקרטים),The_Democrats,lower,לביא,לביא,1.2,12.5,-11.3,422
+census,The Democrats (הדמוקרטים),The_Democrats,lower,כיסרא-סמיע,כיסרא-סמיע,0.7,11.1,-10.4,461
+census,The Democrats (הדמוקרטים),The_Democrats,lower,יפעת,יפעת,25.0,14.9,10.1,742
+census,The Democrats (הדמוקרטים),The_Democrats,lower,חלוץ,חלוץ,40.0,29.5,10.5,351
+census,The Democrats (הדמוקרטים),The_Democrats,lower,בית קשת,בית קשת,43.0,32.5,10.6,411
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,higher,נתניה,חוף הזהב,57.9,14.0,43.9,515
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,higher,אשקלון,אגמים מזרח,50.2,9.3,40.9,527
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,higher,עין אל-אסד,עין אל-אסד,52.1,29.3,22.8,422
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,higher,אשקלון,רצועת חוף דרומית,31.8,11.9,19.9,458
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,higher,מג'דל שמס,מג'דל שמס,36.8,18.3,18.5,1485
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,lower,כיסרא-סמיע,כיסרא-סמיע,3.3,16.1,-12.8,461
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,lower,לוד,"מע""ר (10-8)",0.0,12.3,-12.3,832
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,lower,לוד,פרדס שניר,0.0,10.1,-10.1,377
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,lower,קריית אתא,נווה חן,18.8,8.7,10.1,554
+census,Yisrael Beiteinu (ישראל ביתנו),Yisrael_Beiteinu,lower,ראשון לציון,נעורים,26.1,15.8,10.3,1613
+census,Yashar (ישר),Yashar,higher,רגבה,רגבה,52.1,32.6,19.5,677
+census,Yashar (ישר),Yashar,higher,הרצלייה,הרצלייה,41.5,23.9,17.5,1658
+census,Yashar (ישר),Yashar,higher,באר טובייה,באר טובייה,47.7,30.4,17.3,719
+census,Yashar (ישר),Yashar,higher,נתיב השיירה,נתיב השיירה,32.3,15.7,16.6,304
+census,Yashar (ישר),Yashar,higher,גן חיים,גן חיים,52.0,35.8,16.3,433
+census,Yashar (ישר),Yashar,lower,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),0.0,17.5,-17.5,1070
+census,Yashar (ישר),Yashar,lower,אל-הוזייל (שבט),אל-הוזייל (שבט),0.6,17.5,-16.9,316
+census,Yashar (ישר),Yashar,lower,כאבול,כאבול,0.3,15.4,-15.1,5660
+census,Yashar (ישר),Yashar,lower,בני ברק,אזור תעשייה צפון,0.5,15.4,-14.9,1749
+census,Yashar (ישר),Yashar,lower,כיסרא-סמיע,כיסרא-סמיע,5.0,19.7,-14.7,461
+census,B’Yachad / Together (ביחד),BYachad_-_Together,higher,אורנית,אורנית,19.9,7.7,12.1,4712
+census,B’Yachad / Together (ביחד),BYachad_-_Together,higher,נהלל,נהלל,29.3,17.9,11.4,730
+census,B’Yachad / Together (ביחד),BYachad_-_Together,higher,הרצלייה,הרצלייה,25.8,14.5,11.3,1658
+census,B’Yachad / Together (ביחד),BYachad_-_Together,higher,קריית אונו,אונו הצעירה,22.9,12.0,10.8,1362
+census,B’Yachad / Together (ביחד),BYachad_-_Together,higher,רחובות,רחובות,23.1,12.6,10.5,330
+census,B’Yachad / Together (ביחד),BYachad_-_Together,lower,אל-הוזייל (שבט),אל-הוזייל (שבט),0.0,10.4,-10.4,316
+census,B’Yachad / Together (ביחד),BYachad_-_Together,lower,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),0.0,10.4,-10.4,1070
+census,B’Yachad / Together (ביחד),BYachad_-_Together,lower,הדר עם,הדר עם,30.6,20.3,10.3,480
+census,B’Yachad / Together (ביחד),BYachad_-_Together,lower,רחובות,רחובות,23.1,12.6,10.5,330
+census,B’Yachad / Together (ביחד),BYachad_-_Together,lower,קריית אונו,אונו הצעירה,22.9,12.0,10.8,1362
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,higher,מסעודין אל-עזאזמה (שבט),מסעודין אל-עזאזמה (שבט),97.6,4.5,93.1,1070
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,higher,אל-הוזייל (שבט),אל-הוזייל (שבט),90.7,4.5,86.2,316
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,higher,נוף הגליל,אזור תעשייה ציפורית,43.6,11.7,31.8,1735
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,higher,רמלה,נאות יצחק רבין,48.1,19.1,28.9,1487
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,higher,לוד,ורדה הרכבת,48.4,22.2,26.2,1565
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,lower,חורה,שכונה 13,51.5,73.0,-21.6,1494
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,lower,מגדל,מגדל,0.5,21.0,-20.5,1170
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,lower,נתיב השיירה,נתיב השיירה,0.0,19.5,-19.5,304
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,lower,ראש פינה,ראש פינה,1.0,19.1,-18.0,1930
+census,Ra’am / United Arab List (רע״ם),Raam_-_United_Arab_List,lower,אל-ביענה,ר'דארה,19.8,35.3,-15.6,585
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,higher,כאבול,כאבול,68.1,11.5,56.6,5660
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,higher,נצרת,הגליל,77.0,27.9,49.1,2002
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,higher,ירושלים,מעלות דפנה,56.0,12.0,43.9,8619
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,higher,נוף הגליל,אזור תעשייה ציפורית,54.9,13.3,41.5,1735
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,higher,דיר חנא,דיר חנא,64.3,23.3,41.0,5338
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,lower,נתיב השיירה,נתיב השיירה,0.0,23.8,-23.8,304
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,lower,נוף הגליל,'הר יונה ג,0.0,20.9,-20.9,764
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,lower,ירושלים,הרובע היהודי,2.9,20.2,-17.4,1478
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,lower,מעלות-תרשיחא,אורנים,12.4,29.0,-16.6,886
+census,Hadash–Ta’al / Joint List (חד״ש-תע״ל),Hadash-Taal_-_Joint_List,lower,לקייה,לקייה,4.3,20.2,-15.9,351

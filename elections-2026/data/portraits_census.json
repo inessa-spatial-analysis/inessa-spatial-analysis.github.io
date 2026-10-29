@@ -1,0 +1,122 @@
+[
+  {
+    "letter": "מחל",
+    "party": "Likud (הליכוד)",
+    "status": "Coalition",
+    "mean_share": 20.1,
+    "held_out_r2": 0.81,
+    "description": "A typical Likud (הליכוד) voter (Coalition) lives among more residents born in Africa (23% where מחל is strong, 10% overall), fewer Muslim areas (1% of hexes where מחל is strong, 13% of hexes overall), more traditional households (40% where מחל is strong, 28% overall), fewer residents with an academic certificate (15% where מחל is strong, 25% overall), and more immigrants from 1990–2001 (40% where מחל is strong, 34% overall). Mean share 20.1%. Held-out R² 0.81.",
+    "slug": "Likud",
+    "model": "census"
+  },
+  {
+    "letter": "דרך",
+    "party": "Yashar (ישר)",
+    "status": "Opposition",
+    "mean_share": 18.5,
+    "held_out_r2": 0.83,
+    "description": "A typical Yashar (ישר) voter (Opposition) lives among more residents with an academic certificate (42% where דרך is strong, 25% overall), more computers per household (1.90 computers where דרך is strong, 1.30 computers overall), less crowded homes (0.70 where דרך is strong, 0.80 overall), more secular households (78% where דרך is strong, 47% overall), and fewer dati households (3% where דרך is strong, 12% overall). Mean share 18.5%. Held-out R² 0.83.",
+    "slug": "Yashar",
+    "model": "census"
+  },
+  {
+    "letter": "ודם",
+    "party": "Hadash–Ta’al / Joint List (חד״ש-תע״ל)",
+    "status": "Arab Parties",
+    "mean_share": 9.9,
+    "held_out_r2": 0.9,
+    "description": "A typical Hadash–Ta’al / Joint List (חד״ש-תע״ל) voter (Arab Parties) lives among more Muslim areas (82% of hexes where ודם is strong, 13% of hexes overall), fewer residents born in Israel (43% where ודם is strong, 47% overall), more workers in construction (14% where ודם is strong, 4% overall), fewer workers in public administration (2% where ודם is strong, 8% overall), and more traditional households (50% where ודם is strong, 28% overall). Mean share 9.9%. Held-out R² 0.90.",
+    "slug": "Hadash-Taal_-_Joint_List",
+    "model": "census"
+  },
+  {
+    "letter": "רק",
+    "party": "B’Yachad / Together (ביחד)",
+    "status": "Opposition",
+    "mean_share": 8.9,
+    "held_out_r2": 0.82,
+    "description": "A typical B’Yachad / Together (ביחד) voter (Opposition) lives among more residents with an academic certificate (46% where רק is strong, 25% overall), more computers per household (1.90 computers where רק is strong, 1.30 computers overall), more workers in information (14% where רק is strong, 5% overall), less crowded homes (0.70 where רק is strong, 0.80 overall), and more secular households (76% where רק is strong, 47% overall). Mean share 8.9%. Held-out R² 0.82.",
+    "slug": "BYachad_-_Together",
+    "model": "census"
+  },
+  {
+    "letter": "אמת",
+    "party": "The Democrats (הדמוקרטים)",
+    "status": "Opposition",
+    "mean_share": 8.1,
+    "held_out_r2": 0.83,
+    "description": "A typical The Democrats (הדמוקרטים) voter (Opposition) lives among more residents with an academic certificate (47% where אמת is strong, 25% overall), more residents born in the Americas (7% where אמת is strong, 3% overall), more computers per household (1.70 computers where אמת is strong, 1.30 computers overall), fewer residents with a secondary certificate (10% where אמת is strong, 22% overall), and fewer residents with 9–12 years of school (31% where אמת is strong, 52% overall). Mean share 8.1%. Held-out R² 0.83.",
+    "slug": "The_Democrats",
+    "model": "census"
+  },
+  {
+    "letter": "עם",
+    "party": "Ra’am / United Arab List (רע״ם)",
+    "status": "Arab Parties",
+    "mean_share": 8.0,
+    "held_out_r2": 0.87,
+    "description": "A typical Ra’am / United Arab List (רע״ם) voter (Arab Parties) lives among more Muslim areas (82% of hexes where עם is strong, 13% of hexes overall), more residents born elsewhere (100% where עם is strong, 42% overall), a higher religion percent (100% where עם is strong, 94% overall), more children and teens (40% where עם is strong, 32% overall), and fewer people who take the bus to work (5% where עם is strong, 12% overall). Mean share 8.0%. Held-out R² 0.87.",
+    "slug": "Raam_-_United_Arab_List",
+    "model": "census"
+  },
+  {
+    "letter": "ל",
+    "party": "Yisrael Beiteinu (ישראל ביתנו)",
+    "status": "Opposition",
+    "mean_share": 5.7,
+    "held_out_r2": 0.68,
+    "description": "A typical Yisrael Beiteinu (ישראל ביתנו) voter (Opposition) lives among more residents born in the former USSR (22% where ל is strong, 0% overall), more secular households (55% where ל is strong, 47% overall), more residents born in Europe (50% where ל is strong, 26% overall), less crowded homes (0.74 where ל is strong, 0.80 overall), and more Druze areas (8% of hexes where ל is strong, 1% of hexes overall). Mean share 5.7%. Held-out R² 0.68.",
+    "slug": "Yisrael_Beiteinu",
+    "model": "census"
+  },
+  {
+    "letter": "ב",
+    "party": "Otzma Yehudit (עוצמה יהודית)",
+    "status": "Coalition",
+    "mean_share": 5.4,
+    "held_out_r2": 0.77,
+    "description": "A typical Otzma Yehudit (עוצמה יהודית) voter (Coalition) lives among more residents born in Africa (17% where ב is strong, 10% overall), fewer Muslim areas (1% of hexes where ב is strong, 13% of hexes overall), fewer secular households (27% where ב is strong, 47% overall), fewer residents with an academic certificate (19% where ב is strong, 25% overall), and more Haredi households (7% where ב is strong, 2% overall). Mean share 5.4%. Held-out R² 0.77.",
+    "slug": "Otzma_Yehudit",
+    "model": "census"
+  },
+  {
+    "letter": "ט",
+    "party": "Religious Zionist Party / Zehut (הציונות הדתית - זהות)",
+    "status": "Coalition",
+    "mean_share": 4.1,
+    "held_out_r2": 0.78,
+    "description": "A typical Religious Zionist Party / Zehut (הציונות הדתית - זהות) voter (Coalition) lives among more dati households (29% where ט is strong, 12% overall), fewer Muslim areas (2% of hexes where ט is strong, 13% of hexes overall), more residents born in Israel (50% where ט is strong, 47% overall), fewer secular households (30% where ט is strong, 47% overall), and younger residents (28 years where ט is strong, 33 years overall). Mean share 4.1%. Held-out R² 0.78.",
+    "slug": "Religious_Zionist_Party_-_Zehut",
+    "model": "census"
+  },
+  {
+    "letter": "שס",
+    "party": "Shas (ש״ס)",
+    "status": "Coalition",
+    "mean_share": 3.6,
+    "held_out_r2": 0.73,
+    "description": "A typical Shas (ש״ס) voter (Coalition) lives among more Haredi households (23% where שס is strong, 2% overall), fewer residents with an academic certificate (15% where שס is strong, 25% overall), more residents with a secondary certificate (31% where שס is strong, 22% overall), fewer secular households (21% where שס is strong, 47% overall), and fewer residents born in Europe (17% where שס is strong, 26% overall). Mean share 3.6%. Held-out R² 0.73.",
+    "slug": "Shas",
+    "model": "census"
+  },
+  {
+    "letter": "ג",
+    "party": "United Torah Judaism (יהדות התורה)",
+    "status": "Coalition",
+    "mean_share": 2.5,
+    "held_out_r2": 0.77,
+    "description": "A typical United Torah Judaism (יהדות התורה) voter (Coalition) lives among more Haredi households (25% where ג is strong, 2% overall), more residents with a secondary certificate (30% where ג is strong, 22% overall), fewer residents with matriculation (16% where ג is strong, 20% overall), more people who take the bus to work (27% where ג is strong, 12% overall), and more workers in education (19% where ג is strong, 11% overall). Mean share 2.5%. Held-out R² 0.77.",
+    "slug": "United_Torah_Judaism",
+    "model": "census"
+  },
+  {
+    "letter": "כן",
+    "party": "Blue and White (כחול לבן)",
+    "status": "Opposition",
+    "mean_share": 0.0,
+    "held_out_r2": 0.3,
+    "description": "A typical Blue and White (כחול לבן) voter (Opposition) lives among lower wages (5,861 NIS where כן is strong, 8,618 NIS overall), more residents born in Europe (41% where כן is strong, 26% overall), a lower religion percent (86% where כן is strong, 94% overall), more car passengers (9% where כן is strong, 3% overall), and fewer residents with 13–15 years of school (16% where כן is strong, 25% overall). Mean share 0.0%. Held-out R² 0.30.",
+    "slug": "Blue_and_White",
+    "model": "census"
+  }
+]

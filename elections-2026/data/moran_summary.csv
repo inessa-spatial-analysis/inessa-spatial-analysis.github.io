@@ -1,0 +1,13 @@
+party,letter,slug,status,moran_I,p_value,pattern,significant_hexes,cluster_hexes,outlier_hexes,high_high,low_low,high_low,low_high
+Likud (הליכוד),מחל,Likud,Coalition,0.973,0.01,cluster,56295,56285,10,29352,26933,2,8
+Shas (ש״ס),שס,Shas,Coalition,0.948,0.01,cluster,15413,15377,36,15370,7,0,36
+United Torah Judaism (יהדות התורה),ג,United_Torah_Judaism,Coalition,0.943,0.01,cluster,7475,7402,73,7402,0,1,72
+Otzma Yehudit (עוצמה יהודית),ב,Otzma_Yehudit,Coalition,0.971,0.01,cluster,34542,34531,11,22059,12472,2,9
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ט,Religious_Zionist_Party_-_Zehut,Coalition,0.973,0.01,cluster,11322,11287,35,10001,1286,3,32
+The Democrats (הדמוקרטים),אמת,The_Democrats,Opposition,0.973,0.01,cluster,24872,24854,18,23599,1255,8,10
+Yisrael Beiteinu (ישראל ביתנו),ל,Yisrael_Beiteinu,Opposition,0.944,0.01,cluster,18778,18730,48,13510,5220,3,45
+Yashar (ישר),דרך,Yashar,Opposition,0.975,0.01,cluster,61179,61175,4,29630,31545,2,2
+B’Yachad / Together (ביחד),רק,BYachad_-_Together,Opposition,0.972,0.01,cluster,62459,62450,9,29334,33116,6,3
+Blue and White (כחול לבן),כן,Blue_and_White,Opposition,0.894,0.01,cluster,222,155,67,155,0,0,67
+Ra’am / United Arab List (רע״ם),עם,Raam_-_United_Arab_List,Arab Parties,0.989,0.01,cluster,14797,14791,6,14791,0,1,5
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ודם,Hadash-Taal_-_Joint_List,Arab Parties,0.979,0.01,cluster,18448,18446,2,18446,0,0,2

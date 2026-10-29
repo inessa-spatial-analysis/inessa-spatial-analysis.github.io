@@ -1,0 +1,13 @@
+party,letter,status,pct_no_siren,pct_with_siren,mean_alerts,mean_alerts_where_hit
+The Democrats (הדמוקרטים),אמת,Opposition,99.4,0.6,0.83,139.1
+Yashar (ישר),דרך,Opposition,99.5,0.5,0.75,151.0
+B’Yachad / Together (ביחד),רק,Opposition,99.6,0.4,0.7,158.7
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ט,Coalition,99.5,0.5,0.69,132.2
+Otzma Yehudit (עוצמה יהודית),ב,Coalition,99.6,0.4,0.62,152.4
+Likud (הליכוד),מחל,Coalition,99.6,0.4,0.6,155.8
+Yisrael Beiteinu (ישראל ביתנו),ל,Opposition,99.6,0.4,0.58,162.6
+United Torah Judaism (יהדות התורה),ג,Coalition,99.7,0.3,0.51,199.2
+Shas (ש״ס),שס,Coalition,99.7,0.3,0.5,169.6
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ודם,Arab Parties,99.6,0.4,0.47,110.3
+Ra’am / United Arab List (רע״ם),עם,Arab Parties,99.6,0.4,0.45,121.1
+Blue and White (כחול לבן),כן,Opposition,100.0,0.0,0.0,

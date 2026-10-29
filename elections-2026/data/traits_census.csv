@@ -1,0 +1,1189 @@
+party,column,feature,mean_abs_shap,shap_direction,strong,overall,in_sentence,letter,slug,status
+Likud (הליכוד),africa_pcnt,Born in Africa,4.938,higher share,23%,10%,True,מחל,Likud,Coalition
+Likud (הליכוד),housing_density_avg,Housing density,1.884,lower share,0.80,0.80,False,מחל,Likud,Coalition
+Likud (הליכוד),america_pcnt,Born in the Americas,1.85,lower share,1%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_muslims,Muslim area,1.359,lower share,1% of hexes,13% of hexes,True,מחל,Likud,Coalition
+Likud (הליכוד),hh_masorati_pcnt,Traditional households,1.34,higher share,40%,28%,True,מחל,Likud,Coalition
+Likud (הליכוד),acadmcert_pcnt,Academic certificate,1.103,lower share,15%,25%,True,מחל,Likud,Coalition
+Likud (הליכוד),asia_pcnt,Born in Asia,0.99,higher share,9%,8%,False,מחל,Likud,Coalition
+Likud (הליכוד),aliya90_01_pcnt,Immigrated 1990–2001,0.473,higher share,40%,34%,True,מחל,Likud,Coalition
+Likud (הליכוד),hh_haredi_pcnt,Haredi households,0.325,lower share,3%,2%,False,מחל,Likud,Coalition
+Likud (הליכוד),age0_19_pcnt,Age 0–19,0.32,lower share,31%,32%,False,מחל,Likud,Coalition
+Likud (הליכוד),educ16_pcnt,16+ years of school,0.316,lower share,9%,16%,True,מחל,Likud,Coalition
+Likud (הליכוד),birth_morocco_pcnt,Born in Morocco,0.311,higher share,7%,0%,True,מחל,Likud,Coalition
+Likud (הליכוד),low_wage_pcnt,Low-wage workers,0.3,lower share,44%,39%,False,מחל,Likud,Coalition
+Likud (הליכוד),rent_pcnt,Renters,0.288,higher share,29%,29%,False,מחל,Likud,Coalition
+Likud (הליכוד),hh_hiloni_pcnt,Secular households,0.286,lower share,32%,47%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_public_admin_pcnt,Public administration,0.253,higher share,9%,8%,False,מחל,Likud,Coalition
+Likud (הליכוד),educ9_12_pcnt,9–12 years of school,0.218,higher share,61%,52%,True,מחל,Likud,Coalition
+Likud (הליכוד),pop_avg_sq_km,Population density,0.192,lower share,"5,556 per km²","7,343 per km²",True,מחל,Likud,Coalition
+Likud (הליכוד),secondarycert_pcnt,Secondary certificate,0.188,higher share,28%,22%,True,מחל,Likud,Coalition
+Likud (הליכוד),hh_size_avg,Household size,0.181,lower share,2.9 people,2.9 people,False,מחל,Likud,Coalition
+Likud (הליכוד),europe_pcnt,Born in Europe,0.178,lower share,18%,26%,True,מחל,Likud,Coalition
+Likud (הליכוד),age20_29_pcnt,Age 20–29,0.158,lower share,14%,13%,False,מחל,Likud,Coalition
+Likud (הליכוד),parking_owners_pcnt_avg,Parking owners,0.156,higher share,65%,72%,False,מחל,Likud,Coalition
+Likud (הליכוד),hh_dati_pcnt,Dati households,0.149,higher share,17%,12%,True,מחל,Likud,Coalition
+Likud (הליכוד),aliya1960_pcnt,Immigrated by 1960,0.147,higher share,14%,16%,False,מחל,Likud,Coalition
+Likud (הליכוד),birth_other_pcnt,Born elsewhere,0.122,lower share,41%,42%,False,מחל,Likud,Coalition
+Likud (הליכוד),computer_avg,Computers per household,0.121,lower share,1.10 computers,1.30 computers,True,מחל,Likud,Coalition
+Likud (הליכוד),ind_education_pcnt,Education jobs,0.118,lower share,10%,11%,False,מחל,Likud,Coalition
+Likud (הליכוד),ex_ussr_pcnt,Born in the former USSR,0.118,higher share,2%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),cardrvr_pcnt,Drive to work,0.105,higher share,60%,64%,False,מחל,Likud,Coalition
+Likud (הליכוד),workplace_pcnt,Employer shuttle,0.102,higher share,7%,3%,True,מחל,Likud,Coalition
+Likud (הליכוד),bus_pcnt,Bus to work,0.097,higher share,14%,12%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_pcnt_avg,Religion percent,0.096,higher share,92%,94%,False,מחל,Likud,Coalition
+Likud (הליכוד),onfoot_pcnt,Walk to work,0.093,lower share,6%,6%,False,מחל,Likud,Coalition
+Likud (הליכוד),israel_pcnt,Born in Israel,0.092,higher share,44%,47%,False,מחל,Likud,Coalition
+Likud (הליכוד),owners_pcnt_avg,Homeowners,0.09,lower share,60%,63%,False,מחל,Likud,Coalition
+Likud (הליכוד),aliya61_89_pcnt,Immigrated 1961–1989,0.086,higher share,22%,21%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_professional_pcnt,Professional services,0.085,lower share,4%,7%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_manufacturing_pcnt,Manufacturing,0.083,higher share,12%,8%,True,מחל,Likud,Coalition
+Likud (הליכוד),acadm1cert_pcnt,First academic degree,0.078,lower share,10%,15%,True,מחל,Likud,Coalition
+Likud (הליכוד),age_avg,Average age,0.076,lower share,33 years,33 years,False,מחל,Likud,Coalition
+Likud (הליכוד),aliya2002_pcnt,Immigrated since 2002,0.072,higher share,15%,21%,False,מחל,Likud,Coalition
+Likud (הליכוד),acadm2cert_pcnt,Advanced academic degree,0.072,lower share,5%,9%,True,מחל,Likud,Coalition
+Likud (הליכוד),ind_information_pcnt,Information,0.071,lower share,3%,5%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_transport_pcnt,Transport,0.058,higher share,6%,4%,False,מחל,Likud,Coalition
+Likud (הליכוד),matriccert_pcnt,Matriculation,0.057,higher share,20%,20%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_construction_pcnt,Construction,0.052,higher share,4%,4%,False,מחל,Likud,Coalition
+Likud (הליכוד),age30_39_pcnt,Age 30–39,0.052,higher share,13%,13%,False,מחל,Likud,Coalition
+Likud (הליכוד),othercerta_pcnt,Other certificate,0.052,higher share,28%,22%,True,מחל,Likud,Coalition
+Likud (הליכוד),birth_usa_pcnt,Born in the USA,0.048,lower share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),postsecondarycert_pcnt,Post-secondary certificate,0.046,higher share,8%,7%,False,מחל,Likud,Coalition
+Likud (הליכוד),age65plus_pcnt,Age 65+,0.045,lower share,14%,14%,False,מחל,Likud,Coalition
+Likud (הליכוד),monthly_wage_avg,Monthly wage,0.041,higher share,"7,821 NIS","8,618 NIS",False,מחל,Likud,Coalition
+Likud (הליכוד),employeed_prcnt_avg,Employment,0.04,lower share,68%,68%,False,מחל,Likud,Coalition
+Likud (הליכוד),age10_19_pcnt,Age 10–19,0.04,lower share,14%,15%,False,מחל,Likud,Coalition
+Likud (הליכוד),train_pcnt,Train to work,0.038,higher share,1%,1%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_health_pcnt,Health jobs,0.038,lower share,11%,12%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_druze,Druze area,0.037,higher share,1% of hexes,1% of hexes,False,מחל,Likud,Coalition
+Likud (הליכוד),educ8_pcnt,Up to 8 years of school,0.036,lower share,8%,5%,False,מחל,Likud,Coalition
+Likud (הליכוד),aliya2010_pcnt,Immigrated since 2010,0.033,higher share,7%,12%,False,מחל,Likud,Coalition
+Likud (הליכוד),married_pcnt_avg,Married,0.033,higher share,57%,61%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_admin_support_pcnt,Administrative support,0.031,higher share,5%,4%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_christians,Christian area,0.029,lower share,0% of hexes,1% of hexes,False,מחל,Likud,Coalition
+Likud (הליכוד),bicycle_pcnt,Bicycle to work,0.028,lower share,1%,1%,False,מחל,Likud,Coalition
+Likud (הליכוד),eastern_europe_pcnt,Born in Eastern Europe,0.026,lower share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),cellphone_ratio,Cellphones per person,0.023,higher share,0.97 phones per person,0.95 phones per person,False,מחל,Likud,Coalition
+Likud (הליכוד),age20_39_pcnt,Age 20–39,0.023,lower share,27%,27%,False,מחל,Likud,Coalition
+Likud (הליכוד),age60_69_pcnt,Age 60–69,0.023,higher share,11%,9%,False,מחל,Likud,Coalition
+Likud (הליכוד),carpsngr_pcnt,Car passengers,0.023,lower share,4%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),motorcycle_pcnt,Motorcycle to work,0.022,lower share,1%,1%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_trade_pcnt,Trade,0.021,higher share,13%,12%,False,מחל,Likud,Coalition
+Likud (הליכוד),high_wage_pcnt_avg,High-wage workers,0.02,lower share,31%,39%,True,מחל,Likud,Coalition
+Likud (הליכוד),ind_water_waste_pcnt,Water and waste,0.019,higher share,1%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_jews,Jewish area,0.019,higher share,70% of hexes,63% of hexes,True,מחל,Likud,Coalition
+Likud (הליכוד),ind_finance_pcnt,Finance,0.019,lower share,2%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_accommodation_food_pcnt,Accommodation and food,0.018,lower share,4%,4%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_real_estate_pcnt,Real estate,0.018,higher share,1%,1%,False,מחל,Likud,Coalition
+Likud (הליכוד),age80plus_pcnt,Age 80+,0.017,lower share,3%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),age0_9_pcnt,Age 0–9,0.017,higher share,16%,16%,False,מחל,Likud,Coalition
+Likud (הליכוד),educ13_15_pcnt,13–15 years of school,0.016,higher share,22%,25%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_unknown,religion-unknown area,0.016,lower share,28% of hexes,21% of hexes,False,מחל,Likud,Coalition
+Likud (הליכוד),age40_49_pcnt,Age 40–49,0.014,lower share,11%,12%,False,מחל,Likud,Coalition
+Likud (הליכוד),car_owners_pcnt_avg,Car owners,0.014,higher share,74%,78%,False,מחל,Likud,Coalition
+Likud (הליכוד),age70_79_pcnt,Age 70–79,0.013,higher share,6%,6%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_arts_pcnt,Arts,0.013,lower share,1%,2%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_unknown_pcnt,Unknown industry,0.013,lower share,2%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),age50_59_pcnt,Age 50–59,0.013,lower share,11%,10%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_mining_pcnt,Mining,0.012,higher share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),birth_iraq_pcnt,Born in Iraq,0.012,higher share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_other_services_pcnt,Other services,0.011,lower share,3%,2%,False,מחל,Likud,Coalition
+Likud (הליכוד),othervehicle_pcnt,Other vehicle to work,0.011,higher share,1%,1%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_agriculture_pcnt,Agriculture,0.008,lower share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_electricity_pcnt,Electricity,0.007,higher share,1%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_households_pcnt,Household employers,0.007,lower share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),inst_pcnt,Institution residents,0.007,lower share,1%,3%,False,מחל,Likud,Coalition
+Likud (הליכוד),birth_france_pcnt,Born in France,0.006,higher share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),taxi_pcnt,Taxi to work,0.005,lower share,1%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),ind_extraterritorial_pcnt,Extraterritorial organizations,0.004,higher share,0%,0%,False,מחל,Likud,Coalition
+Likud (הליכוד),religion_other_religion,other-religion area,0.0,,,,False,מחל,Likud,Coalition
+Yashar (ישר),acadmcert_pcnt,Academic certificate,2.739,higher share,42%,25%,True,דרך,Yashar,Opposition
+Yashar (ישר),computer_avg,Computers per household,1.48,higher share,1.90 computers,1.30 computers,True,דרך,Yashar,Opposition
+Yashar (ישר),housing_density_avg,Housing density,1.191,lower share,0.70,0.80,True,דרך,Yashar,Opposition
+Yashar (ישר),hh_hiloni_pcnt,Secular households,1.161,higher share,78%,47%,True,דרך,Yashar,Opposition
+Yashar (ישר),hh_dati_pcnt,Dati households,1.09,lower share,3%,12%,True,דרך,Yashar,Opposition
+Yashar (ישר),hh_size_avg,Household size,0.75,lower share,2.8 people,2.9 people,False,דרך,Yashar,Opposition
+Yashar (ישר),age0_19_pcnt,Age 0–19,0.699,lower share,31%,32%,False,דרך,Yashar,Opposition
+Yashar (ישר),low_wage_pcnt,Low-wage workers,0.691,lower share,28%,39%,True,דרך,Yashar,Opposition
+Yashar (ישר),age_avg,Average age,0.651,higher share,37 years,33 years,True,דרך,Yashar,Opposition
+Yashar (ישר),monthly_wage_avg,Monthly wage,0.465,higher share,"11,679 NIS","8,618 NIS",True,דרך,Yashar,Opposition
+Yashar (ישר),religion_druze,Druze area,0.443,higher share,10% of hexes,1% of hexes,True,דרך,Yashar,Opposition
+Yashar (ישר),aliya90_01_pcnt,Immigrated 1990–2001,0.326,lower share,17%,34%,True,דרך,Yashar,Opposition
+Yashar (ישר),age0_9_pcnt,Age 0–9,0.294,lower share,13%,16%,False,דרך,Yashar,Opposition
+Yashar (ישר),europe_pcnt,Born in Europe,0.281,higher share,25%,26%,False,דרך,Yashar,Opposition
+Yashar (ישר),aliya1960_pcnt,Immigrated by 1960,0.264,higher share,31%,16%,True,דרך,Yashar,Opposition
+Yashar (ישר),hh_haredi_pcnt,Haredi households,0.257,lower share,1%,2%,False,דרך,Yashar,Opposition
+Yashar (ישר),workplace_pcnt,Employer shuttle,0.223,lower share,1%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),secondarycert_pcnt,Secondary certificate,0.222,lower share,12%,22%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_public_admin_pcnt,Public administration,0.216,higher share,10%,8%,False,דרך,Yashar,Opposition
+Yashar (ישר),america_pcnt,Born in the Americas,0.196,higher share,5%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),africa_pcnt,Born in Africa,0.186,lower share,7%,10%,False,דרך,Yashar,Opposition
+Yashar (ישר),ex_ussr_pcnt,Born in the former USSR,0.162,lower share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),educ9_12_pcnt,9–12 years of school,0.16,lower share,38%,52%,True,דרך,Yashar,Opposition
+Yashar (ישר),age20_29_pcnt,Age 20–29,0.114,lower share,11%,13%,False,דרך,Yashar,Opposition
+Yashar (ישר),eastern_europe_pcnt,Born in Eastern Europe,0.108,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_health_pcnt,Health jobs,0.107,lower share,9%,12%,False,דרך,Yashar,Opposition
+Yashar (ישר),hh_masorati_pcnt,Traditional households,0.104,lower share,18%,28%,True,דרך,Yashar,Opposition
+Yashar (ישר),rent_pcnt,Renters,0.104,lower share,26%,29%,False,דרך,Yashar,Opposition
+Yashar (ישר),high_wage_pcnt_avg,High-wage workers,0.104,higher share,59%,39%,True,דרך,Yashar,Opposition
+Yashar (ישר),employeed_prcnt_avg,Employment,0.101,higher share,71%,68%,True,דרך,Yashar,Opposition
+Yashar (ישר),israel_pcnt,Born in Israel,0.096,higher share,55%,47%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_information_pcnt,Information,0.093,higher share,10%,5%,True,דרך,Yashar,Opposition
+Yashar (ישר),religion_muslims,Muslim area,0.092,lower share,1% of hexes,13% of hexes,True,דרך,Yashar,Opposition
+Yashar (ישר),bus_pcnt,Bus to work,0.088,lower share,6%,12%,True,דרך,Yashar,Opposition
+Yashar (ישר),asia_pcnt,Born in Asia,0.083,higher share,7%,8%,False,דרך,Yashar,Opposition
+Yashar (ישר),age20_39_pcnt,Age 20–39,0.08,lower share,20%,27%,True,דרך,Yashar,Opposition
+Yashar (ישר),age40_49_pcnt,Age 40–49,0.077,higher share,14%,12%,False,דרך,Yashar,Opposition
+Yashar (ישר),othercerta_pcnt,Other certificate,0.077,lower share,15%,22%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_finance_pcnt,Finance,0.073,higher share,4%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),religion_pcnt_avg,Religion percent,0.073,lower share,96%,94%,False,דרך,Yashar,Opposition
+Yashar (ישר),age65plus_pcnt,Age 65+,0.065,higher share,16%,14%,False,דרך,Yashar,Opposition
+Yashar (ישר),age70_79_pcnt,Age 70–79,0.06,higher share,8%,6%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_professional_pcnt,Professional services,0.057,higher share,14%,7%,True,דרך,Yashar,Opposition
+Yashar (ישר),age30_39_pcnt,Age 30–39,0.056,higher share,10%,13%,False,דרך,Yashar,Opposition
+Yashar (ישר),aliya61_89_pcnt,Immigrated 1961–1989,0.055,higher share,30%,21%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_electricity_pcnt,Electricity,0.049,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),owners_pcnt_avg,Homeowners,0.047,lower share,62%,63%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_education_pcnt,Education jobs,0.045,lower share,10%,11%,False,דרך,Yashar,Opposition
+Yashar (ישר),married_pcnt_avg,Married,0.044,higher share,62%,61%,False,דרך,Yashar,Opposition
+Yashar (ישר),cardrvr_pcnt,Drive to work,0.043,higher share,78%,64%,True,דרך,Yashar,Opposition
+Yashar (ישר),age10_19_pcnt,Age 10–19,0.042,lower share,16%,15%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_manufacturing_pcnt,Manufacturing,0.041,lower share,6%,8%,False,דרך,Yashar,Opposition
+Yashar (ישר),pop_avg_sq_km,Population density,0.04,lower share,"1,596 per km²","7,343 per km²",False,דרך,Yashar,Opposition
+Yashar (ישר),acadm1cert_pcnt,First academic degree,0.039,higher share,25%,15%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_construction_pcnt,Construction,0.036,lower share,3%,4%,False,דרך,Yashar,Opposition
+Yashar (ישר),motorcycle_pcnt,Motorcycle to work,0.031,higher share,2%,1%,False,דרך,Yashar,Opposition
+Yashar (ישר),carpsngr_pcnt,Car passengers,0.028,lower share,3%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),parking_owners_pcnt_avg,Parking owners,0.028,lower share,85%,72%,False,דרך,Yashar,Opposition
+Yashar (ישר),matriccert_pcnt,Matriculation,0.027,higher share,21%,20%,False,דרך,Yashar,Opposition
+Yashar (ישר),birth_other_pcnt,Born elsewhere,0.027,higher share,40%,42%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_admin_support_pcnt,Administrative support,0.027,higher share,3%,4%,False,דרך,Yashar,Opposition
+Yashar (ישר),acadm2cert_pcnt,Advanced academic degree,0.026,higher share,19%,9%,True,דרך,Yashar,Opposition
+Yashar (ישר),educ16_pcnt,16+ years of school,0.026,higher share,32%,16%,True,דרך,Yashar,Opposition
+Yashar (ישר),cellphone_ratio,Cellphones per person,0.026,higher share,0.96 phones per person,0.95 phones per person,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_transport_pcnt,Transport,0.025,higher share,2%,4%,False,דרך,Yashar,Opposition
+Yashar (ישר),age80plus_pcnt,Age 80+,0.024,higher share,4%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_real_estate_pcnt,Real estate,0.024,higher share,2%,1%,False,דרך,Yashar,Opposition
+Yashar (ישר),postsecondarycert_pcnt,Post-secondary certificate,0.023,lower share,6%,7%,False,דרך,Yashar,Opposition
+Yashar (ישר),car_owners_pcnt_avg,Car owners,0.023,higher share,90%,78%,True,דרך,Yashar,Opposition
+Yashar (ישר),ind_extraterritorial_pcnt,Extraterritorial organizations,0.023,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_accommodation_food_pcnt,Accommodation and food,0.022,higher share,5%,4%,False,דרך,Yashar,Opposition
+Yashar (ישר),aliya2010_pcnt,Immigrated since 2010,0.022,higher share,11%,12%,False,דרך,Yashar,Opposition
+Yashar (ישר),inst_pcnt,Institution residents,0.021,lower share,2%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),religion_unknown,religion-unknown area,0.02,higher share,50% of hexes,21% of hexes,True,דרך,Yashar,Opposition
+Yashar (ישר),aliya2002_pcnt,Immigrated since 2002,0.019,higher share,20%,21%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_arts_pcnt,Arts,0.017,higher share,2%,2%,False,דרך,Yashar,Opposition
+Yashar (ישר),onfoot_pcnt,Walk to work,0.017,lower share,4%,6%,False,דרך,Yashar,Opposition
+Yashar (ישר),educ13_15_pcnt,13–15 years of school,0.016,higher share,26%,25%,False,דרך,Yashar,Opposition
+Yashar (ישר),educ8_pcnt,Up to 8 years of school,0.016,higher share,3%,5%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_trade_pcnt,Trade,0.015,lower share,10%,12%,False,דרך,Yashar,Opposition
+Yashar (ישר),othervehicle_pcnt,Other vehicle to work,0.015,lower share,1%,1%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_households_pcnt,Household employers,0.015,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),age60_69_pcnt,Age 60–69,0.014,higher share,10%,9%,False,דרך,Yashar,Opposition
+Yashar (ישר),bicycle_pcnt,Bicycle to work,0.014,lower share,2%,1%,False,דרך,Yashar,Opposition
+Yashar (ישר),birth_morocco_pcnt,Born in Morocco,0.013,lower share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),age50_59_pcnt,Age 50–59,0.013,higher share,12%,10%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_agriculture_pcnt,Agriculture,0.012,higher share,1%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_unknown_pcnt,Unknown industry,0.011,lower share,3%,3%,False,דרך,Yashar,Opposition
+Yashar (ישר),train_pcnt,Train to work,0.008,lower share,1%,1%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_other_services_pcnt,Other services,0.008,lower share,2%,2%,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_water_waste_pcnt,Water and waste,0.006,lower share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),taxi_pcnt,Taxi to work,0.006,higher share,1%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),religion_jews,Jewish area,0.005,higher share,39% of hexes,63% of hexes,False,דרך,Yashar,Opposition
+Yashar (ישר),birth_iraq_pcnt,Born in Iraq,0.004,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),birth_usa_pcnt,Born in the USA,0.002,lower share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),birth_france_pcnt,Born in France,0.002,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),religion_christians,Christian area,0.002,lower share,0% of hexes,1% of hexes,False,דרך,Yashar,Opposition
+Yashar (ישר),ind_mining_pcnt,Mining,0.001,higher share,0%,0%,False,דרך,Yashar,Opposition
+Yashar (ישר),religion_other_religion,other-religion area,0.0,,,,False,דרך,Yashar,Opposition
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_muslims,Muslim area,5.349,higher share,82% of hexes,13% of hexes,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),israel_pcnt,Born in Israel,1.788,lower share,43%,47%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_construction_pcnt,Construction,1.634,higher share,14%,4%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_public_admin_pcnt,Public administration,1.4,lower share,2%,8%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_pcnt_avg,Religion percent,1.378,lower share,99%,94%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),hh_masorati_pcnt,Traditional households,1.176,higher share,50%,28%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age50_59_pcnt,Age 50–59,0.95,higher share,10%,10%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),birth_other_pcnt,Born elsewhere,0.653,higher share,100%,42%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),owners_pcnt_avg,Homeowners,0.628,higher share,76%,63%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),asia_pcnt,Born in Asia,0.564,lower share,6%,8%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),aliya90_01_pcnt,Immigrated 1990–2001,0.545,lower share,38%,34%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age0_19_pcnt,Age 0–19,0.481,higher share,37%,32%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age10_19_pcnt,Age 10–19,0.426,higher share,19%,15%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),pop_avg_sq_km,Population density,0.419,higher share,"3,116 per km²","7,343 per km²",False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),africa_pcnt,Born in Africa,0.396,lower share,9%,10%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age_avg,Average age,0.333,higher share,27 years,33 years,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_christians,Christian area,0.323,higher share,6% of hexes,1% of hexes,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),aliya61_89_pcnt,Immigrated 1961–1989,0.28,lower share,19%,21%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_health_pcnt,Health jobs,0.277,higher share,13%,12%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),employeed_prcnt_avg,Employment,0.245,higher share,59%,68%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),europe_pcnt,Born in Europe,0.244,higher share,31%,26%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),aliya1960_pcnt,Immigrated by 1960,0.209,lower share,9%,16%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),parking_owners_pcnt_avg,Parking owners,0.209,higher share,75%,72%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),cardrvr_pcnt,Drive to work,0.191,higher share,66%,64%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_education_pcnt,Education jobs,0.185,higher share,14%,11%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),bus_pcnt,Bus to work,0.178,lower share,6%,12%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),rent_pcnt,Renters,0.164,lower share,6%,29%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_transport_pcnt,Transport,0.156,lower share,5%,4%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),computer_avg,Computers per household,0.154,higher share,0.91 computers,1.30 computers,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age0_9_pcnt,Age 0–9,0.145,lower share,18%,16%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),hh_size_avg,Household size,0.14,higher share,3.7 people,2.9 people,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_trade_pcnt,Trade,0.132,higher share,15%,12%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),hh_hiloni_pcnt,Secular households,0.122,lower share,7%,47%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),car_owners_pcnt_avg,Car owners,0.112,higher share,80%,78%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age30_39_pcnt,Age 30–39,0.1,lower share,13%,13%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_agriculture_pcnt,Agriculture,0.096,lower share,1%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),othervehicle_pcnt,Other vehicle to work,0.091,lower share,1%,1%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age40_49_pcnt,Age 40–49,0.088,higher share,12%,12%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),hh_dati_pcnt,Dati households,0.08,higher share,32%,12%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),secondarycert_pcnt,Secondary certificate,0.075,higher share,26%,22%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_admin_support_pcnt,Administrative support,0.072,lower share,4%,4%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),married_pcnt_avg,Married,0.07,higher share,64%,61%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),workplace_pcnt,Employer shuttle,0.066,higher share,11%,3%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_unknown,religion-unknown area,0.062,higher share,9% of hexes,21% of hexes,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age65plus_pcnt,Age 65+,0.061,higher share,6%,14%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_druze,Druze area,0.059,lower share,1% of hexes,1% of hexes,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age20_29_pcnt,Age 20–29,0.057,higher share,17%,13%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),matriccert_pcnt,Matriculation,0.052,higher share,19%,20%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_professional_pcnt,Professional services,0.052,higher share,4%,7%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),america_pcnt,Born in the Americas,0.052,lower share,5%,3%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_accommodation_food_pcnt,Accommodation and food,0.048,higher share,4%,4%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_manufacturing_pcnt,Manufacturing,0.047,higher share,9%,8%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age20_39_pcnt,Age 20–39,0.044,lower share,31%,27%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_finance_pcnt,Finance,0.043,lower share,1%,3%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age60_69_pcnt,Age 60–69,0.042,higher share,6%,9%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),aliya2010_pcnt,Immigrated since 2010,0.042,higher share,18%,12%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),housing_density_avg,Housing density,0.042,higher share,1.09,0.80,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),acadm1cert_pcnt,First academic degree,0.042,higher share,10%,15%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),acadmcert_pcnt,Academic certificate,0.039,higher share,15%,25%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),onfoot_pcnt,Walk to work,0.039,lower share,6%,6%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_households_pcnt,Household employers,0.037,higher share,1%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age70_79_pcnt,Age 70–79,0.035,higher share,3%,6%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),cellphone_ratio,Cellphones per person,0.033,higher share,0.89 phones per person,0.95 phones per person,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_jews,Jewish area,0.033,lower share,2% of hexes,63% of hexes,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),postsecondarycert_pcnt,Post-secondary certificate,0.032,lower share,4%,7%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),educ13_15_pcnt,13–15 years of school,0.032,lower share,16%,25%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),educ9_12_pcnt,9–12 years of school,0.031,higher share,62%,52%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),monthly_wage_avg,Monthly wage,0.03,lower share,"6,368 NIS","8,618 NIS",False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_unknown_pcnt,Unknown industry,0.028,higher share,4%,3%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_extraterritorial_pcnt,Extraterritorial organizations,0.026,higher share,1%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),educ8_pcnt,Up to 8 years of school,0.026,higher share,12%,5%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_information_pcnt,Information,0.024,lower share,1%,5%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),educ16_pcnt,16+ years of school,0.024,higher share,9%,16%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),train_pcnt,Train to work,0.023,lower share,1%,1%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),carpsngr_pcnt,Car passengers,0.023,higher share,7%,3%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),birth_morocco_pcnt,Born in Morocco,0.023,lower share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),low_wage_pcnt,Low-wage workers,0.022,higher share,54%,39%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),othercerta_pcnt,Other certificate,0.02,higher share,35%,22%,True,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),bicycle_pcnt,Bicycle to work,0.019,higher share,1%,1%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),hh_haredi_pcnt,Haredi households,0.016,lower share,1%,2%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_electricity_pcnt,Electricity,0.016,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),age80plus_pcnt,Age 80+,0.015,higher share,1%,3%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_mining_pcnt,Mining,0.014,lower share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),acadm2cert_pcnt,Advanced academic degree,0.013,higher share,4%,9%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_real_estate_pcnt,Real estate,0.013,lower share,0%,1%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),eastern_europe_pcnt,Born in Eastern Europe,0.012,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),motorcycle_pcnt,Motorcycle to work,0.011,higher share,0%,1%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_water_waste_pcnt,Water and waste,0.011,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),high_wage_pcnt_avg,High-wage workers,0.011,higher share,25%,39%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_arts_pcnt,Arts,0.01,lower share,1%,2%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ind_other_services_pcnt,Other services,0.01,lower share,2%,2%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),taxi_pcnt,Taxi to work,0.009,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),aliya2002_pcnt,Immigrated since 2002,0.009,lower share,29%,21%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),ex_ussr_pcnt,Born in the former USSR,0.007,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),inst_pcnt,Institution residents,0.006,higher share,2%,3%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),birth_usa_pcnt,Born in the USA,0.001,higher share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),birth_iraq_pcnt,Born in Iraq,0.0,lower share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),birth_france_pcnt,Born in France,0.0,lower share,0%,0%,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+Hadash–Ta’al / Joint List (חד״ש-תע״ל),religion_other_religion,other-religion area,0.0,,,,False,ודם,Hadash-Taal_-_Joint_List,Arab Parties
+B’Yachad / Together (ביחד),acadmcert_pcnt,Academic certificate,1.794,higher share,46%,25%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),computer_avg,Computers per household,0.879,higher share,1.90 computers,1.30 computers,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_information_pcnt,Information,0.711,higher share,14%,5%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),housing_density_avg,Housing density,0.709,lower share,0.70,0.80,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),hh_hiloni_pcnt,Secular households,0.572,higher share,76%,47%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),low_wage_pcnt,Low-wage workers,0.543,lower share,26%,39%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),hh_size_avg,Household size,0.478,lower share,2.8 people,2.9 people,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),monthly_wage_avg,Monthly wage,0.454,higher share,"12,984 NIS","8,618 NIS",True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age0_19_pcnt,Age 0–19,0.242,lower share,30%,32%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),africa_pcnt,Born in Africa,0.2,lower share,7%,10%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),europe_pcnt,Born in Europe,0.199,higher share,26%,26%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),educ9_12_pcnt,9–12 years of school,0.185,lower share,36%,52%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),hh_dati_pcnt,Dati households,0.168,lower share,4%,12%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),workplace_pcnt,Employer shuttle,0.165,lower share,1%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),high_wage_pcnt_avg,High-wage workers,0.115,higher share,60%,39%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),employeed_prcnt_avg,Employment,0.109,higher share,76%,68%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),acadm1cert_pcnt,First academic degree,0.082,higher share,27%,15%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),hh_haredi_pcnt,Haredi households,0.08,lower share,1%,2%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age10_19_pcnt,Age 10–19,0.079,lower share,14%,15%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),othercerta_pcnt,Other certificate,0.074,lower share,14%,22%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age_avg,Average age,0.073,higher share,34 years,33 years,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age20_29_pcnt,Age 20–29,0.067,lower share,12%,13%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),asia_pcnt,Born in Asia,0.055,higher share,8%,8%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_professional_pcnt,Professional services,0.053,higher share,14%,7%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),secondarycert_pcnt,Secondary certificate,0.05,lower share,11%,22%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),educ16_pcnt,16+ years of school,0.048,higher share,33%,16%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_finance_pcnt,Finance,0.043,higher share,4%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),owners_pcnt_avg,Homeowners,0.042,lower share,60%,63%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age30_39_pcnt,Age 30–39,0.04,higher share,13%,13%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),aliya1960_pcnt,Immigrated by 1960,0.038,higher share,20%,16%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_education_pcnt,Education jobs,0.038,lower share,9%,11%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age0_9_pcnt,Age 0–9,0.036,lower share,14%,16%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),america_pcnt,Born in the Americas,0.033,higher share,5%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_public_admin_pcnt,Public administration,0.032,higher share,9%,8%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_pcnt_avg,Religion percent,0.029,higher share,96%,94%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_construction_pcnt,Construction,0.028,lower share,2%,4%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),aliya90_01_pcnt,Immigrated 1990–2001,0.028,higher share,26%,34%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),aliya2002_pcnt,Immigrated since 2002,0.028,higher share,23%,21%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),israel_pcnt,Born in Israel,0.028,higher share,53%,47%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_health_pcnt,Health jobs,0.028,lower share,9%,12%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),pop_avg_sq_km,Population density,0.027,higher share,"8,070 per km²","7,343 per km²",False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),hh_masorati_pcnt,Traditional households,0.027,lower share,17%,28%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),bus_pcnt,Bus to work,0.026,lower share,9%,12%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age40_49_pcnt,Age 40–49,0.026,higher share,13%,12%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),rent_pcnt,Renters,0.025,higher share,32%,29%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_muslims,Muslim area,0.024,lower share,1% of hexes,13% of hexes,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),motorcycle_pcnt,Motorcycle to work,0.024,higher share,3%,1%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),acadm2cert_pcnt,Advanced academic degree,0.023,higher share,19%,9%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age65plus_pcnt,Age 65+,0.023,higher share,13%,14%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),birth_other_pcnt,Born elsewhere,0.023,higher share,35%,42%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),car_owners_pcnt_avg,Car owners,0.021,higher share,88%,78%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),carpsngr_pcnt,Car passengers,0.019,lower share,2%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age20_39_pcnt,Age 20–39,0.019,lower share,23%,27%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),birth_morocco_pcnt,Born in Morocco,0.019,lower share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),cardrvr_pcnt,Drive to work,0.018,higher share,75%,64%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),parking_owners_pcnt_avg,Parking owners,0.017,lower share,83%,72%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_manufacturing_pcnt,Manufacturing,0.016,lower share,6%,8%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age70_79_pcnt,Age 70–79,0.016,higher share,6%,6%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age80plus_pcnt,Age 80+,0.016,higher share,4%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),married_pcnt_avg,Married,0.016,lower share,59%,61%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),cellphone_ratio,Cellphones per person,0.016,higher share,0.98 phones per person,0.95 phones per person,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age60_69_pcnt,Age 60–69,0.015,lower share,8%,9%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),postsecondarycert_pcnt,Post-secondary certificate,0.014,lower share,5%,7%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),bicycle_pcnt,Bicycle to work,0.013,higher share,2%,1%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),aliya2010_pcnt,Immigrated since 2010,0.012,higher share,15%,12%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_transport_pcnt,Transport,0.012,higher share,2%,4%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),train_pcnt,Train to work,0.011,higher share,1%,1%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),age50_59_pcnt,Age 50–59,0.011,higher share,10%,10%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),educ13_15_pcnt,13–15 years of school,0.011,higher share,28%,25%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),othervehicle_pcnt,Other vehicle to work,0.011,lower share,1%,1%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),matriccert_pcnt,Matriculation,0.01,higher share,22%,20%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_electricity_pcnt,Electricity,0.01,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),onfoot_pcnt,Walk to work,0.01,higher share,6%,6%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_arts_pcnt,Arts,0.01,higher share,3%,2%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),aliya61_89_pcnt,Immigrated 1961–1989,0.009,higher share,22%,21%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ex_ussr_pcnt,Born in the former USSR,0.008,lower share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_real_estate_pcnt,Real estate,0.008,higher share,1%,1%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_admin_support_pcnt,Administrative support,0.008,lower share,2%,4%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),eastern_europe_pcnt,Born in Eastern Europe,0.007,higher share,4%,0%,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_jews,Jewish area,0.007,higher share,76% of hexes,63% of hexes,True,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_trade_pcnt,Trade,0.007,higher share,9%,12%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_other_services_pcnt,Other services,0.006,lower share,2%,2%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_unknown_pcnt,Unknown industry,0.006,higher share,3%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_accommodation_food_pcnt,Accommodation and food,0.006,higher share,5%,4%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),educ8_pcnt,Up to 8 years of school,0.005,lower share,3%,5%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_agriculture_pcnt,Agriculture,0.005,lower share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_water_waste_pcnt,Water and waste,0.005,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),inst_pcnt,Institution residents,0.004,lower share,5%,3%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),birth_iraq_pcnt,Born in Iraq,0.004,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_extraterritorial_pcnt,Extraterritorial organizations,0.003,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_druze,Druze area,0.003,higher share,0% of hexes,1% of hexes,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_households_pcnt,Household employers,0.003,lower share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),taxi_pcnt,Taxi to work,0.002,lower share,1%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),birth_usa_pcnt,Born in the USA,0.002,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_christians,Christian area,0.001,lower share,0% of hexes,1% of hexes,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_unknown,religion-unknown area,0.001,lower share,23% of hexes,21% of hexes,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),ind_mining_pcnt,Mining,0.001,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),birth_france_pcnt,Born in France,0.001,higher share,0%,0%,False,רק,BYachad_-_Together,Opposition
+B’Yachad / Together (ביחד),religion_other_religion,other-religion area,0.0,,,,False,רק,BYachad_-_Together,Opposition
+The Democrats (הדמוקרטים),acadmcert_pcnt,Academic certificate,1.865,higher share,47%,25%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),america_pcnt,Born in the Americas,0.781,higher share,7%,3%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),computer_avg,Computers per household,0.735,higher share,1.70 computers,1.30 computers,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),secondarycert_pcnt,Secondary certificate,0.699,lower share,10%,22%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),educ9_12_pcnt,9–12 years of school,0.47,lower share,31%,52%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),married_pcnt_avg,Married,0.458,lower share,43%,61%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),hh_hiloni_pcnt,Secular households,0.452,higher share,79%,47%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),africa_pcnt,Born in Africa,0.381,lower share,6%,10%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age_avg,Average age,0.366,higher share,34 years,33 years,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),bicycle_pcnt,Bicycle to work,0.28,higher share,8%,1%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),hh_size_avg,Household size,0.221,lower share,2.5 people,2.9 people,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),parking_owners_pcnt_avg,Parking owners,0.211,lower share,51%,72%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_professional_pcnt,Professional services,0.177,higher share,15%,7%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),hh_masorati_pcnt,Traditional households,0.163,lower share,14%,28%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age0_19_pcnt,Age 0–19,0.16,lower share,29%,32%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_pcnt_avg,Religion percent,0.15,lower share,94%,94%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),hh_dati_pcnt,Dati households,0.144,lower share,4%,12%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),workplace_pcnt,Employer shuttle,0.14,lower share,1%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),owners_pcnt_avg,Homeowners,0.111,lower share,41%,63%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_arts_pcnt,Arts,0.103,higher share,4%,2%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),aliya90_01_pcnt,Immigrated 1990–2001,0.097,lower share,23%,34%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),educ16_pcnt,16+ years of school,0.093,higher share,36%,16%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_manufacturing_pcnt,Manufacturing,0.09,lower share,4%,8%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age0_9_pcnt,Age 0–9,0.083,lower share,13%,16%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_trade_pcnt,Trade,0.081,lower share,6%,12%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),europe_pcnt,Born in Europe,0.073,higher share,26%,26%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),asia_pcnt,Born in Asia,0.072,lower share,6%,8%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),postsecondarycert_pcnt,Post-secondary certificate,0.071,lower share,4%,7%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),eastern_europe_pcnt,Born in Eastern Europe,0.071,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),pop_avg_sq_km,Population density,0.06,lower share,"6,110 per km²","7,343 per km²",True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),employeed_prcnt_avg,Employment,0.059,higher share,76%,68%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_information_pcnt,Information,0.055,higher share,16%,5%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),cardrvr_pcnt,Drive to work,0.055,lower share,47%,64%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),israel_pcnt,Born in Israel,0.055,higher share,54%,47%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),monthly_wage_avg,Monthly wage,0.054,lower share,"11,463 NIS","8,618 NIS",False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),aliya1960_pcnt,Immigrated by 1960,0.052,higher share,19%,16%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),inst_pcnt,Institution residents,0.048,higher share,2%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),birth_other_pcnt,Born elsewhere,0.048,higher share,37%,42%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ex_ussr_pcnt,Born in the former USSR,0.046,lower share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),bus_pcnt,Bus to work,0.045,lower share,18%,12%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),hh_haredi_pcnt,Haredi households,0.04,lower share,1%,2%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_agriculture_pcnt,Agriculture,0.039,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_druze,Druze area,0.037,higher share,0% of hexes,1% of hexes,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),educ13_15_pcnt,13–15 years of school,0.036,lower share,28%,25%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_accommodation_food_pcnt,Accommodation and food,0.036,higher share,6%,4%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),othercerta_pcnt,Other certificate,0.036,lower share,12%,22%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_finance_pcnt,Finance,0.034,lower share,3%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),rent_pcnt,Renters,0.032,lower share,40%,29%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),motorcycle_pcnt,Motorcycle to work,0.032,higher share,4%,1%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),aliya61_89_pcnt,Immigrated 1961–1989,0.031,higher share,20%,21%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_transport_pcnt,Transport,0.029,lower share,2%,4%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),acadm2cert_pcnt,Advanced academic degree,0.028,higher share,19%,9%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),onfoot_pcnt,Walk to work,0.027,higher share,11%,6%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_education_pcnt,Education jobs,0.027,higher share,10%,11%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),cellphone_ratio,Cellphones per person,0.026,lower share,0.98 phones per person,0.95 phones per person,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age40_49_pcnt,Age 40–49,0.023,higher share,13%,12%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age65plus_pcnt,Age 65+,0.023,higher share,14%,14%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age20_39_pcnt,Age 20–39,0.022,higher share,33%,27%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_christians,Christian area,0.021,higher share,1% of hexes,1% of hexes,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),acadm1cert_pcnt,First academic degree,0.018,higher share,29%,15%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),aliya2010_pcnt,Immigrated since 2010,0.017,lower share,17%,12%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_public_admin_pcnt,Public administration,0.016,lower share,7%,8%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),aliya2002_pcnt,Immigrated since 2002,0.016,lower share,27%,21%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age30_39_pcnt,Age 30–39,0.014,higher share,19%,13%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),carpsngr_pcnt,Car passengers,0.013,lower share,2%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_construction_pcnt,Construction,0.013,lower share,2%,4%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),educ8_pcnt,Up to 8 years of school,0.013,higher share,3%,5%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),train_pcnt,Train to work,0.013,higher share,1%,1%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),othervehicle_pcnt,Other vehicle to work,0.012,higher share,2%,1%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age10_19_pcnt,Age 10–19,0.012,lower share,10%,15%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age80plus_pcnt,Age 80+,0.011,higher share,4%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_health_pcnt,Health jobs,0.011,higher share,10%,12%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age50_59_pcnt,Age 50–59,0.011,higher share,9%,10%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),car_owners_pcnt_avg,Car owners,0.01,higher share,73%,78%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),birth_morocco_pcnt,Born in Morocco,0.009,lower share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age70_79_pcnt,Age 70–79,0.009,lower share,6%,6%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),birth_usa_pcnt,Born in the USA,0.009,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_admin_support_pcnt,Administrative support,0.009,lower share,2%,4%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),low_wage_pcnt,Low-wage workers,0.009,lower share,28%,39%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age20_29_pcnt,Age 20–29,0.008,lower share,14%,13%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),matriccert_pcnt,Matriculation,0.008,lower share,21%,20%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_other_services_pcnt,Other services,0.007,higher share,2%,2%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),housing_density_avg,Housing density,0.007,lower share,0.70,0.80,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),age60_69_pcnt,Age 60–69,0.007,lower share,7%,9%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),birth_iraq_pcnt,Born in Iraq,0.007,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),high_wage_pcnt_avg,High-wage workers,0.006,higher share,58%,39%,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_real_estate_pcnt,Real estate,0.005,lower share,1%,1%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_households_pcnt,Household employers,0.005,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_water_waste_pcnt,Water and waste,0.005,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_unknown_pcnt,Unknown industry,0.005,lower share,3%,3%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_extraterritorial_pcnt,Extraterritorial organizations,0.004,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_jews,Jewish area,0.004,higher share,54% of hexes,63% of hexes,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),taxi_pcnt,Taxi to work,0.004,higher share,1%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_electricity_pcnt,Electricity,0.003,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_muslims,Muslim area,0.002,lower share,3% of hexes,13% of hexes,True,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_unknown,religion-unknown area,0.001,lower share,39% of hexes,21% of hexes,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),ind_mining_pcnt,Mining,0.001,higher share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),birth_france_pcnt,Born in France,0.001,lower share,0%,0%,False,אמת,The_Democrats,Opposition
+The Democrats (הדמוקרטים),religion_other_religion,other-religion area,0.0,,,,False,אמת,The_Democrats,Opposition
+Ra’am / United Arab List (רע״ם),religion_muslims,Muslim area,4.023,higher share,82% of hexes,13% of hexes,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),birth_other_pcnt,Born elsewhere,1.409,higher share,100%,42%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_pcnt_avg,Religion percent,1.385,higher share,100%,94%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age0_19_pcnt,Age 0–19,1.284,higher share,40%,32%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),bus_pcnt,Bus to work,0.593,lower share,5%,12%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),israel_pcnt,Born in Israel,0.584,lower share,48%,47%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age50_59_pcnt,Age 50–59,0.531,lower share,8%,10%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),europe_pcnt,Born in Europe,0.515,lower share,26%,26%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),africa_pcnt,Born in Africa,0.473,lower share,14%,10%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),computer_avg,Computers per household,0.4,lower share,0.80 computers,1.30 computers,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),aliya90_01_pcnt,Immigrated 1990–2001,0.291,lower share,31%,34%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),aliya61_89_pcnt,Immigrated 1961–1989,0.288,lower share,29%,21%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age0_9_pcnt,Age 0–9,0.264,higher share,20%,16%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),hh_masorati_pcnt,Traditional households,0.247,higher share,50%,28%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),owners_pcnt_avg,Homeowners,0.23,higher share,76%,63%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age_avg,Average age,0.223,lower share,25 years,33 years,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),employeed_prcnt_avg,Employment,0.22,lower share,56%,68%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),hh_size_avg,Household size,0.219,higher share,3.8 people,2.9 people,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age10_19_pcnt,Age 10–19,0.183,higher share,20%,15%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_transport_pcnt,Transport,0.183,higher share,6%,4%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_agriculture_pcnt,Agriculture,0.182,higher share,2%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),postsecondarycert_pcnt,Post-secondary certificate,0.176,lower share,3%,7%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_trade_pcnt,Trade,0.171,lower share,13%,12%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),asia_pcnt,Born in Asia,0.165,lower share,7%,8%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),rent_pcnt,Renters,0.151,lower share,5%,29%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_construction_pcnt,Construction,0.132,higher share,12%,4%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),parking_owners_pcnt_avg,Parking owners,0.101,higher share,70%,72%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_finance_pcnt,Finance,0.095,lower share,1%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),pop_avg_sq_km,Population density,0.095,lower share,"2,462 per km²","7,343 per km²",True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),hh_hiloni_pcnt,Secular households,0.09,lower share,6%,47%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),othervehicle_pcnt,Other vehicle to work,0.09,higher share,2%,1%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),cellphone_ratio,Cellphones per person,0.088,lower share,0.84 phones per person,0.95 phones per person,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),aliya2010_pcnt,Immigrated since 2010,0.084,lower share,8%,12%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_unknown,religion-unknown area,0.081,higher share,15% of hexes,21% of hexes,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),educ9_12_pcnt,9–12 years of school,0.077,higher share,65%,52%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_accommodation_food_pcnt,Accommodation and food,0.077,lower share,4%,4%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),inst_pcnt,Institution residents,0.076,higher share,1%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age65plus_pcnt,Age 65+,0.072,lower share,5%,14%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),cardrvr_pcnt,Drive to work,0.066,higher share,64%,64%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_jews,Jewish area,0.06,lower share,2% of hexes,63% of hexes,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),secondarycert_pcnt,Secondary certificate,0.059,higher share,28%,22%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_public_admin_pcnt,Public administration,0.056,higher share,2%,8%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_information_pcnt,Information,0.053,lower share,1%,5%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),hh_dati_pcnt,Dati households,0.052,higher share,34%,12%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),birth_morocco_pcnt,Born in Morocco,0.051,lower share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age20_39_pcnt,Age 20–39,0.048,higher share,31%,27%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),motorcycle_pcnt,Motorcycle to work,0.047,lower share,0%,1%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_professional_pcnt,Professional services,0.046,lower share,3%,7%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),acadmcert_pcnt,Academic certificate,0.046,lower share,12%,25%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),onfoot_pcnt,Walk to work,0.045,lower share,6%,6%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_mining_pcnt,Mining,0.045,higher share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),educ13_15_pcnt,13–15 years of school,0.044,lower share,12%,25%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),housing_density_avg,Housing density,0.043,higher share,1.10,0.80,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age40_49_pcnt,Age 40–49,0.042,lower share,11%,12%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_education_pcnt,Education jobs,0.041,higher share,15%,11%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),aliya1960_pcnt,Immigrated by 1960,0.038,lower share,22%,16%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),workplace_pcnt,Employer shuttle,0.037,higher share,11%,3%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),acadm1cert_pcnt,First academic degree,0.035,lower share,8%,15%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),bicycle_pcnt,Bicycle to work,0.033,lower share,0%,1%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_manufacturing_pcnt,Manufacturing,0.03,higher share,10%,8%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),othercerta_pcnt,Other certificate,0.029,lower share,38%,22%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),monthly_wage_avg,Monthly wage,0.029,higher share,"6,358 NIS","8,618 NIS",False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_households_pcnt,Household employers,0.028,lower share,1%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age60_69_pcnt,Age 60–69,0.028,lower share,5%,9%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_druze,Druze area,0.028,lower share,1% of hexes,1% of hexes,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),married_pcnt_avg,Married,0.027,higher share,64%,61%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_real_estate_pcnt,Real estate,0.027,lower share,0%,1%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_unknown_pcnt,Unknown industry,0.023,higher share,5%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_admin_support_pcnt,Administrative support,0.023,higher share,5%,4%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),car_owners_pcnt_avg,Car owners,0.021,higher share,78%,78%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age80plus_pcnt,Age 80+,0.02,lower share,1%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age30_39_pcnt,Age 30–39,0.02,higher share,13%,13%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),carpsngr_pcnt,Car passengers,0.02,higher share,8%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age20_29_pcnt,Age 20–29,0.019,higher share,18%,13%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),educ16_pcnt,16+ years of school,0.019,lower share,8%,16%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),matriccert_pcnt,Matriculation,0.019,higher share,18%,20%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_health_pcnt,Health jobs,0.019,lower share,11%,12%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),train_pcnt,Train to work,0.018,lower share,0%,1%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),age70_79_pcnt,Age 70–79,0.018,lower share,2%,6%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),america_pcnt,Born in the Americas,0.017,lower share,4%,3%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),high_wage_pcnt_avg,High-wage workers,0.015,lower share,24%,39%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),low_wage_pcnt,Low-wage workers,0.014,lower share,55%,39%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),aliya2002_pcnt,Immigrated since 2002,0.011,lower share,16%,21%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_arts_pcnt,Arts,0.011,lower share,1%,2%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_electricity_pcnt,Electricity,0.01,lower share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),educ8_pcnt,Up to 8 years of school,0.01,higher share,13%,5%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),acadm2cert_pcnt,Advanced academic degree,0.007,lower share,3%,9%,True,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),hh_haredi_pcnt,Haredi households,0.006,lower share,1%,2%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_other_services_pcnt,Other services,0.006,higher share,2%,2%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_extraterritorial_pcnt,Extraterritorial organizations,0.005,lower share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),eastern_europe_pcnt,Born in Eastern Europe,0.005,higher share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ind_water_waste_pcnt,Water and waste,0.004,higher share,1%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),taxi_pcnt,Taxi to work,0.003,higher share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),ex_ussr_pcnt,Born in the former USSR,0.003,higher share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_christians,Christian area,0.001,higher share,0% of hexes,1% of hexes,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),birth_usa_pcnt,Born in the USA,0.001,lower share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),birth_iraq_pcnt,Born in Iraq,0.001,higher share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),religion_other_religion,other-religion area,0.0,higher share,0% of hexes,0% of hexes,False,עם,Raam_-_United_Arab_List,Arab Parties
+Ra’am / United Arab List (רע״ם),birth_france_pcnt,Born in France,0.0,lower share,0%,0%,False,עם,Raam_-_United_Arab_List,Arab Parties
+Yisrael Beiteinu (ישראל ביתנו),ex_ussr_pcnt,Born in the former USSR,1.061,higher share,22%,0%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),hh_hiloni_pcnt,Secular households,0.659,higher share,55%,47%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),europe_pcnt,Born in Europe,0.655,higher share,50%,26%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),housing_density_avg,Housing density,0.38,lower share,0.74,0.80,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_druze,Druze area,0.374,higher share,8% of hexes,1% of hexes,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),aliya90_01_pcnt,Immigrated 1990–2001,0.269,higher share,50%,34%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),hh_size_avg,Household size,0.217,lower share,2.6 people,2.9 people,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),israel_pcnt,Born in Israel,0.206,lower share,25%,47%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_pcnt_avg,Religion percent,0.204,lower share,82%,94%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),postsecondarycert_pcnt,Post-secondary certificate,0.162,higher share,11%,7%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age_avg,Average age,0.152,higher share,39 years,33 years,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),rent_pcnt,Renters,0.14,lower share,32%,29%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age0_19_pcnt,Age 0–19,0.126,lower share,25%,32%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),hh_masorati_pcnt,Traditional households,0.089,lower share,28%,28%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_manufacturing_pcnt,Manufacturing,0.081,higher share,13%,8%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_education_pcnt,Education jobs,0.078,lower share,9%,11%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),america_pcnt,Born in the Americas,0.071,lower share,2%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),secondarycert_pcnt,Secondary certificate,0.063,lower share,21%,22%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_muslims,Muslim area,0.061,lower share,3% of hexes,13% of hexes,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),workplace_pcnt,Employer shuttle,0.05,higher share,8%,3%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_public_admin_pcnt,Public administration,0.045,higher share,8%,8%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),low_wage_pcnt,Low-wage workers,0.041,lower share,42%,39%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),pop_avg_sq_km,Population density,0.039,lower share,"10,274 per km²","7,343 per km²",False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age80plus_pcnt,Age 80+,0.038,higher share,5%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age65plus_pcnt,Age 65+,0.037,higher share,20%,14%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),aliya61_89_pcnt,Immigrated 1961–1989,0.037,lower share,14%,21%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),educ13_15_pcnt,13–15 years of school,0.036,higher share,27%,25%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),educ9_12_pcnt,9–12 years of school,0.035,lower share,50%,52%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_transport_pcnt,Transport,0.035,higher share,5%,4%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),hh_dati_pcnt,Dati households,0.032,lower share,9%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),monthly_wage_avg,Monthly wage,0.031,lower share,"7,786 NIS","8,618 NIS",True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),birth_other_pcnt,Born elsewhere,0.03,higher share,43%,42%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),acadmcert_pcnt,Academic certificate,0.029,lower share,23%,25%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_arts_pcnt,Arts,0.028,lower share,1%,2%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),owners_pcnt_avg,Homeowners,0.028,higher share,62%,63%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),africa_pcnt,Born in Africa,0.028,higher share,14%,10%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),computer_avg,Computers per household,0.028,higher share,1.20 computers,1.30 computers,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age0_9_pcnt,Age 0–9,0.023,lower share,13%,16%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),married_pcnt_avg,Married,0.023,higher share,57%,61%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),aliya1960_pcnt,Immigrated by 1960,0.023,lower share,8%,16%,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),cellphone_ratio,Cellphones per person,0.021,higher share,0.97 phones per person,0.95 phones per person,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age70_79_pcnt,Age 70–79,0.021,higher share,9%,6%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),bus_pcnt,Bus to work,0.021,higher share,19%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age20_39_pcnt,Age 20–39,0.02,lower share,25%,27%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),educ16_pcnt,16+ years of school,0.02,higher share,16%,16%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),hh_haredi_pcnt,Haredi households,0.02,lower share,2%,2%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_extraterritorial_pcnt,Extraterritorial organizations,0.019,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),birth_usa_pcnt,Born in the USA,0.019,lower share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),employeed_prcnt_avg,Employment,0.019,higher share,65%,68%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_accommodation_food_pcnt,Accommodation and food,0.017,lower share,4%,4%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_trade_pcnt,Trade,0.017,higher share,13%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_professional_pcnt,Professional services,0.017,lower share,5%,7%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),onfoot_pcnt,Walk to work,0.017,lower share,7%,6%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_finance_pcnt,Finance,0.017,lower share,2%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),educ8_pcnt,Up to 8 years of school,0.017,higher share,7%,5%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),acadm2cert_pcnt,Advanced academic degree,0.016,higher share,9%,9%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age30_39_pcnt,Age 30–39,0.016,lower share,13%,13%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_information_pcnt,Information,0.016,lower share,4%,5%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age40_49_pcnt,Age 40–49,0.015,higher share,12%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),asia_pcnt,Born in Asia,0.015,lower share,6%,8%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age50_59_pcnt,Age 50–59,0.014,higher share,11%,10%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),aliya2010_pcnt,Immigrated since 2010,0.014,higher share,15%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),parking_owners_pcnt_avg,Parking owners,0.014,higher share,60%,72%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),othercerta_pcnt,Other certificate,0.014,lower share,23%,22%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_admin_support_pcnt,Administrative support,0.013,higher share,5%,4%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age60_69_pcnt,Age 60–69,0.013,higher share,11%,9%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),matriccert_pcnt,Matriculation,0.012,higher share,20%,20%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_agriculture_pcnt,Agriculture,0.012,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age20_29_pcnt,Age 20–29,0.011,lower share,12%,13%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),aliya2002_pcnt,Immigrated since 2002,0.011,higher share,23%,21%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),age10_19_pcnt,Age 10–19,0.01,lower share,12%,15%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),high_wage_pcnt_avg,High-wage workers,0.01,higher share,35%,39%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_construction_pcnt,Construction,0.01,lower share,4%,4%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),train_pcnt,Train to work,0.01,lower share,1%,1%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_real_estate_pcnt,Real estate,0.01,higher share,1%,1%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),bicycle_pcnt,Bicycle to work,0.008,lower share,1%,1%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),car_owners_pcnt_avg,Car owners,0.008,lower share,71%,78%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),othervehicle_pcnt,Other vehicle to work,0.008,higher share,1%,1%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),cardrvr_pcnt,Drive to work,0.008,higher share,57%,64%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),carpsngr_pcnt,Car passengers,0.008,lower share,3%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_electricity_pcnt,Electricity,0.008,lower share,1%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_health_pcnt,Health jobs,0.007,lower share,13%,12%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_unknown,religion-unknown area,0.006,higher share,11% of hexes,21% of hexes,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_other_services_pcnt,Other services,0.006,lower share,3%,2%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_households_pcnt,Household employers,0.006,higher share,1%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),motorcycle_pcnt,Motorcycle to work,0.006,lower share,1%,1%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),acadm1cert_pcnt,First academic degree,0.005,lower share,14%,15%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_water_waste_pcnt,Water and waste,0.005,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_unknown_pcnt,Unknown industry,0.004,higher share,3%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),birth_morocco_pcnt,Born in Morocco,0.004,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),taxi_pcnt,Taxi to work,0.003,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),inst_pcnt,Institution residents,0.003,lower share,1%,3%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),birth_france_pcnt,Born in France,0.003,lower share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_jews,Jewish area,0.002,higher share,77% of hexes,63% of hexes,True,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),ind_mining_pcnt,Mining,0.001,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),birth_iraq_pcnt,Born in Iraq,0.001,higher share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_christians,Christian area,0.001,higher share,1% of hexes,1% of hexes,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),eastern_europe_pcnt,Born in Eastern Europe,0.0,lower share,0%,0%,False,ל,Yisrael_Beiteinu,Opposition
+Yisrael Beiteinu (ישראל ביתנו),religion_other_religion,other-religion area,0.0,,,,False,ל,Yisrael_Beiteinu,Opposition
+Otzma Yehudit (עוצמה יהודית),africa_pcnt,Born in Africa,1.148,higher share,17%,10%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_muslims,Muslim area,0.55,lower share,1% of hexes,13% of hexes,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),hh_hiloni_pcnt,Secular households,0.516,lower share,27%,47%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),acadmcert_pcnt,Academic certificate,0.385,lower share,19%,25%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),hh_haredi_pcnt,Haredi households,0.323,higher share,7%,2%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),hh_dati_pcnt,Dati households,0.318,higher share,25%,12%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age_avg,Average age,0.281,lower share,28 years,33 years,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),america_pcnt,Born in the Americas,0.196,lower share,2%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),birth_morocco_pcnt,Born in Morocco,0.168,higher share,4%,0%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),europe_pcnt,Born in Europe,0.16,lower share,14%,26%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_professional_pcnt,Professional services,0.136,lower share,5%,7%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),asia_pcnt,Born in Asia,0.125,higher share,6%,8%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),hh_masorati_pcnt,Traditional households,0.111,lower share,32%,28%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),rent_pcnt,Renters,0.097,higher share,28%,29%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),hh_size_avg,Household size,0.092,higher share,3.3 people,2.9 people,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age70_79_pcnt,Age 70–79,0.086,lower share,4%,6%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age65plus_pcnt,Age 65+,0.081,lower share,10%,14%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),israel_pcnt,Born in Israel,0.08,higher share,55%,47%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),birth_other_pcnt,Born elsewhere,0.071,lower share,39%,42%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),educ8_pcnt,Up to 8 years of school,0.066,lower share,5%,5%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),aliya90_01_pcnt,Immigrated 1990–2001,0.065,higher share,45%,34%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),housing_density_avg,Housing density,0.062,lower share,0.90,0.80,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),educ16_pcnt,16+ years of school,0.061,lower share,12%,16%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),pop_avg_sq_km,Population density,0.057,lower share,"5,337 per km²","7,343 per km²",True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),aliya1960_pcnt,Immigrated by 1960,0.056,higher share,12%,16%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_construction_pcnt,Construction,0.052,lower share,5%,4%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_public_admin_pcnt,Public administration,0.052,higher share,10%,8%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),bus_pcnt,Bus to work,0.051,lower share,14%,12%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),workplace_pcnt,Employer shuttle,0.05,lower share,5%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age0_9_pcnt,Age 0–9,0.049,higher share,22%,16%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),car_owners_pcnt_avg,Car owners,0.043,higher share,79%,78%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age0_19_pcnt,Age 0–19,0.043,lower share,37%,32%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),owners_pcnt_avg,Homeowners,0.043,lower share,60%,63%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),parking_owners_pcnt_avg,Parking owners,0.04,higher share,80%,72%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),train_pcnt,Train to work,0.04,higher share,1%,1%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),eastern_europe_pcnt,Born in Eastern Europe,0.039,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),employeed_prcnt_avg,Employment,0.039,higher share,71%,68%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age20_29_pcnt,Age 20–29,0.036,lower share,14%,13%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),cardrvr_pcnt,Drive to work,0.035,higher share,66%,64%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),secondarycert_pcnt,Secondary certificate,0.032,higher share,27%,22%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),aliya2010_pcnt,Immigrated since 2010,0.029,lower share,8%,12%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_pcnt_avg,Religion percent,0.029,higher share,95%,94%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),aliya61_89_pcnt,Immigrated 1961–1989,0.028,higher share,18%,21%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_agriculture_pcnt,Agriculture,0.027,higher share,1%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age80plus_pcnt,Age 80+,0.027,lower share,2%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),low_wage_pcnt,Low-wage workers,0.026,lower share,42%,39%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),educ13_15_pcnt,13–15 years of school,0.026,higher share,25%,25%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),onfoot_pcnt,Walk to work,0.026,lower share,6%,6%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),acadm1cert_pcnt,First academic degree,0.026,higher share,14%,15%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age40_49_pcnt,Age 40–49,0.024,lower share,10%,12%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),matriccert_pcnt,Matriculation,0.024,lower share,20%,20%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),carpsngr_pcnt,Car passengers,0.023,higher share,4%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_mining_pcnt,Mining,0.023,higher share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),acadm2cert_pcnt,Advanced academic degree,0.023,lower share,6%,9%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ex_ussr_pcnt,Born in the former USSR,0.023,higher share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_information_pcnt,Information,0.023,lower share,4%,5%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),aliya2002_pcnt,Immigrated since 2002,0.019,lower share,15%,21%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),educ9_12_pcnt,9–12 years of school,0.019,higher share,57%,52%,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),othercerta_pcnt,Other certificate,0.018,lower share,23%,22%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_manufacturing_pcnt,Manufacturing,0.017,higher share,10%,8%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age50_59_pcnt,Age 50–59,0.017,lower share,8%,10%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age20_39_pcnt,Age 20–39,0.015,higher share,29%,27%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),cellphone_ratio,Cellphones per person,0.015,lower share,0.93 phones per person,0.95 phones per person,True,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),monthly_wage_avg,Monthly wage,0.015,lower share,"8,309 NIS","8,618 NIS",False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_accommodation_food_pcnt,Accommodation and food,0.014,lower share,4%,4%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),birth_usa_pcnt,Born in the USA,0.014,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_transport_pcnt,Transport,0.014,higher share,5%,4%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age30_39_pcnt,Age 30–39,0.013,higher share,14%,13%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),postsecondarycert_pcnt,Post-secondary certificate,0.013,higher share,9%,7%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),inst_pcnt,Institution residents,0.013,higher share,4%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_education_pcnt,Education jobs,0.012,higher share,14%,11%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),bicycle_pcnt,Bicycle to work,0.011,lower share,1%,1%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),computer_avg,Computers per household,0.011,lower share,1.20 computers,1.30 computers,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),married_pcnt_avg,Married,0.01,higher share,63%,61%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age10_19_pcnt,Age 10–19,0.01,higher share,15%,15%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_admin_support_pcnt,Administrative support,0.009,higher share,4%,4%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),age60_69_pcnt,Age 60–69,0.008,lower share,8%,9%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_finance_pcnt,Finance,0.007,lower share,2%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_arts_pcnt,Arts,0.007,lower share,1%,2%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_trade_pcnt,Trade,0.007,higher share,12%,12%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_christians,Christian area,0.005,lower share,0% of hexes,1% of hexes,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_unknown_pcnt,Unknown industry,0.005,lower share,2%,3%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_druze,Druze area,0.005,lower share,0% of hexes,1% of hexes,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_water_waste_pcnt,Water and waste,0.005,higher share,1%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_extraterritorial_pcnt,Extraterritorial organizations,0.004,higher share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_health_pcnt,Health jobs,0.004,lower share,11%,12%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_households_pcnt,Household employers,0.004,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_other_services_pcnt,Other services,0.004,lower share,3%,2%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),motorcycle_pcnt,Motorcycle to work,0.004,lower share,1%,1%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_real_estate_pcnt,Real estate,0.004,higher share,1%,1%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_jews,Jewish area,0.004,higher share,60% of hexes,63% of hexes,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),othervehicle_pcnt,Other vehicle to work,0.004,higher share,1%,1%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),taxi_pcnt,Taxi to work,0.003,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),high_wage_pcnt_avg,High-wage workers,0.003,lower share,36%,39%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),ind_electricity_pcnt,Electricity,0.002,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),birth_iraq_pcnt,Born in Iraq,0.002,higher share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_unknown,religion-unknown area,0.001,higher share,39% of hexes,21% of hexes,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),birth_france_pcnt,Born in France,0.001,lower share,0%,0%,False,ב,Otzma_Yehudit,Coalition
+Otzma Yehudit (עוצמה יהודית),religion_other_religion,other-religion area,0.0,,,,False,ב,Otzma_Yehudit,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),hh_dati_pcnt,Dati households,0.966,higher share,29%,12%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_muslims,Muslim area,0.409,lower share,2% of hexes,13% of hexes,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),israel_pcnt,Born in Israel,0.366,higher share,50%,47%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),hh_hiloni_pcnt,Secular households,0.27,lower share,30%,47%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age_avg,Average age,0.259,lower share,28 years,33 years,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),africa_pcnt,Born in Africa,0.247,higher share,10%,10%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age0_19_pcnt,Age 0–19,0.216,higher share,36%,32%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),acadmcert_pcnt,Academic certificate,0.162,higher share,32%,25%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),hh_size_avg,Household size,0.143,higher share,3.2 people,2.9 people,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),rent_pcnt,Renters,0.127,higher share,31%,29%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),america_pcnt,Born in the Americas,0.116,higher share,6%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),inst_pcnt,Institution residents,0.088,higher share,4%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age65plus_pcnt,Age 65+,0.084,lower share,12%,14%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),computer_avg,Computers per household,0.08,higher share,1.50 computers,1.30 computers,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),owners_pcnt_avg,Homeowners,0.077,lower share,60%,63%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),asia_pcnt,Born in Asia,0.07,higher share,7%,8%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),acadm2cert_pcnt,Advanced academic degree,0.062,higher share,12%,9%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),pop_avg_sq_km,Population density,0.061,higher share,"8,284 per km²","7,343 per km²",False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),hh_haredi_pcnt,Haredi households,0.06,higher share,4%,2%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age80plus_pcnt,Age 80+,0.059,lower share,3%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),acadm1cert_pcnt,First academic degree,0.057,higher share,19%,15%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_construction_pcnt,Construction,0.055,lower share,3%,4%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),secondarycert_pcnt,Secondary certificate,0.051,lower share,20%,22%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age50_59_pcnt,Age 50–59,0.046,lower share,8%,10%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),educ16_pcnt,16+ years of school,0.045,higher share,22%,16%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),hh_masorati_pcnt,Traditional households,0.044,lower share,21%,28%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_education_pcnt,Education jobs,0.038,higher share,14%,11%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),educ9_12_pcnt,9–12 years of school,0.036,lower share,47%,52%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),aliya1960_pcnt,Immigrated by 1960,0.034,higher share,13%,16%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age20_39_pcnt,Age 20–39,0.032,lower share,26%,27%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),housing_density_avg,Housing density,0.031,lower share,0.80,0.80,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),europe_pcnt,Born in Europe,0.031,lower share,20%,26%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),matriccert_pcnt,Matriculation,0.031,lower share,20%,20%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),monthly_wage_avg,Monthly wage,0.03,lower share,"8,844 NIS","8,618 NIS",False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age20_29_pcnt,Age 20–29,0.029,lower share,13%,13%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),othercerta_pcnt,Other certificate,0.029,lower share,19%,22%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),educ8_pcnt,Up to 8 years of school,0.028,lower share,4%,5%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_manufacturing_pcnt,Manufacturing,0.027,lower share,6%,8%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age30_39_pcnt,Age 30–39,0.027,lower share,12%,13%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),bus_pcnt,Bus to work,0.027,higher share,16%,12%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),birth_other_pcnt,Born elsewhere,0.026,lower share,36%,42%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),aliya90_01_pcnt,Immigrated 1990–2001,0.026,higher share,26%,34%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_trade_pcnt,Trade,0.026,lower share,10%,12%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),parking_owners_pcnt_avg,Parking owners,0.025,higher share,75%,72%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),aliya2002_pcnt,Immigrated since 2002,0.024,higher share,30%,21%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),educ13_15_pcnt,13–15 years of school,0.022,higher share,27%,25%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),cardrvr_pcnt,Drive to work,0.022,higher share,63%,64%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),workplace_pcnt,Employer shuttle,0.022,lower share,2%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),birth_usa_pcnt,Born in the USA,0.022,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),married_pcnt_avg,Married,0.021,lower share,63%,61%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),car_owners_pcnt_avg,Car owners,0.02,higher share,77%,78%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),employeed_prcnt_avg,Employment,0.02,higher share,69%,68%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_public_admin_pcnt,Public administration,0.019,higher share,11%,8%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_information_pcnt,Information,0.017,higher share,6%,5%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age40_49_pcnt,Age 40–49,0.016,lower share,11%,12%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_pcnt_avg,Religion percent,0.015,higher share,95%,94%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),cellphone_ratio,Cellphones per person,0.015,lower share,0.94 phones per person,0.95 phones per person,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_transport_pcnt,Transport,0.015,lower share,3%,4%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age60_69_pcnt,Age 60–69,0.015,lower share,8%,9%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),aliya61_89_pcnt,Immigrated 1961–1989,0.013,higher share,21%,21%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),aliya2010_pcnt,Immigrated since 2010,0.013,higher share,18%,12%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),low_wage_pcnt,Low-wage workers,0.012,lower share,39%,39%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_unknown_pcnt,Unknown industry,0.012,lower share,3%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_finance_pcnt,Finance,0.011,higher share,3%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age0_9_pcnt,Age 0–9,0.011,lower share,18%,16%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_agriculture_pcnt,Agriculture,0.01,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_professional_pcnt,Professional services,0.009,lower share,8%,7%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),onfoot_pcnt,Walk to work,0.008,lower share,7%,6%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),postsecondarycert_pcnt,Post-secondary certificate,0.008,lower share,7%,7%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_druze,Druze area,0.008,lower share,0% of hexes,1% of hexes,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_admin_support_pcnt,Administrative support,0.007,lower share,4%,4%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age10_19_pcnt,Age 10–19,0.007,higher share,16%,15%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),train_pcnt,Train to work,0.007,higher share,1%,1%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_real_estate_pcnt,Real estate,0.006,higher share,1%,1%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_accommodation_food_pcnt,Accommodation and food,0.006,lower share,4%,4%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),othervehicle_pcnt,Other vehicle to work,0.005,lower share,1%,1%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),carpsngr_pcnt,Car passengers,0.005,lower share,3%,3%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),age70_79_pcnt,Age 70–79,0.005,lower share,6%,6%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),bicycle_pcnt,Bicycle to work,0.005,higher share,1%,1%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),high_wage_pcnt_avg,High-wage workers,0.005,lower share,41%,39%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_health_pcnt,Health jobs,0.005,lower share,12%,12%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),birth_morocco_pcnt,Born in Morocco,0.004,higher share,3%,0%,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_other_services_pcnt,Other services,0.004,lower share,3%,2%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_households_pcnt,Household employers,0.004,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_arts_pcnt,Arts,0.004,higher share,2%,2%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),motorcycle_pcnt,Motorcycle to work,0.004,higher share,1%,1%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_jews,Jewish area,0.002,higher share,73% of hexes,63% of hexes,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_water_waste_pcnt,Water and waste,0.002,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ex_ussr_pcnt,Born in the former USSR,0.002,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),eastern_europe_pcnt,Born in Eastern Europe,0.002,lower share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),birth_france_pcnt,Born in France,0.002,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_electricity_pcnt,Electricity,0.002,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),taxi_pcnt,Taxi to work,0.002,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_extraterritorial_pcnt,Extraterritorial organizations,0.001,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),birth_iraq_pcnt,Born in Iraq,0.001,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_unknown,religion-unknown area,0.001,higher share,25% of hexes,21% of hexes,True,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),ind_mining_pcnt,Mining,0.001,higher share,0%,0%,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_christians,Christian area,0.0,lower share,0% of hexes,1% of hexes,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Religious Zionist Party / Zehut (הציונות הדתית - זהות),religion_other_religion,other-religion area,0.0,,,,False,ט,Religious_Zionist_Party_-_Zehut,Coalition
+Shas (ש״ס),hh_haredi_pcnt,Haredi households,2.624,higher share,23%,2%,True,שס,Shas,Coalition
+Shas (ש״ס),acadmcert_pcnt,Academic certificate,0.465,lower share,15%,25%,True,שס,Shas,Coalition
+Shas (ש״ס),africa_pcnt,Born in Africa,0.465,higher share,9%,10%,False,שס,Shas,Coalition
+Shas (ש״ס),secondarycert_pcnt,Secondary certificate,0.344,higher share,31%,22%,True,שס,Shas,Coalition
+Shas (ש״ס),hh_hiloni_pcnt,Secular households,0.286,lower share,21%,47%,True,שס,Shas,Coalition
+Shas (ש״ס),europe_pcnt,Born in Europe,0.261,lower share,17%,26%,True,שס,Shas,Coalition
+Shas (ש״ס),asia_pcnt,Born in Asia,0.26,higher share,7%,8%,False,שס,Shas,Coalition
+Shas (ש״ס),bus_pcnt,Bus to work,0.205,higher share,28%,12%,True,שס,Shas,Coalition
+Shas (ש״ס),america_pcnt,Born in the Americas,0.198,lower share,3%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),pop_avg_sq_km,Population density,0.189,lower share,"11,998 per km²","7,343 per km²",False,שס,Shas,Coalition
+Shas (ש״ס),age_avg,Average age,0.169,lower share,26 years,33 years,True,שס,Shas,Coalition
+Shas (ש״ס),ind_education_pcnt,Education jobs,0.161,higher share,18%,11%,True,שס,Shas,Coalition
+Shas (ש״ס),rent_pcnt,Renters,0.161,higher share,34%,29%,True,שס,Shas,Coalition
+Shas (ש״ס),israel_pcnt,Born in Israel,0.15,higher share,55%,47%,True,שס,Shas,Coalition
+Shas (ש״ס),hh_dati_pcnt,Dati households,0.15,higher share,17%,12%,True,שס,Shas,Coalition
+Shas (ש״ס),educ16_pcnt,16+ years of school,0.137,lower share,9%,16%,True,שס,Shas,Coalition
+Shas (ש״ס),age0_19_pcnt,Age 0–19,0.12,lower share,40%,32%,False,שס,Shas,Coalition
+Shas (ש״ס),computer_avg,Computers per household,0.117,lower share,1.03 computers,1.30 computers,True,שס,Shas,Coalition
+Shas (ש״ס),birth_morocco_pcnt,Born in Morocco,0.115,higher share,3%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),religion_muslims,Muslim area,0.104,lower share,1% of hexes,13% of hexes,True,שס,Shas,Coalition
+Shas (ש״ס),educ9_12_pcnt,9–12 years of school,0.094,higher share,61%,52%,True,שס,Shas,Coalition
+Shas (ש״ס),birth_other_pcnt,Born elsewhere,0.085,lower share,34%,42%,True,שס,Shas,Coalition
+Shas (ש״ס),hh_size_avg,Household size,0.081,higher share,3.4 people,2.9 people,True,שס,Shas,Coalition
+Shas (ש״ס),monthly_wage_avg,Monthly wage,0.047,lower share,"7,111 NIS","8,618 NIS",True,שס,Shas,Coalition
+Shas (ש״ס),housing_density_avg,Housing density,0.045,lower share,0.90,0.80,False,שס,Shas,Coalition
+Shas (ש״ס),aliya2010_pcnt,Immigrated since 2010,0.04,lower share,12%,12%,False,שס,Shas,Coalition
+Shas (ש״ס),parking_owners_pcnt_avg,Parking owners,0.04,lower share,49%,72%,True,שס,Shas,Coalition
+Shas (ש״ס),acadm2cert_pcnt,Advanced academic degree,0.037,lower share,4%,9%,True,שס,Shas,Coalition
+Shas (ש״ס),low_wage_pcnt,Low-wage workers,0.035,higher share,48%,39%,True,שס,Shas,Coalition
+Shas (ש״ס),age65plus_pcnt,Age 65+,0.035,lower share,11%,14%,False,שס,Shas,Coalition
+Shas (ש״ס),aliya61_89_pcnt,Immigrated 1961–1989,0.034,higher share,22%,21%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_manufacturing_pcnt,Manufacturing,0.033,lower share,6%,8%,False,שס,Shas,Coalition
+Shas (ש״ס),owners_pcnt_avg,Homeowners,0.033,lower share,60%,63%,True,שס,Shas,Coalition
+Shas (ש״ס),motorcycle_pcnt,Motorcycle to work,0.033,higher share,1%,1%,False,שס,Shas,Coalition
+Shas (ש״ס),othercerta_pcnt,Other certificate,0.033,higher share,27%,22%,True,שס,Shas,Coalition
+Shas (ש״ס),acadm1cert_pcnt,First academic degree,0.033,lower share,10%,15%,True,שס,Shas,Coalition
+Shas (ש״ס),hh_masorati_pcnt,Traditional households,0.033,lower share,23%,28%,False,שס,Shas,Coalition
+Shas (ש״ס),onfoot_pcnt,Walk to work,0.031,lower share,10%,6%,False,שס,Shas,Coalition
+Shas (ש״ס),age10_19_pcnt,Age 10–19,0.03,lower share,16%,15%,False,שס,Shas,Coalition
+Shas (ש״ס),aliya2002_pcnt,Immigrated since 2002,0.026,lower share,23%,21%,False,שס,Shas,Coalition
+Shas (ש״ס),aliya1960_pcnt,Immigrated by 1960,0.025,higher share,14%,16%,False,שס,Shas,Coalition
+Shas (ש״ס),matriccert_pcnt,Matriculation,0.024,lower share,16%,20%,True,שס,Shas,Coalition
+Shas (ש״ס),religion_pcnt_avg,Religion percent,0.021,higher share,95%,94%,False,שס,Shas,Coalition
+Shas (ש״ס),aliya90_01_pcnt,Immigrated 1990–2001,0.02,higher share,31%,34%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_public_admin_pcnt,Public administration,0.02,higher share,6%,8%,False,שס,Shas,Coalition
+Shas (ש״ס),age0_9_pcnt,Age 0–9,0.019,higher share,22%,16%,True,שס,Shas,Coalition
+Shas (ש״ס),ind_professional_pcnt,Professional services,0.019,lower share,6%,7%,False,שס,Shas,Coalition
+Shas (ש״ס),employeed_prcnt_avg,Employment,0.019,lower share,63%,68%,True,שס,Shas,Coalition
+Shas (ש״ס),birth_usa_pcnt,Born in the USA,0.017,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),workplace_pcnt,Employer shuttle,0.017,lower share,3%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_transport_pcnt,Transport,0.016,higher share,4%,4%,False,שס,Shas,Coalition
+Shas (ש״ס),inst_pcnt,Institution residents,0.016,higher share,6%,3%,True,שס,Shas,Coalition
+Shas (ש״ס),postsecondarycert_pcnt,Post-secondary certificate,0.015,lower share,9%,7%,False,שס,Shas,Coalition
+Shas (ש״ס),cardrvr_pcnt,Drive to work,0.015,lower share,47%,64%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_extraterritorial_pcnt,Extraterritorial organizations,0.015,higher share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_trade_pcnt,Trade,0.015,higher share,11%,12%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_health_pcnt,Health jobs,0.015,higher share,14%,12%,False,שס,Shas,Coalition
+Shas (ש״ס),age70_79_pcnt,Age 70–79,0.015,lower share,4%,6%,False,שס,Shas,Coalition
+Shas (ש״ס),cellphone_ratio,Cellphones per person,0.015,lower share,0.89 phones per person,0.95 phones per person,True,שס,Shas,Coalition
+Shas (ש״ס),educ13_15_pcnt,13–15 years of school,0.014,lower share,22%,25%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_finance_pcnt,Finance,0.014,higher share,2%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),train_pcnt,Train to work,0.014,higher share,1%,1%,False,שס,Shas,Coalition
+Shas (ש״ס),age40_49_pcnt,Age 40–49,0.013,lower share,10%,12%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_construction_pcnt,Construction,0.013,higher share,3%,4%,False,שס,Shas,Coalition
+Shas (ש״ס),othervehicle_pcnt,Other vehicle to work,0.013,higher share,1%,1%,False,שס,Shas,Coalition
+Shas (ש״ס),birth_france_pcnt,Born in France,0.012,higher share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_other_services_pcnt,Other services,0.012,higher share,3%,2%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_accommodation_food_pcnt,Accommodation and food,0.012,lower share,3%,4%,False,שס,Shas,Coalition
+Shas (ש״ס),age30_39_pcnt,Age 30–39,0.011,higher share,12%,13%,False,שס,Shas,Coalition
+Shas (ש״ס),age50_59_pcnt,Age 50–59,0.011,lower share,8%,10%,False,שס,Shas,Coalition
+Shas (ש״ס),educ8_pcnt,Up to 8 years of school,0.011,lower share,5%,5%,False,שס,Shas,Coalition
+Shas (ש״ס),eastern_europe_pcnt,Born in Eastern Europe,0.01,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),age80plus_pcnt,Age 80+,0.01,lower share,3%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),married_pcnt_avg,Married,0.01,higher share,64%,61%,False,שס,Shas,Coalition
+Shas (ש״ס),bicycle_pcnt,Bicycle to work,0.01,higher share,1%,1%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_information_pcnt,Information,0.01,higher share,4%,5%,False,שס,Shas,Coalition
+Shas (ש״ס),ex_ussr_pcnt,Born in the former USSR,0.01,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),high_wage_pcnt_avg,High-wage workers,0.01,lower share,29%,39%,True,שס,Shas,Coalition
+Shas (ש״ס),ind_admin_support_pcnt,Administrative support,0.009,higher share,4%,4%,False,שס,Shas,Coalition
+Shas (ש״ס),religion_unknown,religion-unknown area,0.009,higher share,19% of hexes,21% of hexes,False,שס,Shas,Coalition
+Shas (ש״ס),car_owners_pcnt_avg,Car owners,0.009,higher share,64%,78%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_households_pcnt,Household employers,0.007,higher share,1%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_unknown_pcnt,Unknown industry,0.007,higher share,3%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_water_waste_pcnt,Water and waste,0.007,higher share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),age20_39_pcnt,Age 20–39,0.006,higher share,27%,27%,False,שס,Shas,Coalition
+Shas (ש״ס),taxi_pcnt,Taxi to work,0.006,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_arts_pcnt,Arts,0.006,lower share,2%,2%,False,שס,Shas,Coalition
+Shas (ש״ס),birth_iraq_pcnt,Born in Iraq,0.005,higher share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),carpsngr_pcnt,Car passengers,0.005,higher share,3%,3%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_real_estate_pcnt,Real estate,0.005,lower share,1%,1%,False,שס,Shas,Coalition
+Shas (ש״ס),age20_29_pcnt,Age 20–29,0.005,lower share,15%,13%,False,שס,Shas,Coalition
+Shas (ש״ס),age60_69_pcnt,Age 60–69,0.005,lower share,7%,9%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_agriculture_pcnt,Agriculture,0.004,higher share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),ind_electricity_pcnt,Electricity,0.004,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),religion_druze,Druze area,0.004,lower share,0% of hexes,1% of hexes,False,שס,Shas,Coalition
+Shas (ש״ס),religion_jews,Jewish area,0.004,higher share,80% of hexes,63% of hexes,False,שס,Shas,Coalition
+Shas (ש״ס),ind_mining_pcnt,Mining,0.002,lower share,0%,0%,False,שס,Shas,Coalition
+Shas (ש״ס),religion_christians,Christian area,0.0,lower share,0% of hexes,1% of hexes,False,שס,Shas,Coalition
+Shas (ש״ס),religion_other_religion,other-religion area,0.0,,,,False,שס,Shas,Coalition
+United Torah Judaism (יהדות התורה),hh_haredi_pcnt,Haredi households,3.969,higher share,25%,2%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),secondarycert_pcnt,Secondary certificate,1.036,higher share,30%,22%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),matriccert_pcnt,Matriculation,0.455,lower share,16%,20%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),bus_pcnt,Bus to work,0.424,higher share,27%,12%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_education_pcnt,Education jobs,0.412,higher share,19%,11%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),pop_avg_sq_km,Population density,0.344,lower share,"12,698 per km²","7,343 per km²",False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age40_49_pcnt,Age 40–49,0.248,lower share,9%,12%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),cardrvr_pcnt,Drive to work,0.207,lower share,46%,64%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),israel_pcnt,Born in Israel,0.178,higher share,55%,47%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),hh_size_avg,Household size,0.173,higher share,3.4 people,2.9 people,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),acadmcert_pcnt,Academic certificate,0.166,lower share,17%,25%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age_avg,Average age,0.124,lower share,25 years,33 years,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age0_19_pcnt,Age 0–19,0.116,lower share,40%,32%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),rent_pcnt,Renters,0.099,higher share,35%,29%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),car_owners_pcnt_avg,Car owners,0.095,lower share,62%,78%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),birth_other_pcnt,Born elsewhere,0.092,lower share,33%,42%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),employeed_prcnt_avg,Employment,0.091,lower share,62%,68%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),africa_pcnt,Born in Africa,0.083,higher share,8%,10%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),parking_owners_pcnt_avg,Parking owners,0.074,lower share,50%,72%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),hh_dati_pcnt,Dati households,0.074,lower share,16%,12%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),asia_pcnt,Born in Asia,0.058,lower share,6%,8%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_pcnt_avg,Religion percent,0.055,lower share,95%,94%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),hh_masorati_pcnt,Traditional households,0.05,lower share,16%,28%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),america_pcnt,Born in the Americas,0.048,higher share,4%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),owners_pcnt_avg,Homeowners,0.046,lower share,59%,63%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),inst_pcnt,Institution residents,0.045,higher share,4%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),monthly_wage_avg,Monthly wage,0.044,lower share,"7,068 NIS","8,618 NIS",True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),onfoot_pcnt,Walk to work,0.041,higher share,11%,6%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),europe_pcnt,Born in Europe,0.04,higher share,18%,26%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),cellphone_ratio,Cellphones per person,0.039,lower share,0.88 phones per person,0.95 phones per person,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age65plus_pcnt,Age 65+,0.038,lower share,11%,14%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),birth_usa_pcnt,Born in the USA,0.035,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_information_pcnt,Information,0.033,higher share,5%,5%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),low_wage_pcnt,Low-wage workers,0.032,higher share,49%,39%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),computer_avg,Computers per household,0.032,lower share,1.10 computers,1.30 computers,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),hh_hiloni_pcnt,Secular households,0.03,higher share,24%,47%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_accommodation_food_pcnt,Accommodation and food,0.029,lower share,3%,4%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),educ9_12_pcnt,9–12 years of school,0.027,lower share,58%,52%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_public_admin_pcnt,Public administration,0.027,lower share,6%,8%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),aliya90_01_pcnt,Immigrated 1990–2001,0.026,higher share,30%,34%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_mining_pcnt,Mining,0.024,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),postsecondarycert_pcnt,Post-secondary certificate,0.023,higher share,9%,7%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_extraterritorial_pcnt,Extraterritorial organizations,0.023,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),aliya2010_pcnt,Immigrated since 2010,0.022,lower share,15%,12%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),educ8_pcnt,Up to 8 years of school,0.021,lower share,4%,5%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),birth_morocco_pcnt,Born in Morocco,0.02,higher share,3%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age0_9_pcnt,Age 0–9,0.02,higher share,23%,16%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),housing_density_avg,Housing density,0.019,higher share,0.90,0.80,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),married_pcnt_avg,Married,0.018,lower share,65%,61%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age50_59_pcnt,Age 50–59,0.018,higher share,7%,10%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_transport_pcnt,Transport,0.017,lower share,3%,4%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),educ16_pcnt,16+ years of school,0.017,higher share,11%,16%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_professional_pcnt,Professional services,0.017,higher share,6%,7%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),bicycle_pcnt,Bicycle to work,0.017,lower share,1%,1%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),taxi_pcnt,Taxi to work,0.017,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age30_39_pcnt,Age 30–39,0.016,lower share,12%,13%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_arts_pcnt,Arts,0.016,higher share,2%,2%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),aliya1960_pcnt,Immigrated by 1960,0.016,higher share,13%,16%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),high_wage_pcnt_avg,High-wage workers,0.016,higher share,30%,39%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),workplace_pcnt,Employer shuttle,0.016,higher share,3%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),othercerta_pcnt,Other certificate,0.016,lower share,25%,22%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_real_estate_pcnt,Real estate,0.015,higher share,1%,1%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age70_79_pcnt,Age 70–79,0.015,higher share,4%,6%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),acadm2cert_pcnt,Advanced academic degree,0.015,higher share,5%,9%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_admin_support_pcnt,Administrative support,0.013,lower share,4%,4%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_manufacturing_pcnt,Manufacturing,0.013,higher share,6%,8%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age60_69_pcnt,Age 60–69,0.013,higher share,7%,9%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),educ13_15_pcnt,13–15 years of school,0.013,higher share,24%,25%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_trade_pcnt,Trade,0.012,higher share,10%,12%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),carpsngr_pcnt,Car passengers,0.012,higher share,3%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_construction_pcnt,Construction,0.012,lower share,3%,4%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_households_pcnt,Household employers,0.012,higher share,1%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_unknown,religion-unknown area,0.012,higher share,17% of hexes,21% of hexes,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),aliya2002_pcnt,Immigrated since 2002,0.012,higher share,25%,21%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_electricity_pcnt,Electricity,0.011,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age20_29_pcnt,Age 20–29,0.011,higher share,15%,13%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_other_services_pcnt,Other services,0.011,higher share,3%,2%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),othervehicle_pcnt,Other vehicle to work,0.01,higher share,1%,1%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_jews,Jewish area,0.01,lower share,82% of hexes,63% of hexes,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),acadm1cert_pcnt,First academic degree,0.01,lower share,11%,15%,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_unknown_pcnt,Unknown industry,0.01,higher share,3%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_agriculture_pcnt,Agriculture,0.01,lower share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_health_pcnt,Health jobs,0.009,lower share,14%,12%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age80plus_pcnt,Age 80+,0.009,higher share,3%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age10_19_pcnt,Age 10–19,0.008,lower share,17%,15%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_finance_pcnt,Finance,0.008,lower share,2%,3%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),age20_39_pcnt,Age 20–39,0.007,higher share,27%,27%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),aliya61_89_pcnt,Immigrated 1961–1989,0.007,higher share,21%,21%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),motorcycle_pcnt,Motorcycle to work,0.006,lower share,1%,1%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ex_ussr_pcnt,Born in the former USSR,0.006,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),birth_iraq_pcnt,Born in Iraq,0.005,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),train_pcnt,Train to work,0.005,higher share,1%,1%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),eastern_europe_pcnt,Born in Eastern Europe,0.005,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),ind_water_waste_pcnt,Water and waste,0.003,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),birth_france_pcnt,Born in France,0.002,higher share,0%,0%,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_muslims,Muslim area,0.001,lower share,1% of hexes,13% of hexes,True,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_druze,Druze area,0.0,higher share,0% of hexes,1% of hexes,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_other_religion,other-religion area,0.0,,,,False,ג,United_Torah_Judaism,Coalition
+United Torah Judaism (יהדות התורה),religion_christians,Christian area,0.0,,,,False,ג,United_Torah_Judaism,Coalition
+Blue and White (כחול לבן),owners_pcnt_avg,Homeowners,0.001,lower share,68%,63%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),parking_owners_pcnt_avg,Parking owners,0.0,higher share,68%,72%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),monthly_wage_avg,Monthly wage,0.0,lower share,"5,861 NIS","8,618 NIS",True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),africa_pcnt,Born in Africa,0.0,higher share,9%,10%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),israel_pcnt,Born in Israel,0.0,higher share,46%,47%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),rent_pcnt,Renters,0.0,higher share,21%,29%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),europe_pcnt,Born in Europe,0.0,higher share,41%,26%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),birth_other_pcnt,Born elsewhere,0.0,lower share,100%,42%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),acadmcert_pcnt,Academic certificate,0.0,higher share,15%,25%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age_avg,Average age,0.0,higher share,29 years,33 years,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_pcnt_avg,Religion percent,0.0,lower share,86%,94%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),america_pcnt,Born in the Americas,0.0,higher share,1%,3%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),asia_pcnt,Born in Asia,0.0,higher share,3%,8%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),carpsngr_pcnt,Car passengers,0.0,higher share,9%,3%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),employeed_prcnt_avg,Employment,0.0,higher share,58%,68%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age65plus_pcnt,Age 65+,0.0,higher share,10%,14%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),aliya2010_pcnt,Immigrated since 2010,0.0,lower share,15%,12%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),aliya2002_pcnt,Immigrated since 2002,0.0,lower share,18%,21%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age50_59_pcnt,Age 50–59,0.0,higher share,11%,10%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),educ13_15_pcnt,13–15 years of school,0.0,lower share,16%,25%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),hh_size_avg,Household size,0.0,lower share,3.3 people,2.9 people,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_construction_pcnt,Construction,0.0,higher share,16%,4%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_unknown_pcnt,Unknown industry,0.0,lower share,3%,3%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_other_services_pcnt,Other services,0.0,higher share,2%,2%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_christians,Christian area,0.0,higher share,16% of hexes,1% of hexes,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age70_79_pcnt,Age 70–79,0.0,higher share,3%,6%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),pop_avg_sq_km,Population density,0.0,lower share,"1,856 per km²","7,343 per km²",False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_public_admin_pcnt,Public administration,0.0,higher share,2%,8%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),othercerta_pcnt,Other certificate,0.0,higher share,30%,22%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age10_19_pcnt,Age 10–19,0.0,higher share,18%,15%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),hh_hiloni_pcnt,Secular households,0.0,higher share,20%,47%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_professional_pcnt,Professional services,0.0,higher share,6%,7%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age0_19_pcnt,Age 0–19,0.0,higher share,36%,32%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age20_29_pcnt,Age 20–29,0.0,lower share,14%,13%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_education_pcnt,Education jobs,0.0,lower share,10%,11%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_unknown,religion-unknown area,0.0,higher share,60% of hexes,21% of hexes,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),matriccert_pcnt,Matriculation,0.0,lower share,18%,20%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age0_9_pcnt,Age 0–9,0.0,lower share,16%,16%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),housing_density_avg,Housing density,0.0,higher share,0.90,0.80,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),educ9_12_pcnt,9–12 years of school,0.0,higher share,62%,52%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age30_39_pcnt,Age 30–39,0.0,higher share,13%,13%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),bus_pcnt,Bus to work,0.0,lower share,7%,12%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age60_69_pcnt,Age 60–69,0.0,higher share,6%,9%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_trade_pcnt,Trade,0.0,higher share,15%,12%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age80plus_pcnt,Age 80+,0.0,higher share,1%,3%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),hh_masorati_pcnt,Traditional households,0.0,higher share,51%,28%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),taxi_pcnt,Taxi to work,0.0,higher share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),aliya1960_pcnt,Immigrated by 1960,0.0,lower share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),computer_avg,Computers per household,0.0,higher share,0.90 computers,1.30 computers,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_health_pcnt,Health jobs,0.0,higher share,10%,12%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),workplace_pcnt,Employer shuttle,0.0,higher share,11%,3%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),bicycle_pcnt,Bicycle to work,0.0,higher share,0%,1%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),cardrvr_pcnt,Drive to work,0.0,higher share,66%,64%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),postsecondarycert_pcnt,Post-secondary certificate,0.0,higher share,6%,7%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_manufacturing_pcnt,Manufacturing,0.0,higher share,13%,8%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),married_pcnt_avg,Married,0.0,lower share,65%,61%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),secondarycert_pcnt,Secondary certificate,0.0,higher share,24%,22%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),educ8_pcnt,Up to 8 years of school,0.0,higher share,11%,5%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),low_wage_pcnt,Low-wage workers,0.0,higher share,58%,39%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),aliya90_01_pcnt,Immigrated 1990–2001,0.0,higher share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_information_pcnt,Information,0.0,lower share,2%,5%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),hh_dati_pcnt,Dati households,0.0,higher share,20%,12%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_households_pcnt,Household employers,0.0,higher share,1%,0%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),othervehicle_pcnt,Other vehicle to work,0.0,higher share,1%,1%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_electricity_pcnt,Electricity,0.0,higher share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_jews,Jewish area,0.0,lower share,9% of hexes,63% of hexes,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),educ16_pcnt,16+ years of school,0.0,lower share,11%,16%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),acadm1cert_pcnt,First academic degree,0.0,lower share,12%,15%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_transport_pcnt,Transport,0.0,lower share,4%,4%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),car_owners_pcnt_avg,Car owners,0.0,higher share,80%,78%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_real_estate_pcnt,Real estate,0.0,higher share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),aliya61_89_pcnt,Immigrated 1961–1989,0.0,lower share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),acadm2cert_pcnt,Advanced academic degree,0.0,higher share,3%,9%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_arts_pcnt,Arts,0.0,higher share,2%,2%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_admin_support_pcnt,Administrative support,0.0,lower share,4%,4%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),inst_pcnt,Institution residents,0.0,lower share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),cellphone_ratio,Cellphones per person,0.0,lower share,0.91 phones per person,0.95 phones per person,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_agriculture_pcnt,Agriculture,0.0,higher share,1%,0%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_accommodation_food_pcnt,Accommodation and food,0.0,lower share,5%,4%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_finance_pcnt,Finance,0.0,lower share,1%,3%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),onfoot_pcnt,Walk to work,0.0,lower share,6%,6%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age40_49_pcnt,Age 40–49,0.0,lower share,12%,12%,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),high_wage_pcnt_avg,High-wage workers,0.0,lower share,21%,39%,True,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_water_waste_pcnt,Water and waste,0.0,higher share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),motorcycle_pcnt,Motorcycle to work,0.0,lower share,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_muslims,Muslim area,0.0,lower share,15% of hexes,13% of hexes,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),eastern_europe_pcnt,Born in Eastern Europe,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_extraterritorial_pcnt,Extraterritorial organizations,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),hh_haredi_pcnt,Haredi households,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),birth_france_pcnt,Born in France,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),birth_iraq_pcnt,Born in Iraq,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),train_pcnt,Train to work,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_other_religion,other-religion area,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),birth_usa_pcnt,Born in the USA,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ex_ussr_pcnt,Born in the former USSR,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),religion_druze,Druze area,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),birth_morocco_pcnt,Born in Morocco,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),ind_mining_pcnt,Mining,0.0,,,,False,כן,Blue_and_White,Opposition
+Blue and White (כחול לבן),age20_39_pcnt,Age 20–39,0.0,,,,False,כן,Blue_and_White,Opposition

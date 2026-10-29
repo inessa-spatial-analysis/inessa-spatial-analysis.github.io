@@ -1,0 +1,9 @@
+method,pair,mean_r,pairs
+pearson,within Coalition,0.253,10
+pearson,within Opposition,0.399,6
+pearson,within Arab Parties,0.371,1
+pearson,coalition x opposition,-0.178,20
+spearman,within Coalition,0.669,10
+spearman,within Opposition,0.641,6
+spearman,within Arab Parties,0.742,1
+spearman,coalition x opposition,0.009,20

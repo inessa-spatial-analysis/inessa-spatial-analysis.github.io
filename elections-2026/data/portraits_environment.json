@@ -1,0 +1,112 @@
+[
+  {
+    "letter": "מחל",
+    "party": "Likud (הליכוד)",
+    "status": "Coalition",
+    "mean_share": 20.0,
+    "held_out_r2": 0.53,
+    "description": "A typical Likud (הליכוד) voter (Coalition) lives among more crime within a 7-minute walk (3.56 where מחל is strong, 2.64 overall), more bomb shelters within a 7-minute walk (4 where מחל is strong, 1 overall), fewer bus routes within a 7-minute walk (14 where מחל is strong, 18 overall), fewer schools within a 7-minute walk (0.0 where מחל is strong, 0.6 overall), and fewer cafes and restaurants within a 7-minute walk (0.2 where מחל is strong, 0.4 overall). Mean share 20.0%. Held-out R² 0.53.",
+    "slug": "Likud",
+    "model": "environment"
+  },
+  {
+    "letter": "דרך",
+    "party": "Yashar (ישר)",
+    "status": "Opposition",
+    "mean_share": 18.4,
+    "held_out_r2": 0.49,
+    "description": "A typical Yashar (ישר) voter (Opposition) lives among less crime within a 7-minute walk (0.03 where דרך is strong, 2.64 overall), more bomb shelters within a 7-minute walk (2 where דרך is strong, 1 overall), fewer schools within a 7-minute walk (0.0 where דרך is strong, 0.6 overall), and fewer bus routes within a 7-minute walk (6 where דרך is strong, 18 overall). Mean share 18.4%. Held-out R² 0.49.",
+    "slug": "Yashar",
+    "model": "environment"
+  },
+  {
+    "letter": "ודם",
+    "party": "Hadash–Ta’al / Joint List (חד״ש-תע״ל)",
+    "status": "Arab Parties",
+    "mean_share": 9.9,
+    "held_out_r2": 0.62,
+    "description": "A typical Hadash–Ta’al / Joint List (חד״ש-תע״ל) voter (Arab Parties) lives among fewer parks within a 7-minute walk (0.0 where ודם is strong, 2.2 overall), less crime within a 7-minute walk (0.01 where ודם is strong, 2.64 overall), fewer bomb shelters within a 7-minute walk (0 where ודם is strong, 1 overall), and fewer salons and spas within a 7-minute walk (0.0 where ודם is strong, 0.4 overall). Mean share 9.9%. Held-out R² 0.62.",
+    "slug": "Hadash-Taal_-_Joint_List",
+    "model": "environment"
+  },
+  {
+    "letter": "רק",
+    "party": "B’Yachad / Together (ביחד)",
+    "status": "Opposition",
+    "mean_share": 8.8,
+    "held_out_r2": 0.56,
+    "description": "A typical B’Yachad / Together (ביחד) voter (Opposition) lives among less crime within a 7-minute walk (2.21 where רק is strong, 2.64 overall), more parks within a 7-minute walk (3.2 where רק is strong, 2.2 overall), more salons and spas within a 7-minute walk (1.0 where רק is strong, 0.4 overall), and more groceries, pharmacies, and convenience shops within a 7-minute walk (0.3 where רק is strong, 0.1 overall). Mean share 8.8%. Held-out R² 0.56.",
+    "slug": "BYachad_-_Together",
+    "model": "environment"
+  },
+  {
+    "letter": "עם",
+    "party": "Ra’am / United Arab List (רע״ם)",
+    "status": "Arab Parties",
+    "mean_share": 8.1,
+    "held_out_r2": 0.55,
+    "description": "A typical Ra’am / United Arab List (רע״ם) voter (Arab Parties) lives among less crime within a 7-minute walk (0.00 where עם is strong, 2.64 overall), fewer parks within a 7-minute walk (0.0 where עם is strong, 2.2 overall), fewer bomb shelters within a 7-minute walk (0 where עם is strong, 1 overall), less varied places within a 7-minute walk (0.00 where עם is strong, 0.94 overall), and fewer salons and spas within a 7-minute walk (0.0 where עם is strong, 0.4 overall). Mean share 8.1%. Held-out R² 0.55.",
+    "slug": "Raam_-_United_Arab_List",
+    "model": "environment"
+  },
+  {
+    "letter": "אמת",
+    "party": "The Democrats (הדמוקרטים)",
+    "status": "Opposition",
+    "mean_share": 8.1,
+    "held_out_r2": 0.48,
+    "description": "A typical The Democrats (הדמוקרטים) voter (Opposition) lives among more bomb shelters within a 7-minute walk (5 where אמת is strong, 1 overall), more parking within a 7-minute walk (0.4 where אמת is strong, 0.0 overall), fewer schools within a 7-minute walk (0.0 where אמת is strong, 0.6 overall), more parks within a 7-minute walk (3.1 where אמת is strong, 2.2 overall), and more cafes and restaurants within a 7-minute walk (1.3 where אמת is strong, 0.4 overall). Mean share 8.1%. Held-out R² 0.48.",
+    "slug": "The_Democrats",
+    "model": "environment"
+  },
+  {
+    "letter": "ל",
+    "party": "Yisrael Beiteinu (ישראל ביתנו)",
+    "status": "Opposition",
+    "mean_share": 5.7,
+    "held_out_r2": 0.3,
+    "description": "A typical Yisrael Beiteinu (ישראל ביתנו) voter (Opposition) lives among more crime within a 7-minute walk (6.48 where ל is strong, 2.64 overall), more salons and spas within a 7-minute walk (1.0 where ל is strong, 0.4 overall), and more groceries, pharmacies, and convenience shops within a 7-minute walk (0.3 where ל is strong, 0.1 overall). Mean share 5.7%. Held-out R² 0.30.",
+    "slug": "Yisrael_Beiteinu",
+    "model": "environment"
+  },
+  {
+    "letter": "ב",
+    "party": "Otzma Yehudit (עוצמה יהודית)",
+    "status": "Coalition",
+    "mean_share": 5.4,
+    "held_out_r2": 0.41,
+    "description": "A typical Otzma Yehudit (עוצמה יהודית) voter (Coalition) lives among more bomb shelters within a 7-minute walk (2 where ב is strong, 1 overall), fewer cafes and restaurants within a 7-minute walk (0.0 where ב is strong, 0.4 overall), fewer bus routes within a 7-minute walk (11 where ב is strong, 18 overall), and fewer groceries, pharmacies, and convenience shops within a 7-minute walk (0.0 where ב is strong, 0.1 overall). Mean share 5.4%. Held-out R² 0.41.",
+    "slug": "Otzma_Yehudit",
+    "model": "environment"
+  },
+  {
+    "letter": "ט",
+    "party": "Religious Zionist Party / Zehut (הציונות הדתית - זהות)",
+    "status": "Coalition",
+    "mean_share": 4.2,
+    "held_out_r2": 0.34,
+    "description": "A typical Religious Zionist Party / Zehut (הציונות הדתית - זהות) voter (Coalition) lives among more parks within a 7-minute walk (3.8 where ט is strong, 2.2 overall), more schools within a 7-minute walk (1.0 where ט is strong, 0.6 overall), fewer cafes and restaurants within a 7-minute walk (0.2 where ט is strong, 0.4 overall), and fewer salons and spas within a 7-minute walk (0.3 where ט is strong, 0.4 overall). Mean share 4.2%. Held-out R² 0.34.",
+    "slug": "Religious_Zionist_Party_-_Zehut",
+    "model": "environment"
+  },
+  {
+    "letter": "שס",
+    "party": "Shas (ש״ס)",
+    "status": "Coalition",
+    "mean_share": 3.6,
+    "held_out_r2": 0.45,
+    "description": "A typical Shas (ש״ס) voter (Coalition) lives among more crime within a 7-minute walk (4.62 where שס is strong, 2.64 overall), more bus routes within a 7-minute walk (35 where שס is strong, 18 overall), fewer salons and spas within a 7-minute walk (0.2 where שס is strong, 0.4 overall), more schools within a 7-minute walk (1.0 where שס is strong, 0.6 overall), and fewer cafes and restaurants within a 7-minute walk (0.2 where שס is strong, 0.4 overall). Mean share 3.6%. Held-out R² 0.45.",
+    "slug": "Shas",
+    "model": "environment"
+  },
+  {
+    "letter": "ג",
+    "party": "United Torah Judaism (יהדות התורה)",
+    "status": "Coalition",
+    "mean_share": 2.5,
+    "held_out_r2": 0.53,
+    "description": "A typical United Torah Judaism (יהדות התורה) voter (Coalition) lives among more bus routes within a 7-minute walk (39 where ג is strong, 18 overall), more schools within a 7-minute walk (1.2 where ג is strong, 0.6 overall), fewer salons and spas within a 7-minute walk (0.3 where ג is strong, 0.4 overall), and more crime within a 7-minute walk (4.42 where ג is strong, 2.64 overall). Mean share 2.5%. Held-out R² 0.53.",
+    "slug": "United_Torah_Judaism",
+    "model": "environment"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "winner_matched": 80458,
+  "winner_mismatched": 1598,
+  "winner_compared": 82056,
+  "winner_match_pct": 98.1,
+  "eligible_median_error": 559.5,
+  "eligible_rmse": 1287.5,
+  "eligible_stations": 3029
+}
