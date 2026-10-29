@@ -260,8 +260,8 @@
     <p>
       The census model guesses a party’s share from who lives in the neighborhood.
       These are the places where the real vote is far from that guess.
-      <strong style="color:#c0392b">Red</strong> means the party did better than the people who live there would suggest.
-      <strong style="color:#2980b9">Blue</strong> means it did worse.
+      <strong style="color:#c0392b">Red</strong> means the real share is higher than the census guess: the census guessed too low.
+      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the census guess: the census guessed too high.
     </p>
     <p class="muted">
       Only neighborhoods with more than 300 valid ballots and a gap bigger than 10 percentage points are kept.
@@ -593,10 +593,20 @@ function renderGap() {
   const slug = document.getElementById('gapParty').value;
   document.getElementById('gapMap').src = `maps/gap_${slug}.html`;
   const rows = (DATA.gap_top5 || []).filter(r => r.slug === slug);
-  const directionWord = { higher: 'More votes than expected', lower: 'Fewer votes than expected' };
+  function censusCompare(row) {
+    const actual = Number(row.actual_pct);
+    const predicted = Number(row.predicted_pct);
+    if (actual > predicted) return 'Census guessed too low';
+    if (actual < predicted) return 'Census guessed too high';
+    return 'Same as the census guess';
+  }
   document.getElementById('gapTable').innerHTML = tableHTML(
-    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Census guess', 'Gap (points)', 'Valid ballots'],
-    rows.map(r => [directionWord[r.direction] || r.direction, r.locality, r.neighborhood, r.actual_pct + '%', r.predicted_pct + '%', r.error, r.valid_ballots])
+    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Census guess', 'Real minus guess', 'Valid ballots'],
+    rows.map(r => {
+      const gap = Number(r.actual_pct) - Number(r.predicted_pct);
+      const shown = (gap > 0 ? '+' : '') + gap.toFixed(1);
+      return [censusCompare(r), r.locality, r.neighborhood, r.actual_pct + '%', r.predicted_pct + '%', shown, r.valid_ballots];
+    })
   );
 }
 
