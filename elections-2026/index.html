@@ -241,7 +241,7 @@
 
   <section id="gaps">
     <h2>Neighborhoods that break the pattern</h2>
-    <p class="muted">For each party, the top 5 neighborhoods where the real share is much higher than the model predicts, and the top 5 where it is much lower. Only neighborhoods with more than 300 valid ballots and a gap over 10 percentage points are kept. Red = more votes than predicted; blue = fewer. The surroundings-model gap table is included when available (census model always).</p>
+    <p class="muted">For each party, the top 5 neighborhoods where the real share is much higher than the census model predicts, and the top 5 where it is much lower. Only neighborhoods with more than 300 valid ballots and a gap over 10 percentage points are kept. Red = more votes than predicted; blue = fewer.</p>
     <div class="row">
       <label for="gapParty">Party</label>
       <select id="gapParty"></select>
@@ -444,8 +444,8 @@ function renderGap() {
   document.getElementById('gapMap').src = `maps/gap_${slug}.html`;
   const rows = (DATA.gap_top5 || []).filter(r => r.slug === slug);
   document.getElementById('gapTable').innerHTML = tableHTML(
-    ['Model', 'Direction', 'Locality', 'Neighborhood', 'Actual %', 'Predicted %', 'Gap', 'Ballots'],
-    rows.map(r => [r.model, r.direction, r.locality, r.neighborhood, r.actual_pct, r.predicted_pct, r.error, r.valid_ballots])
+    ['Direction', 'Locality', 'Neighborhood', 'Actual %', 'Predicted %', 'Gap', 'Ballots'],
+    rows.map(r => [r.direction, r.locality, r.neighborhood, r.actual_pct, r.predicted_pct, r.error, r.valid_ballots])
   );
 }
 
