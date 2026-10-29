@@ -576,7 +576,7 @@ function renderCorrTables() {
     bloc.map(r => [plainPair(r.pair), r.mean_r, r.pairs])
   );
   document.getElementById('clusterFitTable').innerHTML = tableHTML(
-    ['Party', 'Bloc', 'Same places as the rest of the bloc'],
+    ['Party', 'Bloc', 'Correlation with the rest of the bloc'],
     (DATA.cluster_fit || []).filter(r => !isBlueWhite(r.party)).map(r => [shortName(r.party), r.status, r.r_with_zscored_cluster])
   );
   document.getElementById('arabCorrTable').innerHTML = tableHTML(
