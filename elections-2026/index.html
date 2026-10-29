@@ -160,7 +160,6 @@
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
   <a href="#gaps">Places that don’t fit</a>
-  <a href="#extras">How much place explains</a>
   <a href="#sources">Sources</a>
   <a href="#method">How this was built</a>
 </nav>
@@ -272,16 +271,6 @@
     </div>
     <iframe class="map" id="gapMap" title="Neighborhoods the census does not explain"></iframe>
     <div id="gapTable"></div>
-  </section>
-
-  <section id="extras">
-    <h2>How much place explains</h2>
-    <p>
-      Each bar is how much of the difference between places that description can explain.
-      100% would be a perfect explanation. 0% would mean it learns nothing.
-      Who lives there explains more than the shops, schools, and streets within a seven-minute walk.
-    </p>
-    <div id="r2Chart" style="height:380px"></div>
   </section>
 
   <section id="sources">
@@ -588,22 +577,6 @@ function renderGap() {
   );
 }
 
-function r2Chart() {
-  const census = Object.fromEntries((DATA.portraits_census||[]).map(r => [r.slug, r]));
-  const env = Object.fromEntries((DATA.portraits_environment||[]).map(r => [r.slug, r]));
-  const slugs = [...new Set([...Object.keys(census), ...Object.keys(env)])].filter(s => s !== "Blue_and_White");
-  const labels = slugs.map(s => shortName((census[s]||env[s]).party));
-  Plotly.newPlot('r2Chart', [
-    { type:'bar', name:'Census', x: labels, y: slugs.map(s => census[s]?.held_out_r2 ?? null), marker:{color:'#1f4e79'} },
-    { type:'bar', name:'Surroundings', x: labels, y: slugs.map(s => env[s]?.held_out_r2 ?? null), marker:{color:'#c45c26'} }
-  ], {
-    barmode: 'group',
-    margin: {t: 20, r: 10, b: 120, l: 50},
-    yaxis: { title: 'Share of place-to-place differences explained', tickformat: ',.0%', range: [0, 1] },
-    xaxis: { tickangle: -35 }
-  }, {responsive: true, displayModeBar: false});
-}
-
 function showValidation() {
   const v = DATA.validation || {};
   document.getElementById('validationBox').innerHTML =
@@ -622,7 +595,6 @@ function init() {
   renderCorrTables();
   neighborHeatmap();
   renderGap();
-  r2Chart();
   showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
   document.getElementById('gapParty').addEventListener('change', renderGap);
