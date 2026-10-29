@@ -174,11 +174,10 @@
       A quiet hexagon counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
     </p>
     <div id="meanShareChart" style="height:380px"></div>
-    <h3>Turnout where each party won</h3>
+    <h3>Turnout percentage by winning party</h3>
     <p>
-      Average turnout in the hexagons where that party came first.
+      Average turnout in the places where that party came first.
       Turnout is ballots cast divided by people eligible to vote.
-      A quiet hexagon counts the same as a crowded one.
     </p>
     <div id="turnoutChart" style="height:380px"></div>
     <h3>Who won each hexagon</h3>
@@ -428,7 +427,7 @@ function turnoutChart() {
     y: styled.map(r => r.avg_turnout),
     marker: { color: styled.map(r => r.color) },
     customdata: styled.map(r => [r.party, r.hexes]),
-    hovertemplate: '%{customdata[0]}<br>turnout %{y:.1f}%<br>%{customdata[1]:,} hexagons won<extra></extra>'
+    hovertemplate: '%{customdata[0]}<br>turnout %{y:.1f}%<extra></extra>'
   }], {
     margin: {t: 20, r: 10, b: 120, l: 50},
     yaxis: { title: 'Average turnout (%)' },
