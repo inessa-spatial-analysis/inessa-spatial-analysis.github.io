@@ -238,7 +238,6 @@
     <p>
       Ra’am and Hadash–Ta’al are added into one share.
       The table shows which other parties rise and fall with that combined share.
-      A small list can look tightly linked and still be a tiny slice of the vote, so the mean share is shown beside the link.
     </p>
     <div id="arabCorrTable"></div>
   </section>
@@ -580,8 +579,8 @@ function renderCorrTables() {
     (DATA.cluster_fit || []).filter(r => !isBlueWhite(r.party)).map(r => [shortName(r.party), r.status, r.r_with_zscored_cluster])
   );
   document.getElementById('arabCorrTable').innerHTML = tableHTML(
-    ['Party', 'Correlation with the Arab lists (−1 to +1)', 'Average share of the vote (%)'],
-    (DATA.arab_corr || []).filter(r => !isBlueWhite(r.party)).slice(0, 12).map(r => [shortName(r.party), Number(r.r_with_arab_share).toFixed(2), Number(r.mean_share).toFixed(1)])
+    ['Party', 'Correlation with the Arab lists (−1 to +1)'],
+    (DATA.arab_corr || []).filter(r => !isBlueWhite(r.party)).slice(0, 12).map(r => [shortName(r.party), Number(r.r_with_arab_share).toFixed(2)])
   );
 }
 
