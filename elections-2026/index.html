@@ -593,7 +593,9 @@ function neighborHeatmap() {
     z: mat.z,
     x: mat.labels.map(shortName),
     y: mat.labels.map(shortName),
-    colorscale: 'YlOrRd',
+    colorscale: 'Turbo',
+    zmin: 0,
+    zmax: Math.max(...mat.z.flat().filter(v => Number.isFinite(v))),
     hovertemplate: 'Where %{y} got votes, %{x} finished next to it in %{z:.0f}% of places<extra></extra>'
   }], {
     margin: {t: 20, r: 40, b: 140, l: 160},
