@@ -193,8 +193,8 @@
     </p>
     <p>
       The bars are the same comparison as a percent.
-      <strong style="color:#2980b9">Blue, to the right</strong> means the trait is higher where the party does well.
-      <strong style="color:#c0392b">Red, to the left</strong> means it is lower.
+      <strong style="color:#2166ac">Blue, to the right</strong> means the trait is higher where the party does well.
+      <strong style="color:#d6604d">Orange, to the left</strong> means it is lower.
       +100% means twice the average. −50% means half the average.
       A trait that is missing from the average entirely is listed as “not on average” and left off the chart.
     </p>
@@ -216,8 +216,8 @@
     </p>
     <p>
       The bars are the same comparison as a percent.
-      <strong style="color:#2980b9">Blue, to the right</strong> means it is more common where the party does well.
-      <strong style="color:#c0392b">Red, to the left</strong> means it is less common.
+      <strong style="color:#2166ac">Blue, to the right</strong> means it is more common where the party does well.
+      <strong style="color:#d6604d">Orange, to the left</strong> means it is less common.
       +100% means twice the average. −50% means half the average.
       A count that is missing from the average entirely is listed as “not on average” and left off the chart.
     </p>
@@ -494,7 +494,7 @@ function renderProfile(opts) {
       orientation: 'h',
       y: plotted.map(t => t.feature),
       x: plotted.map(t => t.vs),
-      marker: { color: plotted.map(t => t.vs < 0 ? '#c0392b' : '#2980b9') },
+      marker: { color: plotted.map(t => t.vs < 0 ? '#d6604d' : '#2166ac') },
       hovertemplate: '%{y}<br>%{x:.0f}% vs average<extra></extra>',
       customdata: plotted.map(t => [t.strong, t.overall])
     }], {
