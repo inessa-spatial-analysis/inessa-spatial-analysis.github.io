@@ -157,6 +157,7 @@
 <nav>
   <a href="#results">The map of winners</a>
   <a href="#voters">Who lives there</a>
+  <a href="#surroundings">What's around</a>
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
   <a href="#gaps">Places that don’t fit</a>
@@ -203,6 +204,29 @@
     <div class="portrait" id="voterPortrait"></div>
     <div id="traitChart" style="height:420px"></div>
     <div id="traitTableWrap"></div>
+  </section>
+
+  <section id="surroundings">
+    <h2>What's around where each party is strong</h2>
+    <p>
+      Pick a party. The sentence is the short portrait of the surroundings:
+      shops, schools, shelters, and streets within a seven-minute walk,
+      in the places in the top 10% of that party’s vote, compared with every place in the study.
+    </p>
+    <p>
+      The bars are the same comparison as a percent.
+      <strong style="color:#2980b9">Blue, to the right</strong> means it is more common where the party does well.
+      <strong style="color:#c0392b">Red, to the left</strong> means it is less common.
+      +100% means twice the average. −50% means half the average.
+      A count that is missing from the average entirely is listed as “not on average” and left off the chart.
+    </p>
+    <div class="row">
+      <label for="envParty">Party</label>
+      <select id="envParty"></select>
+    </div>
+    <div class="portrait" id="envPortrait"></div>
+    <div id="envChart" style="height:420px"></div>
+    <div id="envTableWrap"></div>
   </section>
 
   <section id="corr">
@@ -423,11 +447,15 @@ function formatVs(pct) {
   const sign = rounded > 0 ? '+' : '';
   return sign + rounded + '%';
 }
-function renderVoter() {
-  const slug = document.getElementById('partySelect').value;
-  const p = (DATA.portraits_census || []).find(x => x.slug === slug);
-  const box = document.getElementById('voterPortrait');
-  if (!p) { box.innerHTML = '<p class="muted">No census portrait for this party.</p>'; }
+function plainFeature(name) {
+  if (name === 'POI diversity within 7 minutes') return 'Mix of nearby places';
+  return name;
+}
+function renderProfile(opts) {
+  const slug = document.getElementById(opts.selectId).value;
+  const p = (DATA[opts.portraits] || []).find(x => x.slug === slug);
+  const box = document.getElementById(opts.portraitId);
+  if (!p) { box.innerHTML = `<p class="muted">${esc(opts.empty)}</p>`; }
   else {
     const sentence = String(p.description || '')
       .replace(/\s*Mean share [^.]+\./g, '')
@@ -438,19 +466,20 @@ function renderVoter() {
     const explained = Math.round(Number(p.held_out_r2) * 100);
     box.innerHTML = `<p>${esc(shownSentence)}</p>
       <p class="muted">${esc(p.status)}. Average share across places: ${esc(p.mean_share)}%.
-      The census accounts for about ${esc(explained)}% of the place-to-place differences in this share.</p>`;
+      ${esc(opts.explainer)} about ${esc(explained)}% of the place-to-place differences in this share.</p>`;
   }
-  const traits = bySlug(DATA.traits_census, slug)
+  const traits = bySlug(DATA[opts.traits], slug)
     .filter(t => t.in_sentence === true || t.in_sentence === 'True')
     .map(t => {
       const strong = t.strong ?? t.where_party_is_strong;
       const overall = t.overall ?? t.all_hexes;
-      return Object.assign({}, t, { strong, overall, vs: vsAveragePct(strong, overall) });
+      const feature = opts.relabel ? opts.relabel(t.feature) : t.feature;
+      return Object.assign({}, t, { feature, strong, overall, vs: vsAveragePct(strong, overall) });
     });
   traits.sort((a, b) => (b.mean_abs_shap || 0) - (a.mean_abs_shap || 0));
   const shown = traits.slice(0, 12);
   const plotted = shown.filter(t => t.vs != null && isFinite(t.vs)).slice().sort((a, b) => a.vs - b.vs);
-  const chart = document.getElementById('traitChart');
+  const chart = document.getElementById(opts.chartId);
   if (!plotted.length) {
     Plotly.purge(chart);
   } else {
@@ -463,15 +492,42 @@ function renderVoter() {
       hovertemplate: '%{y}<br>%{x:.0f}% vs average<extra></extra>',
       customdata: plotted.map(t => [t.strong, t.overall])
     }], {
-      margin: { t: 10, r: 24, b: 40, l: 160 },
+      margin: { t: 10, r: 24, b: 40, l: 180 },
       xaxis: { title: 'Compared with the average place', zeroline: true, zerolinewidth: 1 },
       yaxis: { automargin: true }
     }, { responsive: true, displayModeBar: false });
   }
-  document.getElementById('traitTableWrap').innerHTML = tableHTML(
-    ['Trait of the place', 'Compared with the average place'],
+  document.getElementById(opts.tableId).innerHTML = tableHTML(
+    [opts.traitHeader, 'Compared with the average place'],
     shown.map(t => [t.feature, formatVs(t.vs)])
   );
+}
+function renderVoter() {
+  renderProfile({
+    selectId: 'partySelect',
+    portraits: 'portraits_census',
+    traits: 'traits_census',
+    portraitId: 'voterPortrait',
+    chartId: 'traitChart',
+    tableId: 'traitTableWrap',
+    empty: 'No census portrait for this party.',
+    explainer: 'The census accounts for',
+    traitHeader: 'Trait of the place'
+  });
+}
+function renderSurroundings() {
+  renderProfile({
+    selectId: 'envParty',
+    portraits: 'portraits_environment',
+    traits: 'traits_environment',
+    portraitId: 'envPortrait',
+    chartId: 'envChart',
+    tableId: 'envTableWrap',
+    empty: 'No surroundings portrait for this party.',
+    explainer: 'The surroundings account for',
+    traitHeader: 'What’s nearby',
+    relabel: plainFeature
+  });
 }
 
 function withoutBlue(mat) {
@@ -587,16 +643,19 @@ function showValidation() {
 
 function init() {
   partyOptions(document.getElementById('partySelect'));
+  partyOptions(document.getElementById('envParty'));
   partyOptions(document.getElementById('gapParty'));
   meanShareChart();
   turnoutChart();
   renderVoter();
+  renderSurroundings();
   corrHeatmap();
   renderCorrTables();
   neighborHeatmap();
   renderGap();
   showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
+  document.getElementById('envParty').addEventListener('change', renderSurroundings);
   document.getElementById('gapParty').addEventListener('change', renderGap);
 }
 init();
