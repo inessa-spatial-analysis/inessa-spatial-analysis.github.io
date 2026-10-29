@@ -279,8 +279,8 @@
     <p>
       The census model predicts a party’s share from who lives in the neighborhood.
       These are the places where the real vote is far from that prediction.
-      <strong style="color:#c0392b">Red</strong> means the real share is higher than the census prediction: the census predicted too low.
-      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the census prediction: the census predicted too high.
+      <strong style="color:#c0392b">Red</strong> means the real share is higher than the model prediction: the model predicted too low.
+      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the model prediction: the model predicted too high.
     </p>
     <p class="muted">
       Only neighborhoods with more than 300 valid ballots and a gap bigger than 10 percentage points are kept.
@@ -630,12 +630,12 @@ function renderGap() {
   function censusCompare(row) {
     const actual = Number(row.actual_pct);
     const predicted = Number(row.predicted_pct);
-    if (actual > predicted) return 'Census predicted too low';
-    if (actual < predicted) return 'Census predicted too high';
-    return 'Same as the census prediction';
+    if (actual > predicted) return 'Model predicted too low';
+    if (actual < predicted) return 'Model predicted too high';
+    return 'Same as the model prediction';
   }
   document.getElementById('gapTable').innerHTML = tableHTML(
-    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Census prediction', 'Real minus prediction', 'Valid ballots'],
+    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Model prediction', 'Real minus prediction', 'Valid ballots'],
     rows.map(r => {
       const gap = Number(r.actual_pct) - Number(r.predicted_pct);
       const shown = (gap > 0 ? '+' : '') + gap.toFixed(1);
