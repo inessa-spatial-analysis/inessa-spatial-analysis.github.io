@@ -592,12 +592,19 @@ function neighborHeatmap() {
     z: mat.z,
     x: mat.labels.map(shortName),
     y: mat.labels.map(shortName),
-    colorscale: 'Turbo',
+    colorscale: [
+      [0, '#e5f5e0'],
+      [0.25, '#a1d99b'],
+      [0.5, '#41ab5d'],
+      [0.75, '#238b45'],
+      [1, '#005a32']
+    ],
     zmin: 0,
     zmax: Math.max(...mat.z.flat().filter(v => Number.isFinite(v))),
+    colorbar: { ticksuffix: '%', thickness: 14 },
     hovertemplate: 'Where %{y} got votes, %{x} finished next to it in %{z:.0f}% of places<extra></extra>'
   }], {
-    margin: {t: 20, r: 40, b: 140, l: 160},
+    margin: {t: 20, r: 70, b: 140, l: 160},
     xaxis: { tickangle: -40 },
     yaxis: { autorange: 'reversed' }
   }, {responsive: true, displayModeBar: false});
