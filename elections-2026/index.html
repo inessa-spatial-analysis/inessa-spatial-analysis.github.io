@@ -238,11 +238,6 @@
       The number runs from −1 (always opposite) to +1 (always together). Zero means no link.
     </p>
     <p class="muted">This is a rank correlation: it asks whether the places line up in the same order for both parties, so one huge party cannot dominate the picture.</p>
-    <div class="note">
-      Shares in one place add up to 100%. A gain for one party is a loss for the others,
-      so the correlations look weaker than they would if each party were counted on its own.
-      The useful question is whether parties inside a bloc stick together more than parties across the aisle.
-    </div>
     <div id="corrHeatmap" style="height:520px"></div>
     <h3>Do the blocs stick together?</h3>
     <p>
@@ -622,7 +617,7 @@ function neighborHeatmap() {
     yaxis: { autorange: 'reversed' }
   }, {responsive: true, displayModeBar: false});
   document.getElementById('neighborTable').innerHTML = tableHTML(
-    ['Party', 'Bloc', 'Most often finishes next to', 'Share of its places', 'Second most often', 'Share of its places'],
+    ['Party', 'Bloc', 'Most often finishes next to', 'Share of this party’s places', 'Second most often', 'Share of this party’s places'],
     (DATA.neighbors || []).filter(r => !isBlueWhite(r.party)).map(r => [shortName(r.party), r.status, shortName(r.neighbor), r.pct_of_hexes + '%', shortName(r.second), r.second_pct + '%'])
   );
 }
