@@ -436,7 +436,7 @@ function vsAveragePct(strong, overall) {
   const a = parseLevel(strong);
   const b = parseLevel(overall);
   if (a == null || b == null) return null;
-  if (Math.abs(b) < 1e-9) return null;
+  if (Math.abs(b) < 1e-9) b = 0.1;
   return (a - b) / Math.abs(b) * 100;
 }
 function formatVs(pct) {
