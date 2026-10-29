@@ -112,6 +112,7 @@
     vertical-align: top;
   }
   th { color: var(--muted); font-weight: 600; }
+  tr.standout td { background: #f3e6f5; font-weight: 650; }
   iframe.map {
     width: 100%;
     height: 520px;
@@ -280,10 +281,10 @@
   <section id="gaps">
     <h2>Neighborhoods the census does not explain</h2>
     <p>
-      The census model guesses a party’s share from who lives in the neighborhood.
-      These are the places where the real vote is far from that guess.
-      <strong style="color:#c0392b">Red</strong> means the real share is higher than the census guess: the census guessed too low.
-      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the census guess: the census guessed too high.
+      The census model predicts a party’s share from who lives in the neighborhood.
+      These are the places where the real vote is far from that prediction.
+      <strong style="color:#c0392b">Red</strong> means the real share is higher than the census prediction: the census predicted too low.
+      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the census prediction: the census predicted too high.
     </p>
     <p class="muted">
       Only neighborhoods with more than 300 valid ballots and a gap bigger than 10 percentage points are kept.
@@ -323,7 +324,7 @@
     <p>
       The census, and what the place is like, are attached to the same place.
       The portraits use the places where that party’s share is in its own top 10%.
-      For the gaps, those places are gathered into a neighborhood and the guess is compared with the real neighborhood vote.
+      For the gaps, those places are gathered into a neighborhood and the prediction is compared with the real neighborhood vote.
     </p>
     <div id="validationBox"></div>
     <h3>What this cannot say</h3>
@@ -351,7 +352,9 @@ function tableHTML(headers, rows) {
   if (!rows.length) return '<p class="muted">No rows.</p>';
   let h = '<table><thead><tr>' + headers.map(x => `<th>${esc(x)}</th>`).join('') + '</tr></thead><tbody>';
   for (const r of rows) {
-    h += '<tr>' + r.map(c => `<td>${esc(c)}</td>`).join('') + '</tr>';
+    const cells = Array.isArray(r) ? r : r.cells;
+    const cls = !Array.isArray(r) && r.className ? ` class="${esc(r.className)}"` : '';
+    h += `<tr${cls}>` + cells.map(c => `<td>${esc(c)}</td>`).join('') + '</tr>';
   }
   return h + '</tbody></table>';
 }
@@ -451,6 +454,7 @@ function plainFeature(name) {
   let out = String(name || '').replace(/\s+within 7 minutes/gi, '').trim();
   if (out === 'POI diversity') return 'Mix of places';
   if (out === 'Missile alerts in the cell') return 'Missile alerts';
+  if (out === 'Bus routes') return 'Public transport accessibility';
   return out;
 }
 function renderProfile(opts) {
@@ -462,6 +466,9 @@ function renderProfile(opts) {
     const sentence = String(p.description || '')
       .replace(/\s*Mean share\b[\s\S]*$/, '')
       .replace(/\s+within a 7-minute walk/gi, '')
+      .replace(/\bmore bus routes\b/gi, 'higher public transport accessibility')
+      .replace(/\b(fewer|less) bus routes\b/gi, 'lower public transport accessibility')
+      .replace(/\bbus routes\b/gi, 'public transport accessibility')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
       .trim();
     const shownSentence = shortenText(sentence);
@@ -576,7 +583,11 @@ function renderCorrTables() {
   );
   document.getElementById('clusterFitTable').innerHTML = tableHTML(
     ['Party', 'Bloc', 'Correlation with the rest of the bloc (−1 to +1)'],
-    (DATA.cluster_fit || []).filter(r => !isBlueWhite(r.party)).map(r => [shortName(r.party), r.status, r.r_with_zscored_cluster])
+    (DATA.cluster_fit || []).filter(r => !isBlueWhite(r.party)).map(r => {
+      const name = shortName(r.party);
+      const standout = name === 'Yadut Hatora' || name === 'Beiteinu';
+      return { className: standout ? 'standout' : '', cells: [name, r.status, r.r_with_zscored_cluster] };
+    })
   );
   document.getElementById('arabCorrTable').innerHTML = tableHTML(
     ['Party', 'Correlation with the Arab lists (−1 to +1)'],
@@ -621,12 +632,12 @@ function renderGap() {
   function censusCompare(row) {
     const actual = Number(row.actual_pct);
     const predicted = Number(row.predicted_pct);
-    if (actual > predicted) return 'Census guessed too low';
-    if (actual < predicted) return 'Census guessed too high';
-    return 'Same as the census guess';
+    if (actual > predicted) return 'Census predicted too low';
+    if (actual < predicted) return 'Census predicted too high';
+    return 'Same as the census prediction';
   }
   document.getElementById('gapTable').innerHTML = tableHTML(
-    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Census guess', 'Real minus guess', 'Valid ballots'],
+    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Census prediction', 'Real minus prediction', 'Valid ballots'],
     rows.map(r => {
       const gap = Number(r.actual_pct) - Number(r.predicted_pct);
       const shown = (gap > 0 ? '+' : '') + gap.toFixed(1);
