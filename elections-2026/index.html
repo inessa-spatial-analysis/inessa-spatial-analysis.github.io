@@ -159,7 +159,6 @@
   <a href="#voters">Who lives there</a>
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
-  <a href="#shap">What the census uses</a>
   <a href="#gaps">Places that don’t fit</a>
   <a href="#moran">Where support clusters</a>
   <a href="#extras">How much place explains</a>
@@ -254,30 +253,6 @@
     </p>
     <div id="neighborHeatmap" style="height:520px"></div>
     <div id="neighborTable"></div>
-  </section>
-
-  <section id="shap">
-    <h2>What the census uses</h2>
-    <p>
-      The bars above already say whether a trait is higher or lower where the party is strong.
-      The dot plot is the same comparison, one place at a time, for readers who want the detail.
-    </p>
-    <div class="howto">
-      <strong>How to read the dot plot</strong>
-      <ol>
-        <li>Each dot is one place.</li>
-        <li>Left means that trait pulled the party’s share down. Right means it pulled the share up.</li>
-        <li>Red dots are places where the trait itself is high. Blue dots are where it is low.</li>
-        <li>The traits at the top moved the result the most.</li>
-        <li>A low percent under the title means this portrait is weak. Treat it as a hint, not a rule.</li>
-      </ol>
-    </div>
-    <div class="row">
-      <label for="shapParty">Party</label>
-      <select id="shapParty"></select>
-    </div>
-    <p class="muted" id="shapCensusR2"></p>
-    <img class="shap" id="shapCensusImg" alt="Census portrait of what moves the prediction"/>
   </section>
 
   <section id="gaps">
@@ -614,15 +589,6 @@ function neighborHeatmap() {
   );
 }
 
-function renderShap() {
-  const slug = document.getElementById('shapParty').value;
-  const c = (DATA.portraits_census || []).find(x => x.slug === slug);
-  document.getElementById('shapCensusR2').textContent = c
-    ? `The census explains about ${Math.round(c.held_out_r2 * 100)}% of the differences between places.`
-    : 'No census portrait for this party.';
-  document.getElementById('shapCensusImg').src = `img/shap_census_${slug}.png`;
-}
-
 function renderGap() {
   const slug = document.getElementById('gapParty').value;
   document.getElementById('gapMap').src = `maps/gap_${slug}.html`;
@@ -680,7 +646,6 @@ function showValidation() {
 
 function init() {
   partyOptions(document.getElementById('partySelect'));
-  partyOptions(document.getElementById('shapParty'));
   partyOptions(document.getElementById('gapParty'));
   partyOptions(document.getElementById('moranParty'));
   meanShareChart();
@@ -689,14 +654,12 @@ function init() {
   corrHeatmap();
   renderCorrTables();
   neighborHeatmap();
-  renderShap();
   renderGap();
   moranChart();
   renderMoranMap();
   r2Chart();
   showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
-  document.getElementById('shapParty').addEventListener('change', renderShap);
   document.getElementById('gapParty').addEventListener('change', renderGap);
   document.getElementById('moranParty').addEventListener('change', renderMoranMap);
 }
