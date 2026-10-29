@@ -160,7 +160,6 @@
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
   <a href="#gaps">Places that don’t fit</a>
-  <a href="#moran">Where support clusters</a>
   <a href="#extras">How much place explains</a>
   <a href="#sources">Sources</a>
   <a href="#method">How this was built</a>
@@ -273,27 +272,6 @@
     </div>
     <iframe class="map" id="gapMap" title="Neighborhoods the census does not explain"></iframe>
     <div id="gapTable"></div>
-  </section>
-
-  <section id="moran">
-    <h2>Does support sit in clusters?</h2>
-    <p>
-      A tall bar means the party’s strong places sit next to other strong places, and weak next to weak.
-      Support is geographic. A short bar would mean the map looks scattered.
-      Every party in this election clusters. The differences are in how tight the clusters are.
-    </p>
-    <div id="moranChart" style="height:380px"></div>
-    <p>
-      <strong>Red</strong> is strong support next to strong support. <strong>Blue</strong> is weak next to weak.
-      <strong>Orange</strong> is a strong pocket surrounded by weaker support.
-      <strong>Purple</strong> is a weak pocket surrounded by stronger support.
-      All four layers start on. Use the layer list to hide any of them.
-    </p>
-    <div class="row">
-      <label for="moranParty">Party</label>
-      <select id="moranParty"></select>
-    </div>
-    <iframe class="map" id="moranMap" title="Where support clusters"></iframe>
   </section>
 
   <section id="extras">
@@ -610,26 +588,6 @@ function renderGap() {
   );
 }
 
-function moranChart() {
-  const rows = (DATA.moran_summary || []).filter(r => !isBlueWhite(r.party) && !isBlueWhite(r.letter)).slice().sort((a,b) => (b.moran_I||0) - (a.moran_I||0));
-  Plotly.newPlot('moranChart', [{
-    type: 'bar',
-    x: rows.map(r => shortName(r.party)),
-    y: rows.map(r => r.moran_I),
-    marker: { color: '#1f4e79' },
-    hovertemplate: '%{x}<br>clustering score %{y:.2f}<br>%{customdata} surprise places<extra></extra>',
-    customdata: rows.map(r => r.outlier_hexes)
-  }], {
-    margin: {t: 20, r: 10, b: 120, l: 50},
-    yaxis: { title: 'How tightly support clusters (higher = tighter)' },
-    xaxis: { tickangle: -35 }
-  }, {responsive: true, displayModeBar: false});
-}
-function renderMoranMap() {
-  const slug = document.getElementById('moranParty').value;
-  document.getElementById('moranMap').src = `maps/moran_${slug}.html`;
-}
-
 function r2Chart() {
   const census = Object.fromEntries((DATA.portraits_census||[]).map(r => [r.slug, r]));
   const env = Object.fromEntries((DATA.portraits_environment||[]).map(r => [r.slug, r]));
@@ -657,7 +615,6 @@ function showValidation() {
 function init() {
   partyOptions(document.getElementById('partySelect'));
   partyOptions(document.getElementById('gapParty'));
-  partyOptions(document.getElementById('moranParty'));
   meanShareChart();
   turnoutChart();
   renderVoter();
@@ -665,13 +622,10 @@ function init() {
   renderCorrTables();
   neighborHeatmap();
   renderGap();
-  moranChart();
-  renderMoranMap();
   r2Chart();
   showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
   document.getElementById('gapParty').addEventListener('change', renderGap);
-  document.getElementById('moranParty').addEventListener('change', renderMoranMap);
 }
 init();
 </script>
