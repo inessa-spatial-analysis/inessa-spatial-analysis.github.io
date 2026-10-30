@@ -721,7 +721,7 @@ async function initShareMap() {
     });
   }
   const shareDeck = new deck.Deck({
-    container: 'shareMap',
+    parent: document.getElementById('shareMap'),
     initialViewState: { longitude: 35.0, latitude: 31.4, zoom: 6.4, minZoom: 5, maxZoom: 12 },
     controller: true,
     layers: [baseLayer(), partyLayer(0)],
