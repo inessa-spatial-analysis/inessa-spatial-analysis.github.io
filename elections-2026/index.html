@@ -7,7 +7,7 @@
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-<script src="https://unpkg.com/h3-js@3.7.2/dist/h3-js.umd.js"></script>
+<script src="https://unpkg.com/h3-js@4.1.0/dist/h3-js.umd.js"></script>
 <script src="https://unpkg.com/deck.gl@9.1.14/dist.min.js"></script>
 <script src="maptiler-key.js"></script>
 <style>
@@ -754,8 +754,8 @@ async function initShareMap() {
   const indexOf = new Map(hexes.map((hex, i) => [hex, i]));
   const parents = { 6: new Array(hexes.length), 8: new Array(hexes.length) };
   for (let i = 0; i < hexes.length; i++) {
-    parents[6][i] = h3.h3ToParent(hexes[i], 6);
-    parents[8][i] = h3.h3ToParent(hexes[i], 8);
+    parents[6][i] = h3.cellToParent(hexes[i], 6);
+    parents[8][i] = h3.cellToParent(hexes[i], 8);
   }
   const select = document.getElementById('shareParty');
   select.innerHTML = pack.parties.map((p, i) => `<option value="${i}">${esc(p.name)}</option>`).join('');
