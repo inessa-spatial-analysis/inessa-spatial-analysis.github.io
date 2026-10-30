@@ -559,7 +559,8 @@ function plainFeature(name) {
     'Information': 'Employment in HighTech',
     'Education jobs': 'Employment in education',
     'Construction': 'Employment in construction',
-    'Secondary certificate': 'Only Secondary certificate'
+    'Secondary certificate': 'Only Secondary certificate',
+    'Religion percent': 'Religious households'
   };
   return labels[out] || out;
 }
@@ -583,6 +584,9 @@ function renderProfile(opts) {
       .replace(/\bworkers in education\b/gi, 'employment in education')
       .replace(/\bworkers in construction\b/gi, 'employment in construction')
       .replace(/\bwith a secondary certificate\b/gi, 'with only a secondary certificate')
+      .replace(/\ba higher religion percent\b/gi, 'more religious households')
+      .replace(/\ba lower religion percent\b/gi, 'fewer religious households')
+      .replace(/\breligion percent\b/gi, 'religious households')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
       .trim();
     const shownSentence = shortenText(sentence);
