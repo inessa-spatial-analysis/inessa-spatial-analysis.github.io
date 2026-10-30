@@ -7,6 +7,7 @@
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet"/>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/h3-js@3.7.2/dist/h3-js.umd.js"></script>
 <script src="https://unpkg.com/deck.gl@8.9.36/dist.min.js"></script>
 <style>
   :root {
@@ -121,6 +122,8 @@
     height: 520px;
     border: 1px solid var(--line);
     border-radius: 12px;
+    position: relative;
+    overflow: hidden;
   }
   .share-map-wrap { position: relative; }
   .share-legend {
@@ -212,6 +215,7 @@
     <p>
       Pick a party. Each hexagon is colored by that party’s share of the valid ballots.
       The color classes are the same for every party, so a dark hexagon means a high share whichever party you choose.
+      Zoom in to see the smaller hexagons, about 150 meters across. Farther out, each hexagon is an average of those.
       The map may take a moment to load.
     </p>
     <div class="row">
@@ -690,20 +694,59 @@ async function initShareMap() {
   const n = pack.n;
   const hexes = pack.hexes;
   const indexOf = new Map(hexes.map((hex, i) => [hex, i]));
+  const parents = { 6: new Array(hexes.length), 8: new Array(hexes.length) };
+  for (let i = 0; i < hexes.length; i++) {
+    parents[6][i] = h3.h3ToParent(hexes[i], 6);
+    parents[8][i] = h3.h3ToParent(hexes[i], 8);
+  }
   const select = document.getElementById('shareParty');
   select.innerHTML = pack.parties.map((p, i) => `<option value="${i}">${esc(p.name)}</option>`).join('');
   renderShareLegend(pack.breaks);
-  function partyLayer(partyIndex) {
+  function resolutionForZoom(zoom) {
+    if (zoom < 8) return 6;
+    if (zoom < 11) return 8;
+    return 10;
+  }
+  function partyLayer(partyIndex, res) {
+    let data;
+    let getHexagon;
+    let getFillColor;
+    if (res === 10) {
+      data = [];
+      for (let i = 0; i < hexes.length; i++) {
+        if (bytes[i * n + partyIndex] > 0) data.push(hexes[i]);
+      }
+      getHexagon = d => d;
+      getFillColor = d => shareRgb(bytes[indexOf.get(d) * n + partyIndex], pack.breaks);
+    } else {
+      const acc = new Map();
+      const parent = parents[res];
+      for (let i = 0; i < hexes.length; i++) {
+        const key = parent[i];
+        const value = bytes[i * n + partyIndex];
+        const row = acc.get(key);
+        if (row) { row.sum += value; row.count += 1; }
+        else acc.set(key, { sum: value, count: 1 });
+      }
+      data = [];
+      for (const [hex, row] of acc) {
+        const value = Math.round(row.sum / row.count);
+        if (value > 0) data.push({ hex, value });
+      }
+      getHexagon = d => d.hex;
+      getFillColor = d => shareRgb(d.value, pack.breaks);
+    }
     return new deck.H3HexagonLayer({
-      id: 'party-share',
-      data: hexes,
-      getHexagon: d => d,
-      getFillColor: d => shareRgb(bytes[indexOf.get(d) * n + partyIndex], pack.breaks),
+      id: 'party-share-' + res,
+      data,
+      getHexagon,
+      getFillColor,
       filled: true,
       stroked: false,
       extruded: false,
       pickable: true,
-      coverage: 0.95
+      coverage: 0.92,
+      updateTriggers: { getFillColor: partyIndex }
     });
   }
   const map = new maplibregl.Map({
@@ -723,19 +766,39 @@ async function initShareMap() {
     center: [35.0, 31.4],
     zoom: 7
   });
+  let shownRes = resolutionForZoom(map.getZoom());
   const overlay = new deck.MapboxOverlay({
     interleaved: false,
-    layers: [partyLayer(0)],
+    layers: [partyLayer(0, shownRes)],
     getTooltip: info => {
       if (!info.object) return null;
       const partyIndex = Number(select.value);
-      const value = bytes[indexOf.get(info.object) * n + partyIndex];
-      return { text: `${pack.parties[partyIndex].name}: ${value}% of the vote` };
+      const name = pack.parties[partyIndex].name;
+      if (typeof info.object === 'string') {
+        const value = bytes[indexOf.get(info.object) * n + partyIndex];
+        return { text: `${name}: ${value}% of the vote` };
+      }
+      return { text: `${name}: about ${info.object.value}% of the vote` };
     }
   });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
   map.addControl(overlay);
-  select.addEventListener('change', () => {
-    overlay.setProps({ layers: [partyLayer(Number(select.value))] });
+  const deckCanvas = document.querySelector('#shareMap canvas:not(.maplibregl-canvas)');
+  if (deckCanvas) {
+    const deckRoot = deckCanvas.parentElement;
+    deckRoot.style.zIndex = '1';
+    document.getElementById('shareMap').appendChild(deckRoot);
+  }
+  const controls = document.querySelector('#shareMap .maplibregl-control-container');
+  if (controls) controls.style.zIndex = '3';
+  function redraw() {
+    shownRes = resolutionForZoom(map.getZoom());
+    overlay.setProps({ layers: [partyLayer(Number(select.value), shownRes)] });
+  }
+  select.addEventListener('change', redraw);
+  map.on('zoomend', () => {
+    const res = resolutionForZoom(map.getZoom());
+    if (res !== shownRes) redraw();
   });
 }
 
