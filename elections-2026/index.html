@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Insights from Elections 2026: Who Votes Where?</title>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet"/>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/deck.gl@8.9.36/dist.min.js"></script>
 <style>
   :root {
@@ -701,30 +703,29 @@ async function initShareMap() {
       stroked: false,
       extruded: false,
       pickable: true,
-      coverage: 0.92
+      coverage: 0.95
     });
   }
-  function baseLayer() {
-    return new deck.TileLayer({
-      id: 'basemap',
-      data: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-      minZoom: 0,
-      maxZoom: 19,
-      tileSize: 256,
-      renderSubLayers: props => {
-        const {west, south, east, north} = props.tile.bbox;
-        return new deck.BitmapLayer(props, {
-          image: props.data,
-          bounds: [west, south, east, north]
-        });
-      }
-    });
-  }
-  const shareDeck = new deck.Deck({
-    parent: document.getElementById('shareMap'),
-    initialViewState: { longitude: 35.0, latitude: 31.4, zoom: 6.4, minZoom: 5, maxZoom: 12 },
-    controller: true,
-    layers: [baseLayer(), partyLayer(0)],
+  const map = new maplibregl.Map({
+    container: 'shareMap',
+    style: {
+      version: 8,
+      sources: {
+        osm: {
+          type: 'raster',
+          tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+          tileSize: 256,
+          attribution: '© OpenStreetMap'
+        }
+      },
+      layers: [{ id: 'osm', type: 'raster', source: 'osm' }]
+    },
+    center: [35.0, 31.4],
+    zoom: 7
+  });
+  const overlay = new deck.MapboxOverlay({
+    interleaved: false,
+    layers: [partyLayer(0)],
     getTooltip: info => {
       if (!info.object) return null;
       const partyIndex = Number(select.value);
@@ -732,8 +733,9 @@ async function initShareMap() {
       return { text: `${pack.parties[partyIndex].name}: ${value}% of the vote` };
     }
   });
+  map.addControl(overlay);
   select.addEventListener('change', () => {
-    shareDeck.setProps({ layers: [baseLayer(), partyLayer(Number(select.value))] });
+    overlay.setProps({ layers: [partyLayer(Number(select.value))] });
   });
 }
 
