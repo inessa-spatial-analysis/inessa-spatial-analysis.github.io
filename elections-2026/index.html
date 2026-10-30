@@ -365,7 +365,7 @@
     <ul>
       <li>These are places, not people. A trait of a neighborhood is not a trait of every voter who lives there.</li>
       <li>Because shares add up to 100%, parties look less linked than they would on their own.</li>
-      <li>The votes at a hexagon are the votes of the closest polling station. Every hexagon reports that station.</li>
+      <li>The votes at a hexagon are the votes of the closest polling station and not of that hexagon.</li>
       <li>The census is from 2022. The vote is from 2026.</li>
     </ul>
   </section>
@@ -751,7 +751,7 @@ async function initShareMap() {
   }
   const map = new maplibregl.Map({
     container: 'shareMap',
-    style: 'https://tiles.openfreemap.org/styles/positron',
+    style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
     center: [35.0, 31.4],
     zoom: 7
   });
