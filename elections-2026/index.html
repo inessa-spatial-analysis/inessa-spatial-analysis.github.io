@@ -455,6 +455,21 @@ function vsAveragePct(strong, overall) {
   if (Math.abs(b) < 1e-9) b = 1;
   return (a - b) / Math.abs(b) * 100;
 }
+function signedLog(v) {
+  const sign = v < 0 ? -1 : 1;
+  return sign * Math.log10(1 + Math.abs(v));
+}
+function logTickPercents(values) {
+  const marks = [10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000];
+  const maxPos = Math.max(0, ...values);
+  const maxNeg = Math.max(0, ...values.map(v => -v));
+  const ticks = [0];
+  for (const m of marks) {
+    if (maxNeg >= m * 0.6) ticks.unshift(-m);
+    if (maxPos >= m * 0.6) ticks.push(m);
+  }
+  return ticks;
+}
 function formatVs(pct) {
   if (pct == null || !isFinite(pct)) return 'not on average';
   const rounded = Math.abs(pct) >= 10 ? Math.round(pct) : Math.round(pct * 10) / 10;
@@ -509,13 +524,19 @@ function renderProfile(opts) {
       type: 'bar',
       orientation: 'h',
       y: plotted.map(t => t.feature),
-      x: plotted.map(t => t.vs),
+      x: plotted.map(t => signedLog(t.vs)),
       marker: { color: plotted.map(t => t.vs < 0 ? '#d6604d' : '#2166ac') },
-      hovertemplate: '%{y}<br>%{x:.0f}% vs average<extra></extra>',
-      customdata: plotted.map(t => [t.strong, t.overall])
+      hovertemplate: '%{y}<br>%{customdata} vs average<extra></extra>',
+      customdata: plotted.map(t => formatVs(t.vs))
     }], {
-      margin: { t: 10, r: 24, b: 40, l: 180 },
-      xaxis: { title: 'Compared with the average place', zeroline: true, zerolinewidth: 1 },
+      margin: { t: 10, r: 24, b: 50, l: 180 },
+      xaxis: {
+        title: 'Compared with the average place (log scale)',
+        tickvals: logTickPercents(plotted.map(t => t.vs)).map(signedLog),
+        ticktext: logTickPercents(plotted.map(t => t.vs)).map(t => (t > 0 ? '+' : '') + t + '%'),
+        zeroline: true,
+        zerolinewidth: 1
+      },
       yaxis: { automargin: true }
     }, { responsive: true, displayModeBar: false });
   }
