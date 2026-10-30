@@ -250,8 +250,8 @@
   <section id="surroundings">
     <h2>What the place is like where each party is strong</h2>
     <p>
-      Pick a party. The sentence is a short portrait of the place itself:
-      crime, shelters, shops, schools, and streets,
+      Pick a party. The sentence describes the neighborhood around the place, the things reached by a 7-minute walk:
+      crime level, shelters, shops, schools, and streets,
       in the places in the top 10% of that party’s vote, compared with every place in the study.
     </p>
     <p>
@@ -543,10 +543,18 @@ function formatVs(pct) {
 }
 function plainFeature(name) {
   let out = String(name || '').replace(/\s+within 7 minutes/gi, '').trim();
-  if (out === 'POI diversity') return 'Mix of places';
-  if (out === 'Missile alerts in the cell') return 'Missile alerts';
-  if (out === 'Bus routes') return 'Public transport accessibility';
-  return out;
+  const labels = {
+    'POI diversity': 'Mix of places',
+    'Missile alerts in the cell': 'Missile alerts',
+    'Bus routes': 'Public transport accessibility',
+    '16+ years of school': '16+ years of education',
+    'Traditional households': 'Traditional (Masorati) households',
+    'Crime': 'Crime level',
+    'Information': 'Employment in information and communication',
+    'Education jobs': 'Employment in education',
+    'Construction': 'Employment in construction'
+  };
+  return labels[out] || out;
 }
 function renderProfile(opts) {
   const slug = document.getElementById(opts.selectId).value;
@@ -560,6 +568,13 @@ function renderProfile(opts) {
       .replace(/\bmore bus routes\b/gi, 'higher public transport accessibility')
       .replace(/\b(fewer|less) bus routes\b/gi, 'lower public transport accessibility')
       .replace(/\bbus routes\b/gi, 'public transport accessibility')
+      .replace(/\b16\+ years of school\b/g, '16+ years of education')
+      .replace(/\btraditional households\b/gi, 'traditional (Masorati) households')
+      .replace(/\bmore crime\b/gi, 'higher crime level')
+      .replace(/\b(less|fewer) crime\b/gi, 'lower crime level')
+      .replace(/\bworkers in information\b/gi, 'employment in information and communication')
+      .replace(/\bworkers in education\b/gi, 'employment in education')
+      .replace(/\bworkers in construction\b/gi, 'employment in construction')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
       .trim();
     const shownSentence = shortenText(sentence);
@@ -613,6 +628,7 @@ function renderVoter() {
     chartId: 'traitChart',
     tableId: 'traitTableWrap',
     empty: 'No census portrait for this party.',
+    relabel: plainFeature,
     explainer: 'These traits account for',
     traitHeader: 'Trait of the place'
   });
@@ -651,8 +667,8 @@ function corrHeatmap() {
     reversescale: true,
     hovertemplate: '%{y} and %{x}<br>link %{z:.2f} (from −1 to +1)<extra></extra>'
   }], {
-    margin: {t: 20, r: 40, b: 140, l: 160},
-    xaxis: { tickangle: -40 },
+    margin: {t: 140, r: 40, b: 30, l: 160},
+    xaxis: { side: 'top', tickangle: -40 },
     yaxis: { autorange: 'reversed' }
   }, {responsive: true, displayModeBar: false});
 }
