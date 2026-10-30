@@ -158,7 +158,6 @@
   <a href="#surroundings">What the place is like</a>
   <a href="#corr">Parties that rise together</a>
   <a href="#neighbors">Who finishes next</a>
-  <a href="#gaps">Places that don’t fit</a>
   <a href="#sources">Sources</a>
   <a href="#method">How this was built</a>
 </nav>
@@ -294,32 +293,11 @@
     <div id="neighborTable"></div>
   </section>
 
-  <section id="gaps">
-    <h2>Neighborhoods the census does not explain</h2>
-    <p>
-      The census model predicts a party’s share from who lives in the neighborhood.
-      These are the places where the real vote is far from that prediction.
-      <strong style="color:#c0392b">Red</strong> means the real share is higher than the model prediction: the model predicted too low.
-      <strong style="color:#2980b9">Blue</strong> means the real share is lower than the model prediction: the model predicted too high.
-    </p>
-    <p class="muted">
-      Only neighborhoods with more than 300 valid ballots and a gap bigger than 10 percentage points are kept.
-      The table lists the five largest gaps in each direction. Some parties have fewer than five.
-    </p>
-    <div class="row">
-      <label for="gapParty">Party</label>
-      <select id="gapParty"></select>
-    </div>
-    <iframe class="map" id="gapMap" title="Neighborhoods the census does not explain"></iframe>
-    <div id="gapTable"></div>
-  </section>
-
   <section id="sources">
     <h2>Where the numbers come from</h2>
     <ul class="sources">
       <li><strong>Votes.</strong> Central Elections Committee, Knesset 26 (2026), by ballot box and by locality.</li>
       <li><strong>Polling stations.</strong> GovMap points for Knesset 26, so each station has a location.</li>
-      <li><strong>Neighborhoods.</strong> Neighborhood boundaries and neighborhood vote counts, used for the places that do not fit.</li>
       <li><strong>Who lives there.</strong> Central Bureau of Statistics, Census 2022.</li>
       <li><strong>What the place is like.</strong> Overture Maps, OpenStreetMap, Israel Police crime reports, and GTFS files.</li>
     </ul>
@@ -342,7 +320,6 @@
       In “Who lives where each party is strong” and in “What the place is like where each party is strong,” a random forest explains each party’s vote percentage.
       One forest uses census features. The other uses the surrounding environment.
       The portraits use the places where that party’s share is in its own top 10%.
-      For the gaps, those places are gathered into a neighborhood and the prediction is compared with the real neighborhood vote.
     </p>
     <div id="validationBox"></div>
     <h3>What this cannot say</h3>
@@ -651,27 +628,6 @@ function neighborHeatmap() {
   );
 }
 
-function renderGap() {
-  const slug = document.getElementById('gapParty').value;
-  document.getElementById('gapMap').src = `maps/gap_${slug}.html`;
-  const rows = (DATA.gap_top5 || []).filter(r => r.slug === slug);
-  function censusCompare(row) {
-    const actual = Number(row.actual_pct);
-    const predicted = Number(row.predicted_pct);
-    if (actual > predicted) return 'Model predicted too low';
-    if (actual < predicted) return 'Model predicted too high';
-    return 'Same as the model prediction';
-  }
-  document.getElementById('gapTable').innerHTML = tableHTML(
-    ['Compared with the census', 'Locality', 'Neighborhood', 'Real share', 'Model prediction', 'Real minus prediction', 'Valid ballots'],
-    rows.map(r => {
-      const gap = Number(r.actual_pct) - Number(r.predicted_pct);
-      const shown = (gap > 0 ? '+' : '') + gap.toFixed(1);
-      return [censusCompare(r), r.locality, r.neighborhood, r.actual_pct + '%', r.predicted_pct + '%', shown, r.valid_ballots];
-    })
-  );
-}
-
 function showValidation() {
   const v = DATA.validation || {};
   document.getElementById('validationBox').innerHTML =
@@ -683,7 +639,6 @@ function showValidation() {
 function init() {
   partyOptions(document.getElementById('partySelect'));
   partyOptions(document.getElementById('envParty'));
-  partyOptions(document.getElementById('gapParty'));
   meanShareChart();
   turnoutChart();
   renderVoter();
@@ -691,11 +646,9 @@ function init() {
   corrHeatmap();
   renderCorrTables();
   neighborHeatmap();
-  renderGap();
   showValidation();
   document.getElementById('partySelect').addEventListener('change', renderVoter);
   document.getElementById('envParty').addEventListener('change', renderSurroundings);
-  document.getElementById('gapParty').addEventListener('change', renderGap);
 }
 init();
 </script>
