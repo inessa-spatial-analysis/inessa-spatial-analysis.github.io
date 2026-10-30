@@ -550,7 +550,7 @@ function plainFeature(name) {
     '16+ years of school': '16+ years of education',
     'Traditional households': 'Traditional (Masorati) households',
     'Crime': 'Crime level',
-    'Information': 'Employment in information and communication',
+    'Information': 'Employment in HighTech',
     'Education jobs': 'Employment in education',
     'Construction': 'Employment in construction'
   };
@@ -572,7 +572,7 @@ function renderProfile(opts) {
       .replace(/\btraditional households\b/gi, 'traditional (Masorati) households')
       .replace(/\bmore crime\b/gi, 'higher crime level')
       .replace(/\b(less|fewer) crime\b/gi, 'lower crime level')
-      .replace(/\bworkers in information\b/gi, 'employment in information and communication')
+      .replace(/\bworkers in information\b/gi, 'employment in HighTech')
       .replace(/\bworkers in education\b/gi, 'employment in education')
       .replace(/\bworkers in construction\b/gi, 'employment in construction')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
