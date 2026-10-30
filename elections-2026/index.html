@@ -819,14 +819,10 @@ async function initShareMap() {
       getHexagon,
       getFillColor,
       filled: true,
-      stroked: true,
+      stroked: false,
       extruded: false,
       pickable: true,
       coverage: 1,
-      getLineColor: getFillColor,
-      lineWidthUnits: 'pixels',
-      getLineWidth: 1,
-      lineWidthMinPixels: 1,
       updateTriggers: { getFillColor: partyIndex }
     });
   }
@@ -902,14 +898,10 @@ async function initShareMap() {
       getHexagon,
       getFillColor,
       filled: true,
-      stroked: true,
+      stroked: false,
       extruded: false,
       pickable: true,
-      coverage: 1,
-      getLineColor: getFillColor,
-      lineWidthUnits: 'pixels',
-      getLineWidth: 1,
-      lineWidthMinPixels: 1
+      coverage: 1
     });
   }
   const maptilerKey = window.MAPTILER_KEY || '';
