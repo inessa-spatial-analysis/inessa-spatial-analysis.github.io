@@ -235,10 +235,11 @@
       the places in the top 10% of that party’s vote, compared with every place in the study.
     </p>
     <p>
-      The bars are the same comparison as a percent.
+      The bars are the same comparison as a percent of the country average.
+      0 is the country average.
       <strong style="color:#2166ac">Blue, to the right</strong> means the trait is higher where the party does well.
       <strong style="color:#d6604d">Orange, to the left</strong> means it is lower.
-      +100% means twice the average. −50% means half the average of the country.
+      +100% means twice the country average. −50% means half the country average.
       A trait that is missing from the average entirely is listed as “not on average” and left off the chart.
     </p>
     <div class="row">
@@ -259,10 +260,11 @@
       in the places in the top 10% of that party’s vote, compared with every place in the study.
     </p>
     <p>
-      The bars are the same comparison as a percent.
+      The bars are the same comparison as a percent of the country average.
+      0 is the country average.
       <strong style="color:#2166ac">Blue, to the right</strong> means it is more common where the party does well.
       <strong style="color:#d6604d">Orange, to the left</strong> means it is less common.
-      +100% means twice the average. −50% means half the average of the country.
+      +100% means twice the country average. −50% means half the country average.
       A count that is missing from the average entirely is listed as “not on average” and left off the chart.
     </p>
     <div class="row">
@@ -616,12 +618,12 @@ function renderProfile(opts) {
       customdata: plotted.map(t => [t.strong, t.overall])
     }], {
       margin: { t: 10, r: 24, b: 40, l: 180 },
-      xaxis: { title: 'Compared with the average place', zeroline: true, zerolinewidth: 1 },
+      xaxis: { title: 'Compared with the country average', zeroline: true, zerolinewidth: 1 },
       yaxis: { automargin: true }
     }, { responsive: true, displayModeBar: false });
   }
   document.getElementById(opts.tableId).innerHTML = tableHTML(
-    [opts.traitHeader, 'Compared with the average place'],
+    [opts.traitHeader, 'Compared with the country average'],
     shown.map(t => [t.feature, formatVs(t.vs)])
   );
 }
