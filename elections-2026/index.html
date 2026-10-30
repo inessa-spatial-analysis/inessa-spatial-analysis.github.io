@@ -208,6 +208,7 @@
       <label for="partySelect">Party</label>
       <select id="partySelect"></select>
     </div>
+    <h3>Voter Description</h3>
     <div class="portrait" id="voterPortrait"></div>
     <div id="traitChart" style="height:420px"></div>
     <div id="traitTableWrap"></div>
@@ -231,6 +232,7 @@
       <label for="envParty">Party</label>
       <select id="envParty"></select>
     </div>
+    <h3>Environment Description</h3>
     <div class="portrait" id="envPortrait"></div>
     <div id="envChart" style="height:420px"></div>
     <div id="envTableWrap"></div>
@@ -482,9 +484,11 @@ function renderProfile(opts) {
       .trim();
     const shownSentence = shortenText(sentence);
     const explained = Math.round(Number(p.held_out_r2) * 100);
+    const explainedLine = opts.explainer
+      ? ` ${esc(opts.explainer)} about ${esc(explained)}% of the place-to-place differences in this share.`
+      : '';
     box.innerHTML = `<p>${esc(shownSentence)}</p>
-      <p class="muted">${esc(p.status)}. Average share across places: ${esc(p.mean_share)}%.
-      ${esc(opts.explainer)} about ${esc(explained)}% of the place-to-place differences in this share.</p>`;
+      <p class="muted">${esc(p.status)}. Average share across places: ${esc(p.mean_share)}%.${explainedLine}</p>`;
   }
   const traits = bySlug(DATA[opts.traits], slug)
     .filter(t => t.in_sentence === true || t.in_sentence === 'True')
@@ -529,7 +533,7 @@ function renderVoter() {
     chartId: 'traitChart',
     tableId: 'traitTableWrap',
     empty: 'No census portrait for this party.',
-    explainer: 'The census accounts for',
+    explainer: '',
     traitHeader: 'Trait of the place'
   });
 }
