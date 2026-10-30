@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Insights from Elections 2026: Who Votes Where?</title>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet"/>
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/h3-js@3.7.2/dist/h3-js.umd.js"></script>
-<script src="https://unpkg.com/deck.gl@8.9.36/dist.min.js"></script>
+<script src="https://unpkg.com/deck.gl@9.1.14/dist.min.js"></script>
 <script src="maptiler-key.js"></script>
 <style>
   :root {
@@ -438,10 +438,8 @@
     <ul>
       <li>These are places, not people. A trait of a neighborhood is not a trait of every voter who lives there.</li>
       <li>A portrait shows which traits go with a party’s vote, not what causes it.</li>
-      <li>Hexagons that share a polling place can fall in both the training and the test part, so the model’s score is somewhat optimistic.</li>
       <li>The votes at a hexagon are the votes of the nearest polling place, not of that hexagon. Neighboring hexagons often share one polling place, so clustering looks stronger here than it would on a map of separate polling places.</li>
       <li>Census values come from statistical areas, which are much larger than a hexagon.</li>
-      <li>Because shares add up to 100%, parties look less linked than they would on their own.</li>
       <li>The census is from 2022. The vote is from 2026.</li>
     </ul>
   </section>
@@ -814,6 +812,13 @@ async function initShareMap() {
     });
   }
   const maptilerKey = window.MAPTILER_KEY || '';
+  try {
+    maplibregl.setRTLTextPlugin(
+      'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.4.0/dist/mapbox-gl-rtl-text.js',
+      null,
+      true
+    );
+  } catch (error) {}
   const map = new maplibregl.Map({
     container: 'shareMap',
     style: maptilerKey
@@ -821,11 +826,31 @@ async function initShareMap() {
       : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
     center: [35.0, 31.4],
     zoom: 7,
+    attributionControl: { compact: window.matchMedia('(max-width: 1023px)').matches },
     transformRequest: (url) => {
       if (maptilerKey && url.includes('api.maptiler.com') && !url.includes('key=')) {
         return { url: url + (url.includes('?') ? '&' : '?') + 'key=' + maptilerKey };
       }
     }
+  });
+  map.on('style.load', () => {
+    const show = ['building', 'waterway', 'water', 'landuse', 'landcover', 'road', 'road-label', 'waterway-label'];
+    (map.getStyle().layers || []).forEach(layer => {
+      if (layer.id && show.some(pattern => layer.id.includes(pattern))) {
+        try {
+          map.setLayoutProperty(layer.id, 'visibility', 'visible');
+          if (layer.id.includes('building')) map.setPaintProperty(layer.id, 'fill-opacity', 0.3);
+          else if (layer.type === 'fill') map.setPaintProperty(layer.id, 'fill-opacity', 0.2);
+        } catch (error) {}
+      }
+      if (layer.type === 'symbol' && (layer.id.includes('place') || layer.id.includes('country'))) {
+        try {
+          map.setPaintProperty(layer.id, 'text-color', '#333333');
+          map.setPaintProperty(layer.id, 'text-halo-color', 'rgba(255, 255, 255, 0.9)');
+          map.setPaintProperty(layer.id, 'text-halo-width', 2);
+        } catch (error) {}
+      }
+    });
   });
   let shownRes = resolutionForZoom(map.getZoom());
   const overlay = new deck.MapboxOverlay({
