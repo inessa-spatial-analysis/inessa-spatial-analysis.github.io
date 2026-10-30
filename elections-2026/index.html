@@ -556,7 +556,8 @@ function plainFeature(name) {
     'Crime': 'Crime level',
     'Information': 'Employment in HighTech',
     'Education jobs': 'Employment in education',
-    'Construction': 'Employment in construction'
+    'Construction': 'Employment in construction',
+    'Secondary certificate': 'Only Secondary certificate'
   };
   return labels[out] || out;
 }
@@ -579,6 +580,7 @@ function renderProfile(opts) {
       .replace(/\bworkers in information\b/gi, 'employment in HighTech')
       .replace(/\bworkers in education\b/gi, 'employment in education')
       .replace(/\bworkers in construction\b/gi, 'employment in construction')
+      .replace(/\bwith a secondary certificate\b/gi, 'with only a secondary certificate')
       .replace(/^A typical (.+?) voter \([^)]+\) lives among /, 'Where $1 is strong, the place has ')
       .trim();
     const shownSentence = shortenText(sentence);
