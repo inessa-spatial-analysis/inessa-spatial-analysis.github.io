@@ -771,7 +771,7 @@ function renderShareLegend(breaks) {
     `<div><strong>Share of the vote</strong></div>${rows}<div>Same classes for every party</div>`;
 }
 async function initShareMap() {
-  const res = await fetch('data/party_hex_shares.json');
+  const res = await fetch('data/party_hex_shares.json?v=20261030');
   const pack = await res.json();
   const bytes = Uint8Array.from(atob(pack.shares), c => c.charCodeAt(0));
   const n = pack.n;
