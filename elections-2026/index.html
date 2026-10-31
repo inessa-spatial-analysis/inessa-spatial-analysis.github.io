@@ -788,7 +788,7 @@ function renderShareLegend(breaks) {
     `<div><strong>Share of the vote</strong></div>${rows}<div>Same classes for every party</div>`;
 }
 async function initShareMap() {
-  const res = await fetch('data/party_hex_shares.json?v=20261030');
+  const res = await fetch('data/party_hex_shares.json?v=20261031b');
   const pack = await res.json();
   const bytes = Uint8Array.from(atob(pack.shares), c => c.charCodeAt(0));
   const n = pack.n;
@@ -1054,7 +1054,7 @@ function mixCss(hex, white) {
   return `rgb(${r}, ${g}, ${b})`;
 }
 async function initGapMap() {
-  const res = await fetch('data/party_hex_gaps.json?v=20261031');
+  const res = await fetch('data/party_hex_gaps.json?v=20261031b');
   const pack = await res.json();
   const bytes = Uint8Array.from(atob(pack.gaps), c => c.charCodeAt(0));
   const n = pack.n;
@@ -1129,7 +1129,7 @@ async function initGapMap() {
       ? gapAt(indexOf.get(info.object), partyIndex)
       : info.object.value;
     const sign = value > 0 ? '+' : '';
-    return { text: `${name}: ${sign}${value} percentage points` };
+    return { text: `${name}: ${sign}${value}% from the portrait` };
   });
   let shownRes = resolutionForZoom(gapMap.map.getZoom());
   function redrawGap() {
