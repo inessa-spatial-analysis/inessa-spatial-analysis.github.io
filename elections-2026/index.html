@@ -1034,15 +1034,16 @@ function mixWhite(hex, white) {
   return channels.concat(128);
 }
 function gapRgb(value, pack) {
-  if (!value) return [0, 0, 0, 0];
-  if (value < 0) return value <= pack.neg_break ? mixWhite('#d6604d', 0) : mixWhite('#d6604d', 0.45);
-  return value <= pack.pos_break ? mixWhite('#2166ac', 0.45) : mixWhite('#2166ac', 0);
+  if (value >= -5 && value <= 5) return [247, 244, 242, 128];
+  if (value < -5) return value <= pack.neg_break ? mixWhite('#d6604d', 0) : mixWhite('#d6604d', 0.42);
+  return value <= pack.pos_break ? mixWhite('#2166ac', 0.42) : mixWhite('#2166ac', 0);
 }
 function renderGapLegend(pack, low, high) {
   const rows = [
     ['#d6604d', `${low} to ${pack.neg_break}`],
-    [mixCss('#d6604d', 0.45), `${pack.neg_break} to 0`],
-    [mixCss('#2166ac', 0.45), `0 to ${pack.pos_break}`],
+    [mixCss('#d6604d', 0.42), `${pack.neg_break} to −5`],
+    ['#f7f4f2', '−5 to +5'],
+    [mixCss('#2166ac', 0.42), `+5 to ${pack.pos_break}`],
     ['#2166ac', `${pack.pos_break} to ${high}`]
   ].map(([color, label]) => `<div class="share-legend-row"><span style="background:${color}"></span>${label}</div>`).join('');
   document.getElementById('gapLegend').innerHTML =
@@ -1086,7 +1087,7 @@ async function initGapMap() {
     let getFillColor;
     if (res === 10) {
       data = [];
-      for (let i = 0; i < hexes.length; i++) if (gapAt(i, partyIndex) !== 0) data.push(hexes[i]);
+      for (let i = 0; i < hexes.length; i++) data.push(hexes[i]);
       getHexagon = d => d;
       getFillColor = d => gapRgb(gapAt(indexOf.get(d), partyIndex), pack);
     } else {
@@ -1102,7 +1103,7 @@ async function initGapMap() {
       data = [];
       for (const [hex, row] of acc) {
         const value = Math.round(row.sum / row.count);
-        if (value !== 0) data.push({ hex, value });
+        data.push({ hex, value });
       }
       getHexagon = d => d.hex;
       getFillColor = d => gapRgb(d.value, pack);
