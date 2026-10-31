@@ -1039,7 +1039,7 @@ function mixWhite(hex, white) {
   return channels.concat(128);
 }
 function gapRgb(value, pack) {
-  if (value >= -5 && value <= 5) return [176, 168, 160, 200];
+  if (value >= -5 && value <= 5) return [247, 244, 242, 128];
   if (value < -5) return value <= pack.neg_break ? mixWhite('#d6604d', 0) : mixWhite('#d6604d', 0.42);
   return value <= pack.pos_break ? mixWhite('#2166ac', 0.42) : mixWhite('#2166ac', 0);
 }
@@ -1047,7 +1047,7 @@ function renderGapLegend(pack, low, high) {
   const rows = [
     ['#d6604d', `${low} to ${pack.neg_break}`],
     [mixCss('#d6604d', 0.42), `${pack.neg_break} to −5`],
-    ['#b0a8a0', '−5 to +5'],
+    ['#f7f4f2', '−5 to +5'],
     [mixCss('#2166ac', 0.42), `+5 to ${pack.pos_break}`],
     ['#2166ac', `${pack.pos_break} to ${high}`]
   ].map(([color, label]) => `<div class="share-legend-row"><span style="background:${color}"></span>${label}</div>`).join('');
