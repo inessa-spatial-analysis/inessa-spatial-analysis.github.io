@@ -345,7 +345,7 @@
       Pick a party. The color is the gap, in percentage points, between the real share and the share the census portrait predicted.
       Blue means the real share is higher. Orange means it is lower.
       The class breaks are Jenks breaks fit on these gaps, and they are the same for every party.
-      Zoom in to see the smaller hexagons. Farther out, each hexagon is an average of those.
+      Zoom in to see the smaller areas. Farther out, each area is an average of those.
       The map may take a moment to load.
     </p>
     <div class="row">
@@ -358,7 +358,7 @@
     </div>
     <h3>Five localities furthest below the portrait</h3>
     <p>
-      Localities with more than 10,000 people. The number adds the hex gaps for that party. A larger negative number means the real vote is further below what the portrait expected.
+      Localities with more than 10,000 people. The number is the average gap, in percentage points. A larger negative number means the real vote is further below what the portrait expected.
     </p>
     <div id="gapLocalityTable"></div>
 
@@ -1141,14 +1141,18 @@ async function initGapMap() {
     shownRes = resolutionForZoom(gapMap.map.getZoom());
     gapMap.overlay.setProps({ layers: [gapLayer(Number(select.value), shownRes)] });
   }
-  const placeRes = await fetch('data/party_gap_localities.json?v=20261031e');
+  const placeRes = await fetch('data/party_gap_localities.json?v=20261031f');
   const gapPlaces = await placeRes.json();
   function renderGapLocalities() {
     const name = pack.parties[Number(select.value)].name;
     const rows = gapPlaces.filter(row => row.party === name);
     document.getElementById('gapLocalityTable').innerHTML = tableHTML(
-      ['Locality', 'Mercaz', 'Sum of hex gaps'],
-      rows.map(row => [row.locality, row.mercaz, Number(row.gap).toLocaleString('en-US')])
+      ['Locality', 'Mercaz', 'Average gap'],
+      rows.map(row => {
+        const gap = Number(row.gap);
+        const text = Math.abs(gap).toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+        return [row.locality, row.mercaz, gap < 0 ? '−' + text : text];
+      })
     );
   }
   renderGapLocalities();
